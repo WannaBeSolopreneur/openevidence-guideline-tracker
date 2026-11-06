@@ -1,0 +1,83 @@
+version: 2
+
+semantic_models:
+  - name: guideline_changes
+    description: Public label, recall, Federal Register, and MMWR updates.
+    model: ref('fct_guideline_changes')
+    defaults:
+      agg_time_dimension: published_on
+    entities:
+      - name: guideline_item
+        type: primary
+        expr: item_id
+    dimensions:
+      - name: published_on
+        type: time
+        type_params:
+          time_granularity: day
+        expr: published_at
+      - name: source_name
+        type: categorical
+    measures:
+      - name: guideline_change_count
+        agg: count
+        expr: item_id
+      - name: high_impact_change_count
+        agg: sum
+        expr: high_impact
+      - name: coded_change_count
+        agg: sum
+        expr: is_coded
+
+  - name: recent_guideline_changes
+    description: Items published in the last 7 days, used for hours to surface.
+    model: ref('mart_recent_changes')
+    defaults:
+      agg_time_dimension: published_on
+    entities:
+      - name: recent_item
+        type: primary
+        expr: item_id
+    dimensions:
+      - name: published_on
+        type: time
+        type_params:
+          time_granularity: day
+        expr: published_at
+    measures:
+      - name: hours_to_surface_median
+        agg: median
+        expr: hours_to_surface
+
+metrics:
+  - name: guideline_changes
+    label: Guideline changes
+    description: Count of public updates in the tracker.
+    type: simple
+    type_params:
+      measure: guideline_change_count
+  - name: high_impact_changes
+    label: High impact changes
+    description: Boxed warnings, Class I recalls, CDC recommendation titles, and FDA guidance titles.
+    type: simple
+    type_params:
+      measure: high_impact_change_count
+  - name: coded_changes
+    label: Coded changes
+    description: Updates with an evidenced ICD-10 phrase or RxNorm code.
+    type: simple
+    type_params:
+      measure: coded_change_count
+  - name: coded_share
+    label: Coded share
+    description: Share of updates with an ICD-10 phrase or an RxNorm code.
+    type: ratio
+    type_params:
+      numerator: coded_changes
+      denominator: guideline_changes
+  - name: median_hours_to_surface
+    label: Median hours to surface
+    description: Median hours from publish time to first fetch, for items published in the last 7 days.
+    type: simple
+    type_params:
+      measure: hours_to_surface_median

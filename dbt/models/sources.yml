@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Rows loaded from the cached public API responses for this run.
+    schema: raw
+    freshness:
+      warn_after: {count: 26, period: hour}
+      error_after: {count: 48, period: hour}
+    loaded_at_field: fetched_at
+    tables:
+      - name: openfda_labels
+        description: Prescription drug labels from openFDA, including boxed warnings.
+      - name: openfda_enforcement
+        description: Drug recall reports from openFDA. The source URL is the openFDA record.
+      - name: federal_register
+        description: FDA, CDC, CMS, and HHS documents from the Federal Register API.
+      - name: mmwr
+        description: Recent CDC MMWR items from media collection 342778.
+      - name: fetch_meta
+        description: One row per source with the time this run fetched it.
+      - name: rxnorm_lookup
+        description: RxNorm codes returned by RxNav for a drug name. Not a guidance source.
+        freshness: null
+      - name: first_seen
+        description: First time this pipeline saw each item. Older rows are expected.
+        freshness: null

@@ -1,0 +1,10 @@
+{
+  "company": "OpenEvidence",
+  "role": "Member of Technical Staff, Health Systems",
+  "roleUrl": "https://jobs.ashbyhq.com/openevidence/79569aab-9bc6-4f0d-b98e-e2bdb9fe171a",
+  "teamEmail": "engineering@openevidence.com",
+  "heroLine": "A small live demo I built for OpenEvidence.",
+  "disclaimer": "Independent demo using public data. Not affiliated with OpenEvidence.",
+  "problem": "Guidance changes fast. A boxed warning, a CDC report, or an FDA notice can land in the middle of a busy clinic week. The update sits in a label or a federal document, and a doctor can miss it.",
+  "solution": "A daily pipeline pulls public updates, keeps the link to the original document, and codes a change to a condition or a drug only when a phrase map or a public drug code says so. The tiles use example targets I set for this demo."
+}

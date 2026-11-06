@@ -1,0 +1,64 @@
+phrase,icd10_code,icd10_description,area,scope
+pulmonary hypertension,I27.20,Pulmonary hypertension unspecified,Heart and vessels,all
+heart failure,I50.9,Heart failure unspecified,Heart and vessels,all
+atrial fibrillation,I48.91,Unspecified atrial fibrillation,Heart and vessels,all
+myocardial infarction,I21.9,Acute myocardial infarction unspecified,Heart and vessels,all
+heart attack,I21.9,Acute myocardial infarction unspecified,Heart and vessels,all
+coronary artery disease,I25.10,Atherosclerotic heart disease of native coronary artery without angina pectoris,Heart and vessels,all
+venous thromboembolism,I82.90,Acute embolism and thrombosis of unspecified vein,Heart and vessels,all
+deep vein thrombosis,I82.409,Acute embolism and thrombosis of unspecified deep veins of unspecified lower extremity,Heart and vessels,all
+hypertension,I10,Essential hypertension,Heart and vessels,all
+stroke,I63.9,Cerebral infarction unspecified,Heart and vessels,title
+breast cancer screening,Z12.31,Encounter for screening mammogram for malignant neoplasm of breast,Cancer,all
+lung cancer screening,Z12.2,Encounter for screening for malignant neoplasm of respiratory organs,Cancer,all
+colorectal cancer screening,Z12.11,Encounter for screening for malignant neoplasm of colon,Cancer,all
+colon cancer screening,Z12.11,Encounter for screening for malignant neoplasm of colon,Cancer,all
+breast cancer,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,Cancer,all
+lung cancer,C34.90,Malignant neoplasm of unspecified part of unspecified bronchus or lung,Cancer,all
+colorectal cancer,C18.9,Malignant neoplasm of colon unspecified,Cancer,all
+colon cancer,C18.9,Malignant neoplasm of colon unspecified,Cancer,all
+prostate cancer,C61,Malignant neoplasm of prostate,Cancer,all
+cervical cancer,C53.9,Malignant neoplasm of cervix uteri unspecified,Cancer,all
+melanoma,C43.9,Malignant melanoma of skin unspecified,Cancer,all
+type 2 diabetes,E11.9,Type 2 diabetes mellitus without complications,Diabetes and metabolism,all
+type ii diabetes,E11.9,Type 2 diabetes mellitus without complications,Diabetes and metabolism,all
+type 1 diabetes,E10.9,Type 1 diabetes mellitus without complications,Diabetes and metabolism,all
+type i diabetes,E10.9,Type 1 diabetes mellitus without complications,Diabetes and metabolism,all
+hyperlipidemia,E78.5,Hyperlipidemia unspecified,Diabetes and metabolism,all
+high cholesterol,E78.00,Pure hypercholesterolemia unspecified,Diabetes and metabolism,all
+obesity,E66.9,Obesity unspecified,Diabetes and metabolism,all
+hypothyroidism,E03.9,Hypothyroidism unspecified,Diabetes and metabolism,all
+chronic obstructive pulmonary,J44.9,Chronic obstructive pulmonary disease unspecified,Lung,all
+copd,J44.9,Chronic obstructive pulmonary disease unspecified,Lung,title
+asthma,J45.909,Unspecified asthma uncomplicated,Lung,all
+pneumonia,J18.9,Pneumonia unspecified organism,Lung,all
+influenza,J11.1,Influenza due to unidentified influenza virus with other respiratory manifestations,Lung,all
+cystic fibrosis,E84.9,Cystic fibrosis unspecified,Lung,all
+major depressive,F32.9,Major depressive disorder single episode unspecified,Mental health,all
+major depression,F32.9,Major depressive disorder single episode unspecified,Mental health,all
+anxiety disorder,F41.9,Anxiety disorder unspecified,Mental health,all
+bipolar disorder,F31.9,Bipolar disorder unspecified,Mental health,all
+attention-deficit,F90.9,Attention-deficit hyperactivity disorder unspecified type,Mental health,all
+adhd,F90.9,Attention-deficit hyperactivity disorder unspecified type,Mental health,title
+suicidal,R45.851,Suicidal ideations,Mental health,all
+nicotine dependence,F17.210,Nicotine dependence cigarettes uncomplicated,Mental health,all
+opioid use disorder,F11.20,Opioid dependence uncomplicated,Mental health,all
+opioid dependence,F11.20,Opioid dependence uncomplicated,Mental health,all
+covid-19,U07.1,COVID-19,Infection,all
+covid,U07.1,COVID-19,Infection,title
+hepatitis c,B18.2,Chronic viral hepatitis C,Infection,all
+sepsis,A41.9,Sepsis unspecified organism,Infection,all
+tuberculosis,A15.9,Respiratory tuberculosis unspecified,Infection,all
+malaria,B54,Unspecified malaria,Infection,all
+hiv,B20,Human immunodeficiency virus disease,Infection,title
+chronic kidney disease,N18.9,Chronic kidney disease unspecified,Kidney,all
+ckd,N18.9,Chronic kidney disease unspecified,Kidney,title
+osteoporosis,M81.0,Age-related osteoporosis without current pathological fracture,Bone and joint,all
+rheumatoid arthritis,M05.9,Rheumatoid arthritis with rheumatoid factor unspecified,Bone and joint,all
+psoriasis,L40.9,Psoriasis unspecified,Skin,all
+pre-eclampsia,O14.90,Unspecified pre-eclampsia unspecified trimester,Pregnancy,all
+preeclampsia,O14.90,Unspecified pre-eclampsia unspecified trimester,Pregnancy,all
+alzheimer,G30.9,Alzheimer disease unspecified,Brain and nerves,all
+multiple sclerosis,G35,Multiple sclerosis,Brain and nerves,all
+epilepsy,G40.909,Epilepsy unspecified not intractable without status epilepticus,Brain and nerves,all
+sickle cell,D57.1,Sickle-cell disease without crisis,Blood and genetic,all
