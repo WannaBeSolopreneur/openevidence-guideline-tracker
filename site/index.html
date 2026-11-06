@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guideline change tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow" id="company">OpenEvidence</p>
+      <h1 id="role">Member of Technical Staff, Health Systems</h1>
+      <p class="lede" id="hero-line">A small live demo I built for OpenEvidence.</p>
+      <p class="quiet">
+        <a id="role-link" href="https://jobs.ashbyhq.com/openevidence/79569aab-9bc6-4f0d-b98e-e2bdb9fe171a">Role</a>
+        <a id="team-email" href="mailto:engineering@openevidence.com">engineering@openevidence.com</a>
+      </p>
+      <p class="note" id="disclaimer">Independent demo using public data. Not affiliated with OpenEvidence.</p>
+      <p class="updated" id="updated">Last updated</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>The problem</h2>
+      <p id="problem">Guidance changes fast. A boxed warning, a CDC report, or an FDA notice can land in the middle of a busy clinic week. The update sits in a label or a federal document, and a doctor can miss it.</p>
+    </section>
+
+    <section>
+      <h2>What this does</h2>
+      <p id="solution">A daily pipeline pulls public updates, keeps the link to the original document, and codes a change to a condition or a drug only when a phrase map or a public drug code says so. The tiles use example targets I set for this demo.</p>
+    </section>
+
+    <section>
+      <h2>Example targets</h2>
+      <p class="intro">These targets are examples I chose for this demo. They are not OpenEvidence goals.</p>
+      <div class="goals" id="goals"></div>
+    </section>
+
+    <section>
+      <h2>Source freshness</h2>
+      <div class="fresh" id="fresh"></div>
+    </section>
+
+    <section>
+      <h2>Actions this week</h2>
+      <p class="intro">Five changes a clinician team should open.</p>
+      <ol class="actions" id="actions"></ol>
+    </section>
+
+    <section>
+      <h2>Latest changes</h2>
+      <div class="feed" id="feed"></div>
+    </section>
+
+    <section class="charts">
+      <div>
+        <h2>By condition area</h2>
+        <p class="intro">Not coded means no phrase in the map matched. It is not a guess.</p>
+        <canvas id="area-chart" height="280"></canvas>
+      </div>
+      <div>
+        <h2>Weekly volume</h2>
+        <p class="intro">Count of items by the week they were published.</p>
+        <canvas id="week-chart" height="280"></canvas>
+      </div>
+    </section>
+
+    <section>
+      <details class="how">
+        <summary>How it's built</summary>
+        <div class="how-body">
+          <p>Public sources go into a raw cache. dbt builds staging, intermediate, and mart tables. The export writes JSON for this page. A GitHub Action runs the same path every day.</p>
+          <p id="build-counts"></p>
+          <h3>Path</h3>
+          <p>openFDA labels, openFDA recalls, Federal Register, CDC MMWR. Then raw cache. Then dbt staging, intermediate, and marts. Then JSON. Then this page.</p>
+          <h3>Models</h3>
+          <ul id="models"></ul>
+          <h3>Metrics</h3>
+          <ul>
+            <li>guideline_changes</li>
+            <li>high_impact_changes</li>
+            <li>coded_changes</li>
+            <li>coded_share</li>
+            <li>median_hours_to_surface, on the last 7 days</li>
+          </ul>
+          <h3>Status</h3>
+          <p>On track starts at 95 percent of the target. At risk starts at 80 percent. A pace goal uses the share of the week that has passed. Hours to surface is lower is better, so the same bands run the other way.</p>
+          <h3>Left out</h3>
+          <p>USPSTF needs an API key, so it is not in this tracker. The old CDC MMWR RSS file stops in 2018, so MMWR rows come from the live CDC media collection as JSON.</p>
+        </div>
+      </details>
+    </section>
+
+    <section class="about" id="about"></section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="vendor/chart.umd.min.js"></script>
+  <script src="charts.js"></script>
+</body>
+</html>

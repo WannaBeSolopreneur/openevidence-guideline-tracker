@@ -1,0 +1,141 @@
+version: 2
+
+models:
+  - name: metric_time_spine
+    description: One row per day for the semantic layer.
+    time_spine:
+      standard_granularity_column: date_day
+    columns:
+      - name: date_day
+        granularity: day
+  - name: fct_guideline_changes
+    description: One public update, with codes only when a phrase or RxNorm lookup supports them.
+    columns:
+      - name: item_id
+        data_tests:
+          - not_null
+          - unique
+      - name: source_id
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["openfda_label", "openfda_enforcement", "federal_register", "cdc_mmwr"]
+      - name: source_url
+        data_tests:
+          - not_null
+      - name: published_at
+        data_tests:
+          - not_null
+      - name: high_impact
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+      - name: area
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - "Heart and vessels"
+                  - "Cancer"
+                  - "Lung"
+                  - "Diabetes and metabolism"
+                  - "Mental health"
+                  - "Infection"
+                  - "Kidney"
+                  - "Bone and joint"
+                  - "Skin"
+                  - "Pregnancy"
+                  - "Brain and nerves"
+                  - "Blood and genetic"
+                  - "Not coded"
+      - name: is_coded
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+
+  - name: mart_feed
+    description: Newest items shown on the page.
+    columns:
+      - name: item_id
+        data_tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments:
+                to: ref('fct_guideline_changes')
+                field: item_id
+      - name: source_url
+        data_tests:
+          - not_null
+
+  - name: mart_actions_this_week
+    description: Five changes a clinician team should open.
+    columns:
+      - name: action_id
+        data_tests:
+          - not_null
+          - unique
+      - name: source_url
+        data_tests:
+          - not_null
+
+  - name: mart_goal_status
+    description: Example targets scored with the same pace rules as the page.
+    columns:
+      - name: goal_id
+        data_tests:
+          - not_null
+          - unique
+      - name: status
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["on_track", "at_risk", "behind"]
+      - name: metric_kind
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["snapshot", "pace"]
+      - name: direction
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["higher", "lower"]
+
+  - name: mart_source_freshness
+    columns:
+      - name: source_id
+        data_tests:
+          - not_null
+          - unique
+      - name: ok
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [1]
+
+  - name: int_item_icd10
+    columns:
+      - name: scope
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["all", "title"]
+      - name: icd10_code
+        data_tests:
+          - not_null
+
+  - name: stg_icd10_keywords
+    columns:
+      - name: scope
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["all", "title"]

@@ -1,0 +1,15 @@
+{
+  "fetched_at": "2026-11-06 17:17:20",
+  "counts": {
+    "openfda_label": 64,
+    "openfda_enforcement": 66,
+    "federal_register": 80,
+    "cdc_mmwr": 40
+  },
+  "rxnorm_cached": 55,
+  "rxnorm_lookups_this_run": 55,
+  "dropped": [
+    "USPSTF. The public API requires a key and the keyless response is only a warning.",
+    "Legacy CDC MMWR RSS at cdc.gov/mmwr/rss/mmwr.xml. The newest item is from 2018."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Asad Moulvi",
+  "headline": "Data Scientist at DataQHealth",
+  "about": "Built by Asad Moulvi, Data Scientist at DataQHealth, where I build healthcare data pipelines that process 10M+ records a year.",
+  "links": [
+    {"label": "GitHub", "href": "https://github.com/WannaBeSolopreneur"},
+    {"label": "LinkedIn", "href": "https://www.linkedin.com/in/asad-moulvi-aaa278175"},
+    {"label": "Email", "href": "mailto:asad.moulvi01@gmail.com"}
+  ]
+}

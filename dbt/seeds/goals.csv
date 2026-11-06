@@ -1,0 +1,5 @@
+goal_id,label,detail,unit,metric_kind,direction,target_value,sort_order
+sources_fresh,Sources refreshed today,"Example target. Share of the four public sources that returned on this run.",ratio,snapshot,higher,1,1
+hours_to_surface,Hours to surface,"Example target. Median hours from the publish date to the first fetch, for items published in the last 7 days. A daily job first sees older items in that window, so the median is often a few days. Lower is better.",hours,snapshot,lower,48,2
+coded_share,Coded to ICD-10 or RxNorm,"Example target. Share of items with an ICD-10 phrase match or a confirmed RxNorm code.",percent,snapshot,higher,0.4,3
+high_impact_week,High-impact changes this week,"Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week.",count,pace,higher,4,4
