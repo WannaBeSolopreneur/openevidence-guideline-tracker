@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-06",
-      "days_elapsed": 5,
+      "as_of": "2026-11-07",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -67,8 +67,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 2,
-      "as_of": "2026-11-06",
-      "days_elapsed": 5,
+      "as_of": "2026-11-07",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -89,8 +89,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 3,
-      "as_of": "2026-11-06",
-      "days_elapsed": 5,
+      "as_of": "2026-11-07",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,7 +98,7 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 5 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 6 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
@@ -107,12 +107,12 @@ window.SITE_DATA = {
       "current_label": "2",
       "target_label": "4",
       "progress_ratio": 0.5,
-      "pace_ratio": 0.7142857142857143,
+      "pace_ratio": 0.8571428571428571,
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 4,
-      "as_of": "2026-11-06",
-      "days_elapsed": 5,
+      "as_of": "2026-11-07",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-06T17:36:12Z",
+      "fetched_at": "2026-11-07T17:38:14Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,16 +131,16 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-06T17:36:12Z",
+      "fetched_at": "2026-11-07T17:38:14Z",
       "record_count": 64,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
-      "latest_published_at": "2026-10-26T00:00:00Z"
+      "latest_published_at": "2026-10-29T00:00:00Z"
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-06T17:36:12Z",
+      "fetched_at": "2026-11-07T17:38:14Z",
       "record_count": 66,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,7 +149,7 @@ window.SITE_DATA = {
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-06T17:36:12Z",
+      "fetched_at": "2026-11-07T17:38:14Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
@@ -627,12 +627,12 @@ window.SITE_DATA = {
       "item_count": 3
     },
     {
-      "area": "Bone and joint",
+      "area": "Cancer",
       "item_count": 2
     },
     {
-      "area": "Cancer",
-      "item_count": 2
+      "area": "Bone and joint",
+      "item_count": 1
     },
     {
       "area": "Lung",
@@ -640,7 +640,7 @@ window.SITE_DATA = {
     },
     {
       "area": "Not coded",
-      "item_count": 207
+      "item_count": 208
     }
   ],
   "weekly": [
@@ -822,7 +822,7 @@ window.SITE_DATA = {
       "week_start": "2026-09-07",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 34
+      "item_count": 33
     },
     {
       "week_start": "2026-09-07",
@@ -990,7 +990,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-26",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 1
+      "item_count": 2
     },
     {
       "week_start": "2026-10-26",
@@ -1081,5 +1081,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-06T17:36:12Z"
+  "generated_at": "2026-11-07T17:38:14Z"
 };
