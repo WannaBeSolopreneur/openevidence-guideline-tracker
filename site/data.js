@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-07",
-      "days_elapsed": 6,
+      "as_of": "2026-11-08",
+      "days_elapsed": 7,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -67,8 +67,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 2,
-      "as_of": "2026-11-07",
-      "days_elapsed": 6,
+      "as_of": "2026-11-08",
+      "days_elapsed": 7,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@ window.SITE_DATA = {
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.408,
+      "current_value": 0.404,
       "target_value": 0.4,
-      "current_label": "40.8%",
+      "current_label": "40.4%",
       "target_label": "40%",
-      "progress_ratio": 1.0199999999999998,
+      "progress_ratio": 1.01,
       "pace_ratio": null,
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 3,
-      "as_of": "2026-11-07",
-      "days_elapsed": 6,
+      "as_of": "2026-11-08",
+      "days_elapsed": 7,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,7 +98,7 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 6 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 7 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
@@ -107,12 +107,12 @@ window.SITE_DATA = {
       "current_label": "2",
       "target_label": "4",
       "progress_ratio": 0.5,
-      "pace_ratio": 0.8571428571428571,
+      "pace_ratio": 1.0,
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 4,
-      "as_of": "2026-11-07",
-      "days_elapsed": 6,
+      "as_of": "2026-11-08",
+      "days_elapsed": 7,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-07T17:38:14Z",
+      "fetched_at": "2026-11-08T17:48:10Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,7 +131,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-07T17:38:14Z",
+      "fetched_at": "2026-11-08T17:48:10Z",
       "record_count": 64,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
@@ -140,7 +140,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-07T17:38:14Z",
+      "fetched_at": "2026-11-08T17:48:10Z",
       "record_count": 66,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,11 +149,11 @@ window.SITE_DATA = {
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-07T17:38:14Z",
+      "fetched_at": "2026-11-08T17:48:10Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-06T00:00:00Z"
+      "latest_published_at": "2026-11-09T00:00:00Z"
     }
   ],
   "actions": [
@@ -214,6 +214,97 @@ window.SITE_DATA = {
     }
   ],
   "feed": [
+    {
+      "item_id": "federal_register:2026-22743",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Medicare and Medicaid Programs, CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies, Medicare Shared Savings Program Requirements, and Medicare",
+      "summary": "This final rule addresses: changes to the physician fee schedule (PFS), other changes to Medicare Part B payment policies to ensure that payment systems are updated to reflect changes in medical practice, relative value of services, and changes in the statute, codification of",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22750",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update, Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model, Medicare Provider Enrollment, Durable",
+      "summary": "This final rule sets forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this final rule discusses the behavior adjustments and finalizes a temporary behavior adjustment. It also",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22750/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22792",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Medicare Drug Price Negotiation Program and Medicare Prescription Drug Benefit Program",
+      "summary": "This rule finalizes and codifies the Medicare Drug Price Negotiation Program (\"Negotiation Program\") and establishes certain new policies for the Negotiation Program and the Medicare Prescription Drug Benefit Program (\"Part D Program\") as required by the Inflation Reduction Act",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22794",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22794/agency-information-collection-activities-proposed-collection-comment-request",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22819",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
+      "summary": "Federal Register document.",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22819/agency-forms-undergoing-paperwork-reduction-act-review",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22820",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
+      "summary": "Federal Register document.",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22820/agency-forms-undergoing-paperwork-reduction-act-review",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22821",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
+      "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22821/proposed-data-collection-submitted-for-public-comment-and-recommendations",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "federal_register:2026-22657",
       "source_id": "federal_register",
@@ -384,19 +475,6 @@ window.SITE_DATA = {
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22380",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-03T00:00:00Z",
-      "title": "Nondiscrimination on the Basis of Disability in Programs or Activities Receiving Federal Financial Assistance",
-      "summary": "The Department of Health and Human Services (HHS or Department) issues this rule to revise the regulation implementing section 504 of the Rehabilitation Act of 1973 (section 504) as it applies to recipients of HHS funding (entitled \"Nondiscrimination on the Basis of Disability",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22380/nondiscrimination-on-the-basis-of-disability-in-programs-or-activities-receiving-federal-financial",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
       "item_id": "federal_register:2026-22381",
       "source_id": "federal_register",
       "source_name": "Federal Register",
@@ -525,84 +603,6 @@ window.SITE_DATA = {
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22185",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Solicitation of Nominations for Appointment to the Advisory Committee on Immunization Practices",
-      "summary": "In accordance with the Federal Advisory Committee Act, the Centers for Disease Control and Prevention (CDC), within the Department of Health and Human Services (HHS), is seeking nominations for membership on the Advisory Committee on Immunization Practices (ACIP). The ACIP",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22185/solicitation-of-nominations-for-appointment-to-the-advisory-committee-on-immunization-practices",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22194",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Medicare Program, CY 2027 Changes to the End-Stage Renal Disease (ESRD) Prospective Payment System, Acute Kidney Injury (AKI) Dialysis Payment, and ESRD Quality Incentive Program",
-      "summary": "This final rule updates and revises the End-Stage Renal Disease (ESRD) Prospective Payment System for calendar year 2027. This rule also includes updates to the payment rate for renal dialysis services furnished by an ESRD facility to individuals with acute kidney injury. In",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22194/medicare-program-cy-2027-changes-to-the-end-stage-renal-disease-esrd-prospective-payment-system",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22203",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Essential Drug Delivery Performance Characteristics for Devices Intended To Deliver Drugs and Biological Products, Revised Draft Guidance for Industry, Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a revised draft guidance for industry entitled \"Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products.\" This revised draft guidance",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22203/essential-drug-delivery-performance-characteristics-for-devices-intended-to-deliver-drugs-and",
-      "high_impact": 1,
-      "impact_reason": "FDA guidance",
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "cdc_mmwr:766755",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "published_at": "2026-10-29T00:00:00Z",
-      "title": "Notes from the Field: Use of Enhanced Surveillance to Detect Severe Group A Streptococcus Infections Among Persons Experiencing Homelessness - Missoula County, Montana, July 2024 - September 2025",
-      "summary": "The Morbidity and Mortality Weekly Report (MMWR) Series is prepared by the Centers for Disease Control and Prevention (CDC).",
-      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7542a1.htm?s_cid=OS_mm7542a1_x",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "cdc_mmwr:766756",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "published_at": "2026-10-29T00:00:00Z",
-      "title": "Notes from the Field: Use of Enhanced Surveillance to Detect Severe Group A Streptococcus Infections Among Persons Experiencing Homelessness - Missoula County, Montana, July 2024 - September 2025",
-      "summary": "The Morbidity and Mortality Weekly Report (MMWR) Series is prepared by the Centers for Disease Control and Prevention (CDC).",
-      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7542a1.htm",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "cdc_mmwr:766759",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "published_at": "2026-10-29T00:00:00Z",
-      "title": "QuickStats: Percentage of Children and Adolescents Aged 5 - 17 Years Who Had Ever Received a Diagnosis of Attention-Deficit/Hyperactivity Disorder, by Sex and Year - United States, 2019 - 2025",
-      "summary": "This report describes the percentage of children and adolescents who had ever received an attention-deficit/hyperactivity disorder diagnosis during 2019 - 2025.",
-      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7542a2.htm?s_cid=OS_mm7542a2_x",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Mental health",
-      "code_label": "ICD-10 F90.9 Attention-deficit hyperactivity disorder unspecified type"
     }
   ],
   "areas": [
@@ -627,11 +627,11 @@ window.SITE_DATA = {
       "item_count": 3
     },
     {
-      "area": "Cancer",
-      "item_count": 2
+      "area": "Bone and joint",
+      "item_count": 1
     },
     {
-      "area": "Bone and joint",
+      "area": "Cancer",
       "item_count": 1
     },
     {
@@ -640,7 +640,7 @@ window.SITE_DATA = {
     },
     {
       "area": "Not coded",
-      "item_count": 208
+      "item_count": 209
     }
   ],
   "weekly": [
@@ -906,7 +906,7 @@ window.SITE_DATA = {
       "week_start": "2026-09-28",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 6
+      "item_count": 0
     },
     {
       "week_start": "2026-10-05",
@@ -1026,7 +1026,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-02",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 18
+      "item_count": 17
     }
   ],
   "counts": [
@@ -1081,5 +1081,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-07T17:38:14Z"
+  "generated_at": "2026-11-08T17:48:10Z"
 };

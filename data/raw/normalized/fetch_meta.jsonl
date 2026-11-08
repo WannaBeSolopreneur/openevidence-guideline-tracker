@@ -1,4 +1,4 @@
-{"source_id": "openfda_label", "source_name": "FDA labels", "fetched_at": "2026-11-07 17:38:14", "record_count": 64, "ok": 1, "note": "openFDA drug labels, prescription products, plus boxed warnings."}
-{"source_id": "openfda_enforcement", "source_name": "FDA recalls", "fetched_at": "2026-11-07 17:38:14", "record_count": 66, "ok": 1, "note": "openFDA drug enforcement. The link is the openFDA record."}
-{"source_id": "federal_register", "source_name": "Federal Register", "fetched_at": "2026-11-07 17:38:14", "record_count": 80, "ok": 1, "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation."}
-{"source_id": "cdc_mmwr", "source_name": "CDC MMWR", "fetched_at": "2026-11-07 17:38:14", "record_count": 40, "ok": 1, "note": "CDC media collection 342778, the live MMWR collection."}
+{"source_id": "openfda_label", "source_name": "FDA labels", "fetched_at": "2026-11-08 17:48:10", "record_count": 64, "ok": 1, "note": "openFDA drug labels, prescription products, plus boxed warnings."}
+{"source_id": "openfda_enforcement", "source_name": "FDA recalls", "fetched_at": "2026-11-08 17:48:10", "record_count": 66, "ok": 1, "note": "openFDA drug enforcement. The link is the openFDA record."}
+{"source_id": "federal_register", "source_name": "Federal Register", "fetched_at": "2026-11-08 17:48:10", "record_count": 80, "ok": 1, "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation."}
+{"source_id": "cdc_mmwr", "source_name": "CDC MMWR", "fetched_at": "2026-11-08 17:48:10", "record_count": 40, "ok": 1, "note": "CDC media collection 342778, the live MMWR collection."}
