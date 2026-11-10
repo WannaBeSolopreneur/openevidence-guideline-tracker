@@ -3,14 +3,1420 @@
     "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
     "terms": "https://open.fda.gov/terms/",
     "license": "https://open.fda.gov/license/",
-    "last_updated": "2026-10-28",
+    "last_updated": "2026-11-04",
     "results": {
       "skip": 0,
       "limit": 40,
-      "total": 430
+      "total": 450
     }
   },
   "results": [
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0103-2027",
+      "product_description": "Wechem Hand Guard8/1000mL Bag, Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013",
+      "product_quantity": "5800 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "5800 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Singapore",
+      "state": "",
+      "country": "Singapore",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "M017"
+        ],
+        "brand_name": [
+          "MENTHOL AND METHYL SALICYLATE"
+        ],
+        "generic_name": [
+          "ELECTRIC MEDICATED BALM ULTRA STRENGTH"
+        ],
+        "manufacturer_name": [
+          "FEI FAH MEDICAL MANUFACTURING PTE LTD"
+        ],
+        "product_ndc": [
+          "63299-001"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "route": [
+          "TOPICAL"
+        ],
+        "substance_name": [
+          "MENTHOL",
+          "METHYL SALICYLATE"
+        ],
+        "rxcui": [
+          "2002730"
+        ],
+        "spl_id": [
+          "4344ef98-ce28-2cec-e063-6294a90a1c74"
+        ],
+        "spl_set_id": [
+          "91e6d3b9-25bb-4015-9d96-bd27f93e5ada"
+        ],
+        "package_ndc": [
+          "63299-001-01",
+          "63299-001-02"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "L7T10EIP3A",
+          "LAV5U5022Y"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100211",
+      "recalling_firm": "Fei Fah Medical Manufacturing Pte. Ltd.",
+      "address_1": "61 Kaki Bukit Avenue 1",
+      "address_2": "#02-29 Shun Li Industrial Park",
+      "postal_code": "N/A",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide within the U.S",
+      "recall_number": "D-0104-2027",
+      "product_description": "ULTRA STRENTGH, ELECTRIC MIDICATED BALM (menthol 16% and methyl salicylate 32%) packaged in a) Net 2.45 oz (70g) (NDC 63299-001-01) and b) 10g (NDC 63299-001-02), Manufactured by Fei Fah Medical Mfg Pte Ltd, Singapore, U.S Distributor: SOLISTICE MEDICINE COMPANY, 215 West Ann Street, Los Angeles, CA 90012",
+      "product_quantity": "171,120 units",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20261023",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "Lot: a)23FEBU7001-019, Exp. Date: October 2028; 24FEBU7001-020, Exp. Date: November 2029. b) 23FEBU1001-9, Exp. Date: October 2028; 24FEBU1001-004, Exp. Date: November 2029.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Princeton",
+      "state": "NJ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "ANDA207088"
+        ],
+        "brand_name": [
+          "OLMESARTAN MEDOXOMIL AMLODIPINE AND HYDROCHLOROTHIAZIDE"
+        ],
+        "generic_name": [
+          "OLMESARTAN MEDOXOMIL AMLODIPINE AND HYDROCHLOROTHIAZIDE"
+        ],
+        "manufacturer_name": [
+          "Macleods Pharmaceuticals Limited"
+        ],
+        "product_ndc": [
+          "33342-243",
+          "33342-244",
+          "33342-245",
+          "33342-246",
+          "33342-247"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "OLMESARTAN MEDOXOMIL",
+          "AMLODIPINE BESYLATE",
+          "HYDROCHLOROTHIAZIDE"
+        ],
+        "rxcui": [
+          "999967",
+          "999986",
+          "999991",
+          "999996",
+          "1000001"
+        ],
+        "spl_id": [
+          "52c013e1-8c31-4bed-9241-e7845873ebe8"
+        ],
+        "spl_set_id": [
+          "52c013e1-8c31-4bed-9241-e7845873ebe8"
+        ],
+        "package_ndc": [
+          "33342-243-07",
+          "33342-243-10",
+          "33342-244-07",
+          "33342-244-10",
+          "33342-245-07",
+          "33342-245-10",
+          "33342-246-07",
+          "33342-246-10",
+          "33342-247-07",
+          "33342-247-10"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "upc": [
+          "0333342247070",
+          "0333342245076"
+        ],
+        "nui": [
+          "N0000175359",
+          "N0000175419",
+          "M0471776"
+        ],
+        "pharm_class_pe": [
+          "Increased Diuresis [PE]"
+        ],
+        "pharm_class_epc": [
+          "Thiazide Diuretic [EPC]"
+        ],
+        "pharm_class_cs": [
+          "Thiazides [CS]"
+        ],
+        "unii": [
+          "6M97XTV3HD",
+          "0J48LPH2TH",
+          "864V2Q084H"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100113",
+      "recalling_firm": "MACLEODS PHARMA USA, INC",
+      "address_1": "103 College Rd E Fl 2",
+      "address_2": "",
+      "postal_code": "08540-6611",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide in the USA",
+      "recall_number": "D-0077-2027",
+      "product_description": "Olmesartan Medoxomil, Amlodipine, and Hydrochlorothiazide Tablets 40 mg/10 mg/12.5mg, packaged as a) 30-count bottle, NDC 33342-246-07; b) 90-count bottle, NDC 33342-246-10;  Rx Only, Manufactured for : Macleods Pharma USA, Inc. Princeton, NJ 08540, Manufactured by: Macleods Pharmaceuticals Ltd, Daman, 396210, India",
+      "product_quantity": "3528 30-count and 216 90-count bottles",
+      "reason_for_recall": "Failed Dissolution Specifications.",
+      "recall_initiation_date": "20261007",
+      "center_classification_date": "20261026",
+      "report_date": "20261104",
+      "code_info": "Lot #: a) 12251163A, Exp 05-31-2027; b) 12251163B, Exp 05-31-2027",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0092-2027",
+      "product_description": "Lynx, LX0864 peachy-foam antiseptic handsoap, 1000 ML (33.8 FL OZ.) Manufactured by: ABC Compounding Co., INC., 2500 Dogwood Dr., Conyers, GA 30013, UPC 711808210804.",
+      "product_quantity": "9252 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "9252 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Jecheon",
+      "state": "",
+      "country": "Korea (the Republic of)",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100011",
+      "recalling_firm": "Huons Co., Ltd.",
+      "address_1": "137 Bio Valley-Ro",
+      "address_2": "",
+      "postal_code": "N/A",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+      "distribution_pattern": "Nationwide within U.S.",
+      "recall_number": "D-0080-2027",
+      "product_description": "Carboxymethylcellulose Sodium, 0.5% Lubricant Eye Drops, Sterile, 30 Single-Use Containers, 0.02 FL OZ (0.5 mL) each, Manufactured by: Huons Co., Ltd, Jecheon-si, Chungcheongbuk-do, 27159, South Korea; Marketed by: GSMS Incorporated, Camarillo, CA 93012, USA. NDC 51407-945-30  Pouch Label: Carboxymethylcellulose Sodium, Lubricant Eye Drops, 0.5 mL, Single-Use, gsms.",
+      "product_quantity": "6,633,570 tubes",
+      "reason_for_recall": "Failed Impurities/Degradation Specification; detection of polyethylene (PE)-related oligomers",
+      "recall_initiation_date": "20261002",
+      "center_classification_date": "20261026",
+      "report_date": "20261104",
+      "code_info": "Lot: 2EQH501, Exp. 3/12/2027; 2EQH502, 2EQH503, 2EQH504, 2EQH505, Exp. 3/16/2027; 2EQH506, 2EQH507, Exp. 5/22/2027; 2EQH508, Exp. 5/26/2027; 2EQH509, Exp. 5/27/2027; 2EQH510, 2EQH511, 2EQH512, 2EQH513, Exp. 10/13/2028.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0098-2027",
+      "product_description": "PRO CHEM BAN AID, Antiseptic Hand Soap, Net Contents: 1 GALLON (3.8 L), Sold by: PRO CHEM, Inc.,1475 Bluegrass Lakes Parkway, Alpharetta, GA 30004.",
+      "product_quantity": "288 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "288 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0091-2027",
+      "product_description": "Antiseptic Hand Soap, Net Contents: 1 Gallon (3.8 L) Distributed By: image supply, inc., P.O. Box 1108, 5081 Dawn Drive, Lumberton, NC28359",
+      "product_quantity": "299 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "384 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0101-2027",
+      "product_description": "Spurrier, Antimicrobial Hand Soap, Net Contents: 1 Gallon (3.8 L), Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA, 30013, UPC 726133100508",
+      "product_quantity": "15 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "15 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0089-2027",
+      "product_description": "Freshhands Premium Foamy Antibacterial Hand Soap Antiseptic, Net Contents: 18 oz (532 mL), Sold By; Consolidated Chemicals, LLC, 3191 W Tharpe St. Tallahassee, FL 32303 USA, UPC",
+      "product_quantity": "1200 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "1200 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Rockford",
+      "state": "IL",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "ANDA072801"
+        ],
+        "brand_name": [
+          "METOCLOPRAMIDE"
+        ],
+        "generic_name": [
+          "METOCLOPRAMIDE"
+        ],
+        "manufacturer_name": [
+          "Mylan Institutional Inc."
+        ],
+        "product_ndc": [
+          "51079-886",
+          "51079-888"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "METOCLOPRAMIDE HYDROCHLORIDE"
+        ],
+        "rxcui": [
+          "311666",
+          "311668"
+        ],
+        "spl_id": [
+          "3a866de8-d779-26e4-e063-6294a90abf6b"
+        ],
+        "spl_set_id": [
+          "447dbb34-7903-4e6a-be31-48a0b0e0d2f5"
+        ],
+        "package_ndc": [
+          "51079-886-01",
+          "51079-886-20",
+          "51079-888-01",
+          "51079-888-20"
+        ],
+        "original_packager_product_ndc": [
+          "0093-2204",
+          "0093-2203"
+        ],
+        "unii": [
+          "W1792A2RVD"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100075",
+      "recalling_firm": "Safecor Health, LLC",
+      "address_1": "1718 Northrock Ct",
+      "address_2": "",
+      "postal_code": "61103-1201",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0075-2027",
+      "product_description": "Metoclopramide Tablets, USP, 5 mg, 100 Tablets per bottle, Rx Only, Manufactured for: Teva Pharmaceuticals, Parsippany, NJ 07054. NDC: 51079-886-20.",
+      "product_quantity": "",
+      "reason_for_recall": "Manufacturer is recalling batches due to co-mingled tablet.",
+      "recall_initiation_date": "20261006",
+      "center_classification_date": "20261023",
+      "report_date": "20261104",
+      "code_info": "Lot # 3116509, Expiry: 07/31/2027.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0102-2027",
+      "product_description": "SunCoast Paper Inc. Surgent Antiseptic Hand Soap, Net Contents : 1 Gallon (3.8 L), SunCoast Paper In., 4111 Community Rd., Brunswick, GA 31520, UPC 654441P10219",
+      "product_quantity": "576 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "2256 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "United States",
+      "classification": "Class III",
+      "openfda": {
+        "application_number": [
+          "ANDA074688"
+        ],
+        "brand_name": [
+          "VECURONIUM BROMIDE"
+        ],
+        "generic_name": [
+          "VECURONIUM BROMIDE"
+        ],
+        "manufacturer_name": [
+          "Meitheal Pharmaceuticals Inc."
+        ],
+        "product_ndc": [
+          "71288-744",
+          "71288-745"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "VECURONIUM BROMIDE"
+        ],
+        "rxcui": [
+          "859437"
+        ],
+        "spl_id": [
+          "ef72e810-c31d-4c0a-8a7f-b1cfd8ac15ec"
+        ],
+        "spl_set_id": [
+          "53653418-0464-4cd2-a987-3d31be36098f"
+        ],
+        "package_ndc": [
+          "71288-744-10",
+          "71288-744-11",
+          "71288-745-20",
+          "71288-745-21"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "7E4PHP5N1D"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100110",
+      "recalling_firm": "Meitheal Pharmaceuticals, Inc",
+      "address_1": "8700 W Bryn Mawr Ave Ste 600s",
+      "address_2": "",
+      "postal_code": "60631-3529",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "US. Nationwide",
+      "recall_number": "D-0108-2027",
+      "product_description": "Vecuronium Bromide for Injection, 10mg, 10 Single-Dose Vials per carton, Sterile, Rx Only, Mfd. for Meitheal Pharmaceuticals, Chicago, IL.  NDC: 71288-744-11",
+      "product_quantity": "121,800 vials",
+      "reason_for_recall": "Labeling: Label Lacks Warning or Rx Legend",
+      "recall_initiation_date": "20261008",
+      "center_classification_date": "20261029",
+      "report_date": "20261104",
+      "code_info": "Lot# T1P0213A: Exp.  30-Apr-29  Lot# T1P0313A: Exp.  30-Apr-29  Lot# T1P0412A: Exp. 30-Sep-28  Lot# T1P0413A: Exp. 30-Apr-29  Lot# T1P0512A: Exp.  30-Sep-28  Lot# T1P0513A: Exp.  30-Apr-29",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Columbia",
+      "state": "SC",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "ANDA216486"
+        ],
+        "brand_name": [
+          "FORMOTEROL FUMARATE INHALATION SOLUTION"
+        ],
+        "generic_name": [
+          "FORMOTEROL FUMARATE DIHYDRATE"
+        ],
+        "manufacturer_name": [
+          "Ritedose Pharmaceuticals, LLC"
+        ],
+        "product_ndc": [
+          "76204-030"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "RESPIRATORY (INHALATION)"
+        ],
+        "substance_name": [
+          "FORMOTEROL FUMARATE"
+        ],
+        "rxcui": [
+          "1246319"
+        ],
+        "spl_id": [
+          "459f276c-d771-4ae9-e063-6394a90a3476"
+        ],
+        "spl_set_id": [
+          "2d9bf685-8886-4865-834b-2748af124b79"
+        ],
+        "package_ndc": [
+          "76204-030-02",
+          "76204-030-01"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "W34SHF8J2K"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100124",
+      "recalling_firm": "The Ritedose Corporation",
+      "address_1": "1 Technology Cir",
+      "address_2": "",
+      "postal_code": "29203-9591",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide within the U.S",
+      "recall_number": "D-0073-2027",
+      "product_description": "Formoterol Fumarate Inhalation Solution, 20mcg/2mL, packaged in cartons of 30 individually wrapped vials (NDC 76204-030-01) and 60 individually wrapped vials (NDC 76204-030-02), Rx only, Manufactured for and by: Ritedose Pharmaceuticals, LLC, Columbia, SC",
+      "product_quantity": "3210 Cartons",
+      "reason_for_recall": "Failed Impurities/Degradation Specification",
+      "recall_initiation_date": "20261015",
+      "center_classification_date": "20261023",
+      "report_date": "20261104",
+      "code_info": "Lot: 25BL0, Expires: 02/28/2027",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0086-2027",
+      "product_description": "Aerocare Sani Mango Antiseptic Hand and Body Wash, Net Contents: 1 Gallon (3.8 L), Manufactured By: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA 33013, UPC 711808198249",
+      "product_quantity": "2932 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "2932 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Dawsonville",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100229",
+      "recalling_firm": "Direct Rx",
+      "address_1": "94 Worldwide Dr",
+      "address_2": "",
+      "postal_code": "30534-6828",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide within the United States",
+      "recall_number": "D-0107-2027",
+      "product_description": "Lidocaine Ointment USP, 5.0 % 50g JAR, Rx only, Packaged and Distributed by: Direct Rx Dawsonville, GA 30534, NDC 72189-0211-50",
+      "product_quantity": "493 jars",
+      "reason_for_recall": "Subpotent Drug",
+      "recall_initiation_date": "20260929",
+      "center_classification_date": "20261029",
+      "report_date": "20261104",
+      "code_info": "LOT#: 03AP2511, 30AP2518, 18JU2519, 18JU2520, Exp. Date 04/30/2027.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "West Chester",
+      "state": "PA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100038",
+      "recalling_firm": "Brandywine Pharmaceuticals, LLC",
+      "address_1": "600 W Strasburg Rd",
+      "address_2": "",
+      "postal_code": "19382-1955",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+      "distribution_pattern": "Nationwide within U.S",
+      "recall_number": "D-0110-2027",
+      "product_description": "Theophylline Extended-Release Tablets, 100 mg, Rx Only, 100-count bottle, Distributed by: Brandywine Pharmaceuticals, LLC, West Chester, PA 19382, NDC: 71321-500-10",
+      "product_quantity": "1,620 100-count bottles",
+      "reason_for_recall": "CGMP Deviations: interruption in the ongoing stability testing program conducted at a third-party laboratory",
+      "recall_initiation_date": "20261006",
+      "center_classification_date": "20261029",
+      "report_date": "20261104",
+      "code_info": "Lot: 405617, Expiry: 03/31/2028",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0099-2027",
+      "product_description": "Pro Chem Suds Hand Soap, Net Contents: 18 OZ (532 ml), Sold by Pro Chem Inc., 1475 Bluegrass Lakes Parkway, Alpharetta, GA 30004",
+      "product_quantity": "5760 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "576 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0100-2027",
+      "product_description": "Chemseptic, Net Contents: 1 Gallon (3.8 L), Distributed By: RMC Rochester Midland Corporation, 155 Paragon Drive, Rochester, NY 14624 USA, Made in USA",
+      "product_quantity": "3120 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "2316 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0097-2027",
+      "product_description": "PRO CHEM Fresh Start, Antibacterial Hand Soap, Antiseptic Hand Soap, 800mL bag, Sold by: PRO CHEM, Inc.,1475 Bluegrass Lakes Parkway, Alpharetta, GA 30064.",
+      "product_quantity": "1944 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "1944 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0085-2027",
+      "product_description": "Palm Antiseptic Hand Soap Net Contents: 1 Gallon (3.8 L). Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, GA 30013, UPC 711808196498",
+      "product_quantity": "9220 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "9220 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0088-2027",
+      "product_description": "Certus Medical Satin Foam, 750 ml (25.4 fl. oz.), Manufactured for: Cartus Medical, 2600 Dogwood Dr., Conyers, GA 30013, UPC 711808250930",
+      "product_quantity": "28152 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "28152 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Hoover",
+      "state": "AL",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100073",
+      "recalling_firm": "Eagle Pharma Outsourcing LLC",
+      "address_1": "2200 Riverchase Ctr Ste 675",
+      "address_2": "",
+      "postal_code": "35244-2918",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "Nationwide within the U.S",
+      "recall_number": "D-0105-2027",
+      "product_description": "PHENYLephrine HCL Infusion, 100 mg per 250 mL in 0.9% Sodium Chloride (0.4 mg/mL), Sterile, Rx Only, Single-Use Container, EAGLE PHARMA OUTSOURCING, 2200 Riverchase Center, Suite 675, Hoover, AL 35244, UPC: 6985210025. NDC 69852-100-25",
+      "product_quantity": "50 250 mL-containers",
+      "reason_for_recall": "Lack of Assurance of Sterility",
+      "recall_initiation_date": "20261008",
+      "center_classification_date": "20261028",
+      "report_date": "20261104",
+      "code_info": "Lot: PHENYL100-1004, Expiry: 12/31/2026.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0096-2027",
+      "product_description": "People's FM-24 FOAMING High Foaming Antiseptic Hand and Body Wash, NET CONTENTS: 1000 ML 33.8 FL OZ, Distributed by: People's Janitorial Supply, 955 Main Street, Forest Park, GA  30298, 404-363-2226.",
+      "product_quantity": "78840 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "600 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "United States",
+      "classification": "Not Yet Classified",
+      "openfda": {
+        "application_number": [
+          "ANDA209190"
+        ],
+        "brand_name": [
+          "TRIDACAINE III"
+        ],
+        "generic_name": [
+          "LIDOCAINE"
+        ],
+        "manufacturer_name": [
+          "Trifluent Pharma LLC"
+        ],
+        "product_ndc": [
+          "73352-835"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "TOPICAL"
+        ],
+        "substance_name": [
+          "LIDOCAINE"
+        ],
+        "rxcui": [
+          "1745091",
+          "2678310"
+        ],
+        "spl_id": [
+          "6301ec53-9e39-4e52-ac77-44be136b5327"
+        ],
+        "spl_set_id": [
+          "9b47102e-3b35-4aa7-a380-cd02ba9eac65"
+        ],
+        "package_ndc": [
+          "73352-835-01",
+          "73352-835-15"
+        ],
+        "original_packager_product_ndc": [
+          "82347-0505"
+        ],
+        "upc": [
+          "0373352835157"
+        ],
+        "nui": [
+          "N0000175682",
+          "M0000897",
+          "N0000175426",
+          "N0000175976"
+        ],
+        "pharm_class_epc": [
+          "Amide Local Anesthetic [EPC]",
+          "Antiarrhythmic [EPC]"
+        ],
+        "pharm_class_cs": [
+          "Amides [CS]"
+        ],
+        "pharm_class_pe": [
+          "Local Anesthesia [PE]"
+        ],
+        "unii": [
+          "98PI200987"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100178",
+      "recalling_firm": "Trifluent Pharma LLC",
+      "address_1": "4310 West Ave",
+      "address_2": "",
+      "postal_code": "78213-3033",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Telephone",
+      "distribution_pattern": "US",
+      "recall_number": "",
+      "product_description": "Tridacaine III / Lidocaine Patch 5%, 15 envelopes containing 1 patch each per pouch, Rx only, Distributed by: Trifluent Pharma San Antonio, TX 78213, NDC 73352-835-15.",
+      "product_quantity": "68 pouches",
+      "reason_for_recall": "Labeling: Incorrect or Missing Lot and/or Exp Date. Incorrect expiration date printed on the label.",
+      "recall_initiation_date": "20261016",
+      "report_date": "20261104",
+      "code_info": "Lot #: L2606225A, Exp. Date 06/22/2029.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "United States",
+      "classification": "Class III",
+      "openfda": {
+        "application_number": [
+          "ANDA074688"
+        ],
+        "brand_name": [
+          "VECURONIUM BROMIDE"
+        ],
+        "generic_name": [
+          "VECURONIUM BROMIDE"
+        ],
+        "manufacturer_name": [
+          "Meitheal Pharmaceuticals Inc."
+        ],
+        "product_ndc": [
+          "71288-744",
+          "71288-745"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "VECURONIUM BROMIDE"
+        ],
+        "rxcui": [
+          "859437"
+        ],
+        "spl_id": [
+          "ef72e810-c31d-4c0a-8a7f-b1cfd8ac15ec"
+        ],
+        "spl_set_id": [
+          "53653418-0464-4cd2-a987-3d31be36098f"
+        ],
+        "package_ndc": [
+          "71288-744-10",
+          "71288-744-11",
+          "71288-745-20",
+          "71288-745-21"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "7E4PHP5N1D"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100110",
+      "recalling_firm": "Meitheal Pharmaceuticals, Inc",
+      "address_1": "8700 W Bryn Mawr Ave Ste 600s",
+      "address_2": "",
+      "postal_code": "60631-3529",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "US. Nationwide",
+      "recall_number": "D-0109-2027",
+      "product_description": "Vecuronium Bromide for Injection, 20mg, 10 Single-Dose Vials per carton, Sterile, Rx Only, Mfd. for Meitheal Pharmaceuticals, Chicago, IL.  NDC: 71288-745-21",
+      "product_quantity": "10,200 vials",
+      "reason_for_recall": "Labeling: Label Lacks Warning or Rx Legend",
+      "recall_initiation_date": "20261008",
+      "center_classification_date": "20261029",
+      "report_date": "20261104",
+      "code_info": "Lot# T1P0113C: Exp. 28-Feb-29 Lot# T1P0612C: Exp. 31-Oct-28",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Rangareddy District",
+      "state": "",
+      "country": "India",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "ANDA211933"
+        ],
+        "brand_name": [
+          "ATORVASTATIN CALCIUM"
+        ],
+        "generic_name": [
+          "ATORVASTATIN CALCIUM"
+        ],
+        "manufacturer_name": [
+          "Novadoz Pharmaceuticals LLC"
+        ],
+        "product_ndc": [
+          "72205-022",
+          "72205-023",
+          "72205-024",
+          "72205-025"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "ATORVASTATIN CALCIUM TRIHYDRATE"
+        ],
+        "rxcui": [
+          "259255",
+          "617310",
+          "617311",
+          "617312"
+        ],
+        "spl_id": [
+          "11823aa6-547f-4c0b-983a-65b837f94e89"
+        ],
+        "spl_set_id": [
+          "bc448f40-421c-490f-8c39-fa8135507973"
+        ],
+        "package_ndc": [
+          "72205-022-30",
+          "72205-022-90",
+          "72205-022-05",
+          "72205-022-99",
+          "72205-023-30",
+          "72205-023-90",
+          "72205-023-05",
+          "72205-023-99",
+          "72205-024-30",
+          "72205-024-90",
+          "72205-024-05",
+          "72205-024-99",
+          "72205-025-30",
+          "72205-025-90",
+          "72205-025-05",
+          "72205-025-99"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "upc": [
+          "0372205025905",
+          "0372205025059",
+          "0372205024052"
+        ],
+        "unii": [
+          "48A5M73Z4Q"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100172",
+      "recalling_firm": "MSN Laboratories Private Limited (Formulations Division, Unit-II)",
+      "address_1": "Survey # 1277, 1319-1324",
+      "address_2": "Nandigama (Village & Mandal)",
+      "postal_code": "N/A",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide in the USA.",
+      "recall_number": "D-0113-2027",
+      "product_description": "Atorvastatin Calcium Tablets, USP, 40mg, 1000 tablets per bottle, Rx only, Manufactured by: MSL Laboratories Private Limited, Telangana - 509228, India; Distributed by: Novadoz Pharmaceuticals LLC, Piscataway, NJ 08854-3714.  NDC: 72205-024-99",
+      "product_quantity": "13,296 1,000-count bottles",
+      "reason_for_recall": "Presence of Foreign Tablets/Capsules",
+      "recall_initiation_date": "20261021",
+      "center_classification_date": "20261029",
+      "report_date": "20261104",
+      "code_info": "Lot: DRF09618A, Exp 08-31-2029, DRG02110A, Exp 01-31-2030.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Hoover",
+      "state": "AL",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100073",
+      "recalling_firm": "Eagle Pharma Outsourcing LLC",
+      "address_1": "2200 Riverchase Ctr Ste 675",
+      "address_2": "",
+      "postal_code": "35244-2918",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "Nationwide within the U.S",
+      "recall_number": "D-0106-2027",
+      "product_description": "OXYTOCIN, 30 USP UNITS, Added to 0.9% Sodium Chloride 500 mL - Single-Use Container, Rx Only, EAGLE PHARMA OUTSOURCING, 2200 Riverchase Center, Suite 675, Hoover, AL 35244, UPC: 6985203050. NDC 69852-030-50",
+      "product_quantity": "5 500-mL containers",
+      "reason_for_recall": "Lack of Assurance of Sterility",
+      "recall_initiation_date": "20261008",
+      "center_classification_date": "20261028",
+      "report_date": "20261104",
+      "code_info": "Lot: OXY30-1006, Expiry: 10/10/2026.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Ronkonkoma",
+      "state": "NY",
+      "country": "United States",
+      "classification": "Class III",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100132",
+      "recalling_firm": "Prodose, Inc.",
+      "address_1": "2004 Orville Dr N Ste 2",
+      "address_2": "",
+      "postal_code": "11779-7645",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide in the USA",
+      "recall_number": "D-0081-2027",
+      "product_description": "ValuHealth Extra Strength Pain Relief Acetaminophen 500 mg, 40-caplets per bottle, Distributed by:Prodose, Inc. Ronkonkoma, NY 11779, Made in India. UPC 8 50026 88900 0",
+      "product_quantity": "100,134 40-count bottles",
+      "reason_for_recall": "Incorrect label placed on product: Outer carton label correctly identifies drug product in bottle as ValuHealth Extra Strength Pain Relief Acetaminophen 500 mg,but inner label on bottle says ValuHealth Extra Strength Pain Relief PM",
+      "recall_initiation_date": "20261014",
+      "center_classification_date": "20261026",
+      "report_date": "20261104",
+      "code_info": "Lot #: P260252, Exp 4/30/2029",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Elmwood Park",
+      "state": "NJ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "ANDA209227"
+        ],
+        "brand_name": [
+          "ABIRATERONE ACETATE"
+        ],
+        "generic_name": [
+          "ABIRATERONE ACETATE"
+        ],
+        "manufacturer_name": [
+          "Glenmark Pharmaceuticals Inc., USA"
+        ],
+        "product_ndc": [
+          "68462-135",
+          "68462-882"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "ABIRATERONE ACETATE"
+        ],
+        "rxcui": [
+          "1100075",
+          "1918042"
+        ],
+        "spl_id": [
+          "ccb0d191-e233-4e8c-9485-044cbbdba4aa"
+        ],
+        "spl_set_id": [
+          "ba32c453-a231-452a-a6d9-b3e57afb2e75"
+        ],
+        "package_ndc": [
+          "68462-135-08",
+          "68462-882-60"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "upc": [
+          "0368462882603"
+        ],
+        "unii": [
+          "EM5OCB9YJ6"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100128",
+      "recalling_firm": "Glenmark Pharmaceuticals Inc., USA",
+      "address_1": "619 River Dr",
+      "address_2": "",
+      "postal_code": "07407-1317",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "Nationwide within the United States",
+      "recall_number": "D-0074-2027",
+      "product_description": "Abiraterone Acetate Tablets USP 500 mg, 60-count bottles, Rx only, Distributed by: Glenmark Pharmaceuticals USA, Elmwood Park, NJ 07407, NDC 68462-882-60",
+      "product_quantity": "1296 bottles",
+      "reason_for_recall": "Labeling: Not Elsewhere Classified",
+      "recall_initiation_date": "20261009",
+      "center_classification_date": "20261023",
+      "report_date": "20261104",
+      "code_info": "Lot #: 13250135, Exp. Date 11/2027",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0093-2027",
+      "product_description": "Lynx, antibacterial hand soap, Net Contents 1 Gallon, (3.8 L), Manufactured by: ABC Compounding Co., INC., 2600 Dogwood Dr., Conyers, GA 30013, UPC 711808199925.",
+      "product_quantity": "2552 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "2552 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0087-2027",
+      "product_description": "Aero Foamy Mango Aloe Vera Antiseptic Hand & Body Wash, Net Contents: 1 Gallon (3.8 L), Manufactured by: ABC Compounding Co., Inc., 2600 Dogwood Dr., Conyers, 30013, UPC 711808198393",
+      "product_quantity": "8644 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "10908 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0090-2027",
+      "product_description": "Delta Foremost Sani-Foam Mango, Net Contents: 1000 ML, 33.8 FL OZ, Manufactured Expressly For: Delta Foremost Chemical Corp., 3915 Air Park Street, Memphis, TN 38118,",
+      "product_quantity": "96 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "2392 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0094-2027",
+      "product_description": "Lynx, antibacterial hand soap, Refill, Net Contents 1 Gallon, (3.8 L), Manufactured by: ABC Compounding Co., INC., 2600 Dogwood Dr., Conyers, GA 30013, UPC 711808200027.",
+      "product_quantity": "480 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "2552 bottles",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "West Chester",
+      "state": "PA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100038",
+      "recalling_firm": "Brandywine Pharmaceuticals, LLC",
+      "address_1": "600 W Strasburg Rd",
+      "address_2": "",
+      "postal_code": "19382-1955",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+      "distribution_pattern": "Nationwide within U.S",
+      "recall_number": "D-0111-2027",
+      "product_description": "Theophylline Extended-Release Tablets, 200 mg, Rx Only, 100-count bottle, Distributed by: Brandywine Pharmaceuticals, LLC, West Chester, PA 19382, NDC: 71321-501-10.",
+      "product_quantity": "1,332 100-count bottles",
+      "reason_for_recall": "CGMP Deviations: interruption in the ongoing stability testing program conducted at a third-party laboratory",
+      "recall_initiation_date": "20261006",
+      "center_classification_date": "20261029",
+      "report_date": "20261104",
+      "code_info": "Lot: 405620, Expiry: 03/31/2028.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Conyers",
+      "state": "GA",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99953",
+      "recalling_firm": "ABC Compounding Co., Inc.",
+      "address_1": "2600 Dogwood Dr Se",
+      "address_2": "",
+      "postal_code": "30013-1503",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0095-2027",
+      "product_description": "Handtastic Foamy Mango Antiseptic Foam Soap Hand & Body Wash, Net Contents : 18oz (532ml), Sold by, Momar Incorporated, 1880 Ellsworth Industrial Drive, N.W., Atlanta, Georgia, 80818.",
+      "product_quantity": "10908 bottles",
+      "reason_for_recall": "CGMP Deviations",
+      "recall_initiation_date": "20260922",
+      "center_classification_date": "20261027",
+      "report_date": "20261104",
+      "code_info": "1440 bottles",
+      "more_code_info": ""
+    },
     {
       "status": "Ongoing",
       "city": "Haridwar",
@@ -195,1799 +1601,6 @@
       "report_date": "20261028",
       "code_info": "Lot # LWP250036560205A, Exp Date: 05/25/2027;  Lot # LWP250038232805A, Exp Date: 06/19/2027;  Lot # LWP0054880903D, Exp Date: 01/28/2028;  Lot # LWP260056333003C, Exp Date: 06/04/2028.",
       "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0058-2027",
-      "product_description": "Brush Buddies, My Little Pony Scents Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Bubble Gum Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-008-40, Item# 88270, UPC 8 10147 88270 0.",
-      "product_quantity": "17,400 tupes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP240022080309, Exp Date: 11/30/2026;  Lot# LWP250035710304C, Exp Date: 04/23/2027.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0066-2027",
-      "product_description": "BB (Brush Buddies) Cavity Protection, Anti-Cavity Fluoride Toothpaste, (sodium monofluorophosphate 0.76%) Cool Mint, 2 Value Pack, Two 3.5 oz (99g) tubes, Total Net Wt 7 oz (198g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-035-10, Item # 88543, UPC 8 10147 88543 5",
-      "product_quantity": "231,936 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250036560205B, Exp Date: 05/26/2027;  Lot# LWP250038232805B, Exp Date: 06/22/2027;  Lot# LWP250051182312A, Exp Date: 02/09/2028;  Lot# LWP0054880903E, Exp Date: 04/30/2028;  Lot# LWP260056333003D, Exp Date: 05/24/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Bridgewater",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA209226"
-        ],
-        "brand_name": [
-          "CINACALCET"
-        ],
-        "generic_name": [
-          "CINACALCET"
-        ],
-        "manufacturer_name": [
-          "Strides Pharma Science Limited"
-        ],
-        "product_ndc": [
-          "64380-883",
-          "64380-884",
-          "64380-885"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "CINACALCET HYDROCHLORIDE"
-        ],
-        "rxcui": [
-          "432400",
-          "432401",
-          "432402"
-        ],
-        "spl_id": [
-          "40332509-df24-41a0-a75c-86d556cf0c50"
-        ],
-        "spl_set_id": [
-          "0ba47b6a-ba49-4d7a-82e1-1c6e49bfa5d7"
-        ],
-        "package_ndc": [
-          "64380-883-04",
-          "64380-884-04",
-          "64380-885-04"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0364380885047",
-          "0364380883043",
-          "0364380884040"
-        ],
-        "unii": [
-          "1K860WSG25"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100087",
-      "recalling_firm": "STRIDES PHARMA INC",
-      "address_1": "200 Crossing Blvd Ste 110",
-      "address_2": "",
-      "postal_code": "08807-2861",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "US Nationwide",
-      "recall_number": "D-0079-2027",
-      "product_description": "Cinacalcet Tablets, 30 mg, 30-count bottle, Rx only, Manufactured by: Strides Pharma Science Ltd. Puducherry, 605 014, India; Distributed by: Strides Pharma Inc. Bridgewater, NJ 08807, NDC 64380-883-04",
-      "product_quantity": "49,488 30-count bottles",
-      "reason_for_recall": "Failed dissolution specifications",
-      "recall_initiation_date": "20261007",
-      "center_classification_date": "20261026",
-      "report_date": "20261028",
-      "code_info": "Lot # 7717825A, Expiry: 11/30/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0054-2027",
-      "product_description": "Brush Buddies, Hot Wheels, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Strawberry Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-002-40, Item # 88047, UPC 8 10147 88047 8",
-      "product_quantity": "411,600 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250031810502B, Exp Date: 02/26/2027;  Lot# LWP250032571702B, Exp Date: 03/05/2027;  Lot# LWP250035710304B, Exp Date: 04/17/2027;  Lot# LWP260052231401, Exp Date: 02/17/2028;  Lot# LWP0054880903A, Exp Date: 04/30/2028,  Lot# LWP250035370104, Exp Date: 12/4/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Columbus",
-      "state": "OH",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA208339"
-        ],
-        "brand_name": [
-          "ABIRTEGA"
-        ],
-        "generic_name": [
-          "ABIRATERONE ACETATE"
-        ],
-        "manufacturer_name": [
-          "CivicaScript, LLC"
-        ],
-        "product_ndc": [
-          "82249-011"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "ABIRATERONE ACETATE"
-        ],
-        "rxcui": [
-          "1100075",
-          "2702601"
-        ],
-        "spl_id": [
-          "692d596d-5465-4611-82f7-5d50c37270a2"
-        ],
-        "spl_set_id": [
-          "2f932015-28b2-4f44-ac04-772e982e13e9"
-        ],
-        "package_ndc": [
-          "82249-011-12"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0382249011123"
-        ],
-        "unii": [
-          "EM5OCB9YJ6"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100046",
-      "recalling_firm": "Hikma Pharmaceuticals USA INC.",
-      "address_1": "1809 Wilson Rd",
-      "address_2": "",
-      "postal_code": "43228-9579",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide within the United States",
-      "recall_number": "D-0076-2027",
-      "product_description": "Abirtega (abiraterone acetate) USP, 250 mg, 120-count bottles, Rx only, Rx only, Mfd for: Hikma Pharmaceuticals USA Inc., Berkley Heights, NJ 07922 USA by: Arab Pharmaceuticals Manufacturing PSC PO Box 41, Sahab-Jordon, NDC 82249-011-12.",
-      "product_quantity": "2136 bottles",
-      "reason_for_recall": "Failed Tablet/Capsule Specifications: Failed tablet specifications for weight uniformity.",
-      "recall_initiation_date": "20261006",
-      "center_classification_date": "20261023",
-      "report_date": "20261028",
-      "code_info": "Lot #: 3047, Exp Date July 2027.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Shenzhen",
-      "state": "",
-      "country": "China",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA202957"
-        ],
-        "brand_name": [
-          "HEPARIN SODIUM"
-        ],
-        "generic_name": [
-          "HEPARIN SODIUM"
-        ],
-        "manufacturer_name": [
-          "Hepalink USA Inc."
-        ],
-        "product_ndc": [
-          "81952-111",
-          "81952-113",
-          "81952-116",
-          "81952-112",
-          "81952-115",
-          "81952-114"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAVENOUS",
-          "SUBCUTANEOUS"
-        ],
-        "substance_name": [
-          "HEPARIN SODIUM"
-        ],
-        "rxcui": [
-          "1361226",
-          "1361574",
-          "1361615",
-          "1362831",
-          "1658647"
-        ],
-        "spl_id": [
-          "2e8e07a4-763e-79e5-e063-6394a90a7619"
-        ],
-        "spl_set_id": [
-          "c4c6bc1f-e0c7-fd0d-e053-2995a90abdef"
-        ],
-        "package_ndc": [
-          "81952-113-01",
-          "81952-113-06",
-          "81952-113-03",
-          "81952-113-08",
-          "81952-116-01",
-          "81952-116-06",
-          "81952-112-01",
-          "81952-112-06",
-          "81952-112-04",
-          "81952-112-09",
-          "81952-112-05",
-          "81952-112-10",
-          "81952-111-01",
-          "81952-111-06",
-          "81952-115-02",
-          "81952-115-07",
-          "81952-114-04",
-          "81952-114-09",
-          "81942-111-01"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0381952113018",
-          "0381952115074",
-          "0381952116019",
-          "0381952112103",
-          "0381952116064",
-          "0381952112059",
-          "0381952114091",
-          "0381952113063",
-          "0381952113032",
-          "0381952114046",
-          "0381952112042",
-          "0381952112097",
-          "0381952113087",
-          "0381952112066",
-          "0381952111069"
-        ],
-        "unii": [
-          "ZZ45AB24CA"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100049",
-      "recalling_firm": "Shenzhen Techdow Pharmaceutical Co., Ltd.",
-      "address_1": "19 Gaoxinzhongyi Road",
-      "address_2": "Nanshan District",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide in the USA.",
-      "recall_number": "D-0050-2027",
-      "product_description": "Heparin Sodium Injection, USP, 5,000 USP Units/mL, 1mL Multi dose vial x 25 vials per carton, Distributed by: Hepalink USA Inc., Langhome, PA 19047-1885.  Carton NDC: NDC 81952-111-06, Vial NDC: 81942-111-01",
-      "product_quantity": "251,000 1 mL multidose vials",
-      "reason_for_recall": "Lack of Assurance of Sterility",
-      "recall_initiation_date": "20261001",
-      "center_classification_date": "20261016",
-      "report_date": "20261028",
-      "code_info": "Lot# CU03232A, Exp 1/31/2028",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0057-2027",
-      "product_description": "Brush Buddies, Crayola Silly Scents, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Strawberry Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-005-40, Item # 32732, UPC 8 50048 32732 0",
-      "product_quantity": "320,232 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot # LWP240027561211, Exp Date: 12/07/2026;  Lot # LWP250031970602, Exp Date: 02/28/2027;  Lot # LWP250031980602, Exp Date: 03/11/2027;  Lot # LWP250032381402, Exp Date: 03/17/2027;  Lot # LWP250035680204, Exp Date: 04/30/2027;  Lot # LWP250037682005A, Exp Date: 06/08/2027;  Lot # LWP250048601811, Exp Date: 12/09/2027;  Lot # LWP250051382412, Exp Date: 01/09/2028;  Lot # LWP260053652002, LWP260054222502, Exp Date: 03/31/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0068-2027",
-      "product_description": "ARU, Toothpaste, Gum Health, 9 Ingredients, Soothing Mint, (stannous fluoride 0.45%) Net Wt 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-786-35, Item # 88786 UPC 8 10147 88786 6",
-      "product_quantity": "15,264 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot # LWP250047850611D, Exp Date: 12/23/2027; Lot # LWP260052612201D, Exp Date: 04/30/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Morgantown",
-      "state": "WV",
-      "country": "United States",
-      "classification": "Class III",
-      "openfda": {
-        "application_number": [
-          "ANDA202516"
-        ],
-        "brand_name": [
-          "TELMISARTAN AND AMLODIPINE"
-        ],
-        "generic_name": [
-          "TELMISARTAN AND AMLODIPINE"
-        ],
-        "manufacturer_name": [
-          "Mylan Pharmaceuticals Inc."
-        ],
-        "product_ndc": [
-          "0378-1075",
-          "0378-1076",
-          "0378-1077",
-          "0378-1078"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "TELMISARTAN",
-          "AMLODIPINE BESYLATE"
-        ],
-        "rxcui": [
-          "876514",
-          "876519",
-          "876524",
-          "876529"
-        ],
-        "spl_id": [
-          "c4f4323d-671d-478b-b088-008530932cee"
-        ],
-        "spl_set_id": [
-          "ca60a4d5-ace7-4889-94ee-e2265fd63811"
-        ],
-        "package_ndc": [
-          "0378-1075-93",
-          "0378-1076-93",
-          "0378-1077-93",
-          "0378-1078-93"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0303781075930",
-          "0303781076937",
-          "0303781078931",
-          "0303781077934"
-        ],
-        "nui": [
-          "N0000000070",
-          "N0000175561"
-        ],
-        "pharm_class_moa": [
-          "Angiotensin 2 Receptor Antagonists [MoA]"
-        ],
-        "pharm_class_epc": [
-          "Angiotensin 2 Receptor Blocker [EPC]"
-        ],
-        "unii": [
-          "U5SYW473RQ",
-          "864V2Q084H"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100048",
-      "recalling_firm": "Viatris, Inc.",
-      "address_1": "3711 Collins Ferry Rd",
-      "address_2": "",
-      "postal_code": "26505-2362",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide in the USA.",
-      "recall_number": "D-0049-2027",
-      "product_description": "Telmisartan and Amlodipine, Tablets, USP, 40mg/5 mg, 30-count Bottle, Rx only, Manufactured for: Mylan Pharmaceuticals Inc., Morgantown, WV 26505 USA, Made in India, NDC 0378-1075-93.",
-      "product_quantity": "21,620 30-count bottles",
-      "reason_for_recall": "Superpotent Drug: potential for the Telmisartan content in these lots to exceed specifications",
-      "recall_initiation_date": "20261001",
-      "center_classification_date": "20261016",
-      "report_date": "20261028",
-      "code_info": "Lot # 3228113, 3228114, 3228115, Exp Date: Oct 31, 2026; Lot # 3228120, 3228121, Exp Date: Nov 30, 2026.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Tomball",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100004",
-      "recalling_firm": "Greenwich Rx",
-      "address_1": "9733 Fm 2902 Rd. Suite 100",
-      "address_2": "",
-      "postal_code": "77375",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Press Release",
-      "distribution_pattern": "US Nationwide in th USA",
-      "recall_number": "D-0084-2027",
-      "product_description": "Glutathione Injection (Glutathione-L, Ascorbic Acid, Sodium Hydroxide, Bacteriostatic Water), 200 mg/mL, 10 mL multi-dose vial, Rx only, Subcutaneous Only, Greenwich Rx.",
-      "product_quantity": "4,319 vials",
-      "reason_for_recall": "Microbial Contamination of Sterile Products",
-      "recall_initiation_date": "20261001",
-      "center_classification_date": "20261027",
-      "report_date": "20261028",
-      "code_info": "Lot # 0060-062426-1, BUD: 10/02/2026; Lot # 0060-062726-1, BUD: 10/05/2026; Lot # 0060-070926-1, BUD: 10/17/2026; Lot # 0060-071426-1, BUD: 10/22/2026; Lot #0060-071426-2, BUD: 10/22/2026; Lot # 0060-072026-1, BUD: 10/28/2026; Lot # 0060-072726-1, BUD: 11/04/2026; Lot #0060-072926-1, BUD: 11/06/2026; Lot # 0060-073126-1; BUD: 11/08/2026; Lot # 0060-080426-1, BUD: 11/12/2026; Lot #: 0060-080526-1, BUD: 11/13/2026; Lot # 0060-081826-1, BUD: 11/26/2026.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Pulaski",
-      "state": "TN",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA214548"
-        ],
-        "brand_name": [
-          "AMITRIPTYLINE HYDROCHLORIDE"
-        ],
-        "generic_name": [
-          "AMITRIPTYLINE HYDROCHLORIDE"
-        ],
-        "manufacturer_name": [
-          "AvPAK"
-        ],
-        "product_ndc": [
-          "50268-037",
-          "50268-038",
-          "50268-039",
-          "50268-040"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "AMITRIPTYLINE HYDROCHLORIDE"
-        ],
-        "rxcui": [
-          "856783",
-          "856834",
-          "856845",
-          "856853"
-        ],
-        "spl_id": [
-          "2b489f9d-de0e-dd7a-e063-6394a90a8571"
-        ],
-        "spl_set_id": [
-          "fd771b4b-c7ae-8e69-e053-6294a90a2120"
-        ],
-        "package_ndc": [
-          "50268-037-11",
-          "50268-037-15",
-          "50268-038-11",
-          "50268-038-15",
-          "50268-039-11",
-          "50268-039-15",
-          "50268-040-11",
-          "50268-040-15"
-        ],
-        "original_packager_product_ndc": [
-          "29300-419",
-          "29300-420",
-          "29300-421",
-          "29300-422"
-        ],
-        "unii": [
-          "26LUD4JO9K"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100061",
-      "recalling_firm": "AvKARE",
-      "address_1": "615 N 1st St",
-      "address_2": "",
-      "postal_code": "38478-2403",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "",
-      "product_description": "Amitriptyline Hydrochloride, Tablets, USP, 10 mg, 5 x 10 Unit dose cards in paper cartons,  Rx only, Manufactured for AvKARE, Pulaski, TN 38478, NDC 50268-037-15.",
-      "product_quantity": "3534 50-count cartons",
-      "reason_for_recall": "Failed dissolution specifications.",
-      "recall_initiation_date": "20261002",
-      "center_classification_date": "20261026",
-      "report_date": "20261028",
-      "code_info": "Lot # 48489, Expiry: 12/31/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Rochester",
-      "state": "MI",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "ANDA091665"
-        ],
-        "brand_name": [
-          "ARGATROBAN"
-        ],
-        "generic_name": [
-          "ARGATROBAN"
-        ],
-        "manufacturer_name": [
-          "Par Health USA, LLC"
-        ],
-        "product_ndc": [
-          "42023-182"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAVENOUS"
-        ],
-        "substance_name": [
-          "ARGATROBAN"
-        ],
-        "rxcui": [
-          "308351"
-        ],
-        "spl_id": [
-          "493ddc78-4566-486f-8cdd-7d6868ddf153"
-        ],
-        "spl_set_id": [
-          "1a67a87d-59cb-414c-a11e-ab8f0a9bb778"
-        ],
-        "package_ndc": [
-          "42023-182-89"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "nui": [
-          "N0000175980",
-          "N0000175518",
-          "N0000009963"
-        ],
-        "pharm_class_epc": [
-          "Anti-coagulant [EPC]",
-          "Direct Thrombin Inhibitor [EPC]"
-        ],
-        "pharm_class_moa": [
-          "Thrombin Inhibitors [MoA]"
-        ],
-        "unii": [
-          "IY90U61Z3S"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100072",
-      "recalling_firm": "Par Health USA, LLC",
-      "address_1": "870 Parkdale Rd",
-      "address_2": "",
-      "postal_code": "48307-1740",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Press Release",
-      "distribution_pattern": "Nationwide within the United States",
-      "recall_number": "D-0083-2027",
-      "product_description": "Argatroban Injection, USP, 250 mg/2.5mL (100 mg/mL), 2.5 mL x 1 Single Dose Vial, Rx only, Manufactured for: Endo USA, Malvern,PA 19355/ Argatroban Injection, 250 mg/2.5mL (100 mg/mL), 2.5 mL x 1 Single Dose Vial, Rx only, Distributed by: Par Pharmaceutical, Cranbury, NJ 08512, NDC 42023-182-89.",
-      "product_quantity": "1944 vials",
-      "reason_for_recall": "Particulate matter: particulate matter identified as cellulose, polystyrene, polyethylene teraphalate, stainless steel, or stopper material in the product solution.",
-      "recall_initiation_date": "20261013",
-      "center_classification_date": "20261026",
-      "report_date": "20261028",
-      "code_info": "Lot #: 84193, Exp Date: 10/2026; 92880, Exp Date: 08/2027.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0064-2027",
-      "product_description": "Brush Buddies, Chocolate Ice Cream Flavored Toothpaste, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-518-35, Item # 88518, UPC 8 10147 88518 3",
-      "product_quantity": "112,092 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250037221405, Exp Date: 07/04/2027;  Lot# LWP250048151011, Exp Date: 11/11/2027;  Lot# LWP250051162312A, Exp Date: 02/08/2028;  Lot# LWP0054880903C, Exp Date: 04/30/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Manhattan",
-      "state": "NY",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "NDA021301"
-        ],
-        "brand_name": [
-          "LEVOXYL"
-        ],
-        "generic_name": [
-          "LEVOTHYROXINE SODIUM"
-        ],
-        "manufacturer_name": [
-          "Pfizer Laboratories Div Pfizer Inc"
-        ],
-        "product_ndc": [
-          "60793-850",
-          "60793-851",
-          "60793-852",
-          "60793-853",
-          "60793-854",
-          "60793-855",
-          "60793-856",
-          "60793-857",
-          "60793-858",
-          "60793-859",
-          "60793-860"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "LEVOTHYROXINE SODIUM"
-        ],
-        "rxcui": [
-          "892246",
-          "892251",
-          "966157",
-          "966164",
-          "966170",
-          "966175",
-          "966184",
-          "966190",
-          "966194",
-          "966200",
-          "966204",
-          "966211",
-          "966220",
-          "966221",
-          "966222",
-          "966224",
-          "966225",
-          "966248",
-          "966249",
-          "966253",
-          "966270",
-          "966283"
-        ],
-        "spl_id": [
-          "e230c170-2a16-47d0-bce7-ac0414c192f7"
-        ],
-        "spl_set_id": [
-          "758588c3-c63e-491b-0aa2-4f50d80cb174"
-        ],
-        "package_ndc": [
-          "60793-850-10",
-          "60793-850-01",
-          "60793-851-10",
-          "60793-851-01",
-          "60793-852-10",
-          "60793-852-01",
-          "60793-853-10",
-          "60793-853-01",
-          "60793-854-10",
-          "60793-854-01",
-          "60793-855-10",
-          "60793-855-01",
-          "60793-856-10",
-          "60793-856-01",
-          "60793-857-10",
-          "60793-857-01",
-          "60793-858-10",
-          "60793-858-01",
-          "60793-859-10",
-          "60793-859-01",
-          "60793-860-10",
-          "60793-860-01"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0360793856018",
-          "0360793850016",
-          "0360793852010",
-          "0360793851013",
-          "0360793857015",
-          "0360793853017",
-          "0360793854014",
-          "0360793858012",
-          "0360793855011",
-          "0360793859019",
-          "0360793860015"
-        ],
-        "unii": [
-          "9J765S329G"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "99963",
-      "recalling_firm": "Pfizer",
-      "address_1": "66 Hudson Blvd",
-      "address_2": "",
-      "postal_code": "10001-2189",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "US Nationwide and Puerto Rico",
-      "recall_number": "D-0052-2027",
-      "product_description": "Levoxyl (levothyroxine sodium tablets, USP), tablets, 175 mcg, 100 tablet bottle, Rx only, Distributed by Pfizer Inc., New York, NY 10017, Made in Austria.  NDC 60793-859-01.",
-      "product_quantity": "15,815 100-count bottles",
-      "reason_for_recall": "Subpotent Drug: confirmed out-of-specification (OOS) assay during stability testing.",
-      "recall_initiation_date": "20260929",
-      "center_classification_date": "20261016",
-      "report_date": "20261028",
-      "code_info": "Lot # 24W06, Exp: 11/30/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0059-2027",
-      "product_description": "evo, Advanced Whitening, Anticavity Fluoride Toothpaste, (sodium fluoride 0.24%) Peppermint, Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-886-19, Item# 88619, UPC 8 10147 88619 7",
-      "product_quantity": "405,336 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250038750606, Exp Date: 08/03/2027;  Lot# LWP250045152409A, Exp Date: 10/06/2027;  Lot# LWP250046862110A, Exp Date: 11/11/2027;  Lot# LWP250047640511B, Exp Date: 12/17/2027;  Lot# LWP250051172312A, Exp Date: 01/25/2028;  Lot# LWP250051182312B, Exp Date: 01/28/2028;  Lot# LWP260052241401B, Exp Date: 03/18/2028;  Lot# LWP0054880903F, Exp Date: 03/29/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Bedminster",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA209042"
-        ],
-        "brand_name": [
-          "AMLODIPINE AND OLMESARTAN MEDOXOMIL"
-        ],
-        "generic_name": [
-          "AMLODIPINE AND OLMESARTAN MEDOXOMIL"
-        ],
-        "manufacturer_name": [
-          "Ascend Laboratories, LLC"
-        ],
-        "product_ndc": [
-          "67877-499",
-          "67877-500",
-          "67877-501",
-          "67877-502"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "AMLODIPINE BESYLATE",
-          "OLMESARTAN MEDOXOMIL"
-        ],
-        "rxcui": [
-          "730861",
-          "730866",
-          "730869",
-          "730872"
-        ],
-        "spl_id": [
-          "32238052-6c4c-4b29-a59e-524c819c69f1"
-        ],
-        "spl_set_id": [
-          "c1204fbe-d086-43cf-bbaa-efec9cd0487c"
-        ],
-        "package_ndc": [
-          "67877-499-30",
-          "67877-499-90",
-          "67877-500-30",
-          "67877-500-90",
-          "67877-501-30",
-          "67877-501-90",
-          "67877-502-30",
-          "67877-502-90"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "6M97XTV3HD",
-          "864V2Q084H"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100053",
-      "recalling_firm": "Ascend Laboratories, LLC",
-      "address_1": "135 Us Highway 202 206 Ste 15",
-      "address_2": "",
-      "postal_code": "07921-2608",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide within the United States",
-      "recall_number": "D-0045-2027",
-      "product_description": "Amlodipine and Olmesartan Medoxomil Tablets, 10mg/40mg, 30 Tablets, Rx only, Manufactured by: Alkem Laboratories Ltd., INDIA, Distributed by: Ascend Laboratories, LLC, Parsippany, NJ 07054, NDC 67877-502-30.",
-      "product_quantity": "11,424 bottles.",
-      "reason_for_recall": "Out of specification due to dissolution.",
-      "recall_initiation_date": "20261006",
-      "center_classification_date": "20261016",
-      "report_date": "20261028",
-      "code_info": "Lot # 25120696, Exp Date: December 31, 2026.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0069-2027",
-      "product_description": "ARU, Toothpaste, Cavity Protection, 9 Ingredients, Cool Mint, (sodium fluoride 0.243%) Net Wt 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-785-35, Item # 88785, UPC 8 10147 88785",
-      "product_quantity": "15,264 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot # LWP250047850611C, Exp Date: 12/22/2027; Lot # LWP260052612201C, Exp Date: 3/31/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0061-2027",
-      "product_description": "Brush Buddies, Vanilla Ice Cream Flavored Toothpaste, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-517-35, Item # 88517, UPC 8 10147 88517 6",
-      "product_quantity": "112,092 tubes",
-      "reason_for_recall": "CGMP Deviations",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250037221405, Exp Date: 07/04/2027;  Lot# LWP250048151011, Exp Date: 11/11/2027;  Lot# LWP250051162312A, Exp Date: 02/08/2028;  Lot# LWP0054880903C, Exp Date: 04/30/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0053-2027",
-      "product_description": "Brush Buddies, Barbie, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Bubble Gum Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-001-40, Item# 88022, UPC 8 10147 88022 5",
-      "product_quantity": "409,800 tubes",
-      "reason_for_recall": "CGMP Deviations",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250031810502A, LWP250032571702A, Exp Date: 02/28/2027; Lot# LWP250035710304A, Exp Date: 04/27/2027; Lot # LWP250037812105, Exp Date: 06/03/2027; Lot # LWP250045750310, Exp Date: 02/19/2028; Lot # LWP260055421803, Exp Date: 05/13/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Irving",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100109",
-      "recalling_firm": "Right Value Drug Stores LLC",
-      "address_1": "8400 Esters Blvd Ste 190",
-      "address_2": "",
-      "postal_code": "75063-2217",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide in the USA.",
-      "recall_number": "D-0070-2027",
-      "product_description": "Testosterone Cypionate, 200 mg/mL, packaged in a) 5 mL vials (NDC 73271-1225-1) and b) 30 m vials ( NDC 73271-1226-2) This Is A Compounded Dug, Intramuscular Use, Office Use Only, 8400 Esters Blvd, STE 190, Irving, TX 75063.",
-      "product_quantity": "4675 vials",
-      "reason_for_recall": "Lack of sterility assurance.",
-      "recall_initiation_date": "20261009",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "a) Lot 10212025@3, BUD 10/21/2026; 10292025@4, BUD 10/29/2026; 10282025@6, BUD: 10/29/2026; 12012025@1, BUD: 12/01/2026; 04072026@1, BUD: 04/01/2027; 05262026@3, BUD 05/08/2027; 05262026@7, BUD 11/17/2026; 05272026@1, BUD 05/08/2027; 05272026@2, BUD: 11/22/2026; 07032026@1, BUD 05/08/2027; 07022026@1, BUD: 05/08/2027; 07062026@3, BUD: 05/08/2027; 07072026@3, BUD: 12/30/2026.  b) 04012026@2, BUD 04/01/2027.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Manhattan",
-      "state": "NY",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "NDA021301"
-        ],
-        "brand_name": [
-          "LEVOXYL"
-        ],
-        "generic_name": [
-          "LEVOTHYROXINE SODIUM"
-        ],
-        "manufacturer_name": [
-          "Pfizer Laboratories Div Pfizer Inc"
-        ],
-        "product_ndc": [
-          "60793-850",
-          "60793-851",
-          "60793-852",
-          "60793-853",
-          "60793-854",
-          "60793-855",
-          "60793-856",
-          "60793-857",
-          "60793-858",
-          "60793-859",
-          "60793-860"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "LEVOTHYROXINE SODIUM"
-        ],
-        "rxcui": [
-          "892246",
-          "892251",
-          "966157",
-          "966164",
-          "966170",
-          "966175",
-          "966184",
-          "966190",
-          "966194",
-          "966200",
-          "966204",
-          "966211",
-          "966220",
-          "966221",
-          "966222",
-          "966224",
-          "966225",
-          "966248",
-          "966249",
-          "966253",
-          "966270",
-          "966283"
-        ],
-        "spl_id": [
-          "e230c170-2a16-47d0-bce7-ac0414c192f7"
-        ],
-        "spl_set_id": [
-          "758588c3-c63e-491b-0aa2-4f50d80cb174"
-        ],
-        "package_ndc": [
-          "60793-850-10",
-          "60793-850-01",
-          "60793-851-10",
-          "60793-851-01",
-          "60793-852-10",
-          "60793-852-01",
-          "60793-853-10",
-          "60793-853-01",
-          "60793-854-10",
-          "60793-854-01",
-          "60793-855-10",
-          "60793-855-01",
-          "60793-856-10",
-          "60793-856-01",
-          "60793-857-10",
-          "60793-857-01",
-          "60793-858-10",
-          "60793-858-01",
-          "60793-859-10",
-          "60793-859-01",
-          "60793-860-10",
-          "60793-860-01"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0360793856018",
-          "0360793850016",
-          "0360793852010",
-          "0360793851013",
-          "0360793857015",
-          "0360793853017",
-          "0360793854014",
-          "0360793858012",
-          "0360793855011",
-          "0360793859019",
-          "0360793860015"
-        ],
-        "unii": [
-          "9J765S329G"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "99963",
-      "recalling_firm": "Pfizer",
-      "address_1": "66 Hudson Blvd",
-      "address_2": "",
-      "postal_code": "10001-2189",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "US Nationwide and Puerto Rico",
-      "recall_number": "D-0051-2027",
-      "product_description": "Levoxyl (levothyroxine sodium tablets, USP), tablets, 175 mcg, 1000-count bottle, Rx only,  Distributed by Pfizer Inc., New York, NY 10017, Made in Austria.  NDC 60793-859-10",
-      "product_quantity": "134 1000-count bottles",
-      "reason_for_recall": "Subpotent Drug: confirmed out-of-specification (OOS) assay during stability testing.",
-      "recall_initiation_date": "20260929",
-      "center_classification_date": "20261016",
-      "report_date": "20261028",
-      "code_info": "Lot # 24W07, Exp: 11/30/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0055-2027",
-      "product_description": "Brush Buddies, Crayola, Silly Scents, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Bubble Gum Flavor, Net Wt. 4.0 oz (113g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-003-40, Item # 32731, UPC 8 50048 32731 3",
-      "product_quantity": "320,232 tubes",
-      "reason_for_recall": "CGMP Deviations",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot # LWP240027561211, Exp Date: 12/07/2026;  Lot # LWP250031970602, Exp Date: 02/28/2027;  Lot # LWP250031980602, Exp Date: 03/11/2027;  Lot # LWP250032381402, Exp Date: 03/17/2027;  Lot # LWP250035680204, Exp Date: 04/30/2027;  Lot # LWP250037682005A, Exp Date: 06/08/2027;  Lot # LWP250048601811, Exp Date: 12/09/2027;  Lot # LWP250051382412, Exp Date: 01/09/2028;  Lot # LWP260053652002, LWP260054222502, Exp Date: 03/31/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0065-2027",
-      "product_description": "Brush Buddies, Whitening Anti-cavity Fluoride Toothpaste, with Baking Soda, (sodium monofluorophosphate 0.76%) Cool Mint, Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-007-07, ITEM # 999131, 8 50010 84249 3",
-      "product_quantity": "797,868 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot # LWP250032331302B, Exp Date: 02/23/2027;  Lot # LWP250034892603, Exp Date: 04/07/2027;  Lot # LWP250032581702, Exp Date: 04/14/2027;  Lot # LWP250045162409, Exp Date: 10/17/2027;  Lot # LWP250032331302A, LWP250047640511A, Exp Date: 12/20/2027; Lot # LWP250051162312B, Exp Date: 01/04/2028;  Lot # LWP0054880903B, Exp Date: 04/08/2028;  Lot # LWP260056333003A, Exp Date: 05/15/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Haridwar",
-      "state": "",
-      "country": "India",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99849",
-      "recalling_firm": "PRITAM INTERNATIONAL PRIVATE LIMITED",
-      "address_1": "Khasra No. 138, Raipur Industrial Area",
-      "address_2": "Bhagwanpur",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0063-2027",
-      "product_description": "Brush Buddies, Cookies 'n Cream Ice Cream Flavored Toothpaste, Anticavity Fluoride Toothpaste, (sodium fluoride 0.243%) Net Wt. 3.5 oz (99g), Distributed by Ashtel Studios Inc., Ontario, California 91761, NDC 84140-519-35, Item # 88519, UPC 8 10147 88519 0",
-      "product_quantity": "112,092 tubes",
-      "reason_for_recall": "CGMP Deviations.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261019",
-      "report_date": "20261028",
-      "code_info": "Lot# LWP250037221405, Exp Date: 07/04/2027;  Lot# LWP250048151011, Exp Date: 11/11/2027;  Lot# LWP250051162312A, Exp Date: 02/08/2028;  Lot# LWP0054880903C, Exp Date: 04/30/2028.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Houston",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99990",
-      "recalling_firm": "Houston Rx LLC",
-      "address_1": "15340 Vantage Pkwy E Ste 220",
-      "address_2": "",
-      "postal_code": "77032-1901",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "Nationwide in the USA.",
-      "recall_number": "D-0041-2027",
-      "product_description": "Sermorelin, 1 mg/mL, 10 ml vial, Sterile injectable solution, RX Only, Houston RX LLC, 15430 Vantage Parkway E STE 220, Houston, TX 77032.",
-      "product_quantity": "7 vials",
-      "reason_for_recall": "Lack of process control",
-      "recall_initiation_date": "20260925",
-      "center_classification_date": "20261013",
-      "report_date": "20261021",
-      "code_info": "Lot# SER-081726-1-10, Beyond Use Date: 10/01/2026.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Parsippany",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA070184"
-        ],
-        "brand_name": [
-          "METOCLOPRAMIDE"
-        ],
-        "generic_name": [
-          "METOCLOPRAMIDE"
-        ],
-        "manufacturer_name": [
-          "Teva Pharmaceuticals USA, Inc."
-        ],
-        "product_ndc": [
-          "0093-2203",
-          "0093-2204"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "METOCLOPRAMIDE HYDROCHLORIDE"
-        ],
-        "rxcui": [
-          "311666",
-          "311668"
-        ],
-        "spl_id": [
-          "61b5d2d5-1e7b-44ff-a831-1a0de78edecd"
-        ],
-        "spl_set_id": [
-          "e15905e0-e0f6-4c8b-ac19-59724d6c4bf0"
-        ],
-        "package_ndc": [
-          "0093-2204-01",
-          "0093-2204-05",
-          "0093-2203-01",
-          "0093-2203-05",
-          "0093-2203-10"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0300932203013",
-          "0300932204010"
-        ],
-        "unii": [
-          "W1792A2RVD"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100013",
-      "recalling_firm": "Teva Pharmaceuticals USA, Inc",
-      "address_1": "400 Interpace Pkwy Bldg A",
-      "address_2": "",
-      "postal_code": "07054-1120",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "US Nationwide.",
-      "recall_number": "D-0038-2027",
-      "product_description": "Metoclopramide Tablets, USP, 5 mg, [100 or 500] Tablets per bottle, Rx Only, Manufactured for: Teva Pharmaceuticals, Parsippany, NJ 07054.  NDC 100 Tablets: 0093-2204-01; NDC 500 Tablets: 0093-2204-05",
-      "product_quantity": "240,448 cartons",
-      "reason_for_recall": "Presence of Foreign Tablets/Capsules",
-      "recall_initiation_date": "20260929",
-      "center_classification_date": "20261013",
-      "report_date": "20261021",
-      "code_info": "Lot, expiry: [100 Tablets] Lots 8634085, 8635085, 8636085, exp 07/2027; [500 Tablets] Lot 8633085, exp 07/2027",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Columbus",
-      "state": "OH",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA072801"
-        ],
-        "brand_name": [
-          "METOCLOPRAMIDE"
-        ],
-        "generic_name": [
-          "METOCLOPRAMIDE"
-        ],
-        "manufacturer_name": [
-          "American Health Packaging"
-        ],
-        "product_ndc": [
-          "60687-620",
-          "60687-631"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "METOCLOPRAMIDE HYDROCHLORIDE"
-        ],
-        "rxcui": [
-          "311666",
-          "311668"
-        ],
-        "spl_id": [
-          "223f574d-b64f-236d-e063-6294a90aada1"
-        ],
-        "spl_set_id": [
-          "998f1782-bbfa-469b-9fe1-c612e8588f70"
-        ],
-        "package_ndc": [
-          "60687-620-11",
-          "60687-620-01",
-          "60687-631-11",
-          "60687-631-01"
-        ],
-        "original_packager_product_ndc": [
-          "0093-2204",
-          "0093-2203"
-        ],
-        "unii": [
-          "W1792A2RVD"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100100",
-      "recalling_firm": "American Health Packaging",
-      "address_1": "2550 John Glenn Ave Ste A",
-      "address_2": "",
-      "postal_code": "43217-1188",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "US Nationwide",
-      "recall_number": "D-0042-2027",
-      "product_description": "Metoclopramide Tablets, USP, 5 mg, 100 Tablets (10 x 10), Rx Only, Distributed by: American Health Packaging, Columbus, Ohio 43217.  NDC Carton: 60687-620-01; NDC Unit Dose: 60687-620-11",
-      "product_quantity": "5,363 cartons",
-      "reason_for_recall": "Presence of Foreign Tablets/Capsules",
-      "recall_initiation_date": "20261006",
-      "center_classification_date": "20261014",
-      "report_date": "20261021",
-      "code_info": "Lot 1028135, 1029555; Exp. Date 07/31/2027",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Pennington",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA217191"
-        ],
-        "brand_name": [
-          "HYDROCORTISONE SODIUM SUCCINATE"
-        ],
-        "generic_name": [
-          "HYDROCORTISONE SODIUM SUCCINATE"
-        ],
-        "manufacturer_name": [
-          "Zydus Pharmaceuticals USA Inc."
-        ],
-        "product_ndc": [
-          "70710-1907"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAMUSCULAR",
-          "INTRAVENOUS"
-        ],
-        "substance_name": [
-          "HYDROCORTISONE SODIUM SUCCINATE"
-        ],
-        "rxcui": [
-          "238755"
-        ],
-        "spl_id": [
-          "9e47e808-7310-4c61-ac62-595a5c357123"
-        ],
-        "spl_set_id": [
-          "37534164-9de5-4bb3-9f87-341dfcf90883"
-        ],
-        "package_ndc": [
-          "70710-1907-1"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "50LQB69S1Z"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100017",
-      "recalling_firm": "Zydus Pharmaceuticals (USA) Inc",
-      "address_1": "73 Route 31 N",
-      "address_2": "",
-      "postal_code": "08534-3601",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide within the United States",
-      "recall_number": "D-0039-2027",
-      "product_description": "Hydrocortisone Sodium Succinate for Injection, USP 100 mg/vial, 1 Vial, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Vadodara - 391510 India, Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534, NDC 70710-1907-1.",
-      "product_quantity": "70776 vials",
-      "reason_for_recall": "Failed Impurities/Degradation Specifications.",
-      "recall_initiation_date": "20261001",
-      "center_classification_date": "20261013",
-      "report_date": "20261021",
-      "code_info": "Lot #: LB00047A, LB00048A, Exp. Date 03/2028",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Houston",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99990",
-      "recalling_firm": "Houston Rx LLC",
-      "address_1": "15340 Vantage Pkwy E Ste 220",
-      "address_2": "",
-      "postal_code": "77032-1901",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
-      "distribution_pattern": "Nationwide in the USA.",
-      "recall_number": "D-0040-2027",
-      "product_description": "Tirzepatide/Niacinamide 2mL vial (40 MG per Vial) Inj 20mg/2mg/mL, RX Only, Houston RX LLC, 15430 Vantage Parkway E STE 220, Houston, TX 77032.",
-      "product_quantity": "64 vials",
-      "reason_for_recall": "Lack of assurance of sterility.",
-      "recall_initiation_date": "20260925",
-      "center_classification_date": "20261013",
-      "report_date": "20261021",
-      "code_info": "Lot# TZN-080326-20/2-2, Beyond Use Date: 12/01/2026.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Pomona",
-      "state": "CA",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "M018"
-        ],
-        "brand_name": [
-          "LEADER DRY EYE RELIEF EYE DROPS",
-          "ARTIFICIAL TEARS",
-          "FOSTER AND THRIVE DRY EYE RELIEF"
-        ],
-        "generic_name": [
-          "GLYCERIN, HYPROMELLOSE, POLYETHYLENE GLYCOL 400",
-          "GLYCERIN",
-          "POLYETHYLENE GLYCOL 400"
-        ],
-        "manufacturer_name": [
-          "CARDINAL HEALTH 110, LLC. DBA LEADER",
-          "Geri-Care Pharmaceuticals, Corp",
-          "Strategic Sourcing Services LLC"
-        ],
-        "product_ndc": [
-          "70000-0502",
-          "57896-181",
-          "70677-1157"
-        ],
-        "product_type": [
-          "HUMAN OTC DRUG"
-        ],
-        "route": [
-          "OPHTHALMIC"
-        ],
-        "substance_name": [
-          "GLYCERIN",
-          "HYPROMELLOSE, UNSPECIFIED",
-          "POLYETHYLENE GLYCOL 400",
-          "HYPROMELLOSES"
-        ],
-        "rxcui": [
-          "259581",
-          "2360899"
-        ],
-        "spl_id": [
-          "5944f7bf-c84b-497f-e063-6394a90aed1f",
-          "472b069b-4e80-8cb8-e063-6294a90a302b",
-          "4749275b-6982-4eaf-e063-6394a90aaee9"
-        ],
-        "spl_set_id": [
-          "2ded4bda-b3c3-4521-8701-5c8446fd148b",
-          "7cc437e3-bad9-59be-e053-2991aa0a1da3",
-          "0018ade9-5856-db6c-e063-6394a90a2ccf"
-        ],
-        "package_ndc": [
-          "70000-0502-1",
-          "70000-0502-2",
-          "57896-181-05",
-          "70677-1157-1"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0096295137064",
-          "0096295137071",
-          "0357896184056",
-          "0010939958266",
-          "867166000004",
-          "093351011566",
-          "614299056206",
-          "041220437412",
-          "072036713032",
-          "036800361003"
-        ],
-        "nui": [
-          "N0000185370",
-          "N0000175629",
-          "N0000184306",
-          "N0000185001",
-          "M0000728",
-          "M0009417"
-        ],
-        "pharm_class_epc": [
-          "Non-Standardized Chemical Allergen [EPC]"
-        ],
-        "pharm_class_pe": [
-          "Increased Histamine Release [PE]",
-          "Cell-mediated Immunity [PE]",
-          "Increased IgG Production [PE]"
-        ],
-        "pharm_class_cs": [
-          "Allergens [CS]",
-          "Glycerol [CS]"
-        ],
-        "unii": [
-          "PDC6A3C0OX",
-          "3NXW29V3WO",
-          "B697894SGQ"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "99880",
-      "recalling_firm": "K.C. Pharmaceuticals, Inc.",
-      "address_1": "3420 Pomona Blvd",
-      "address_2": "N/A",
-      "postal_code": "91768-3236",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "US Nationwide",
-      "recall_number": "D-0006-2027",
-      "product_description": "Sterile Lubricant Dry Eye Relief Eye Drops, 0.5 FL OZ (15 mL); a) LEADER, DISTRIBUTED BY CARDINAL HEALTH, DUBLIN, OHIO 43017, www.myleader.com, NDC 70000-0502-1; b) Crocodile Tears, Distributed by: Crocodile Tears, Palm Beach Gardens, FL 33410, UPC: 8 67166 00000 4; c) Discount drug mart, Discount Drug Mart Food Fair, Medina, OH 44256, UPC: 0 93351 01156 6; d) exchange select, Manufactured for your Military Exchange By: K.C Pharmaceuticals, Inc., Pomona, CA 9176, UPC: 6 14299 05620 6; e) GERI CARE, Distributed by: Gericare Pharmaceuticals Corp., 1295 Towbin Ave., Lakewood, NJ 08701, NDC 57896-181-05; f) H.E.B Dry Eye,  Eye Drops, MADE WITH PRIDE & CARE FOR H-E-B, SAN ANTONIO, TX 78204, UPC 0 41220 43741 2; g) Harris Teeter, PROUDLY DISTRIBUTED BY: HARRIS TEETER, LLC, MATTHEWS, NC 28105, UPC: 0 72036 71303 2; h) Foster & Thrive, Distributed by: McKesson Corp. Via Strategic Sourcing Servies LLC., Memphis, TN 38141, NDC 70677-1157-1; I) TopCare health, DISTRIBUTED BY TOPCO ASSOCIATES LLC, ELKGROVE VILLAGE, IL 60007, UPC 0 36800 36100 3.",
-      "product_quantity": "1,327,248 cartons",
-      "reason_for_recall": "Lack of Assurance of Sterility",
-      "recall_initiation_date": "20260911",
-      "center_classification_date": "20261005",
-      "report_date": "20261014",
-      "code_info": "Lot: a) LT25B01, Exp.: 02/28/2027; b) LT25D02, Exp.: 04/30/2027; LT25K01, Exp.: 09/30/2027; c) LT25D02, Exp.: 04/30/2027; LT25K01, Exp.: 09/30/2027; d) LT25D02, Exp.: 04/30/2027; LT25M02, Exp.: 10/31/2027; e) LT25B01, Exp.: 02/28/2027; LT25D01, Exp.: 04/30/2027; LT25D02, Exp.: 04/30/2027; LT25K01, Exp.: 09/30/2027; LT25M01, Exp.: 10/31/2027; LT25M02, Exp.: 10/31/2027; LT25N01, Exp.: 11/30/2027; LT25N02, Exp.: 11/30/2027; f) LT25B01, Exp.: 02/28/2027; g) LT25M02, Exp.: 10/31/2027; h) LT25B01, Exp.: 02/28/2027; I) LT25B01, Exp.: 02/28/2027; LT25D02, Exp.: 04/30/2027; LT25M02, Exp.: 10/31/2027."
-    },
-    {
-      "status": "Ongoing",
-      "city": "Ridgeland",
-      "state": "SC",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99867",
-      "recalling_firm": "Carolina Infusion, LLC",
-      "address_1": "95 Bees Creek Rd",
-      "address_2": "N/A",
-      "postal_code": "29936-7540",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "Nationwide within the U.S",
-      "recall_number": "D-0021-2027",
-      "product_description": "QUAD-MIX( PAPAV/PHENTO/ALPROS/TROP) INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936",
-      "product_quantity": "5 mls in patient specific syringe doses",
-      "reason_for_recall": "Lack of Assurance of Sterility:   Related to processing equipment used in compounded product.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261008",
-      "report_date": "20261014",
-      "code_info": "LOT: 08032026@24, BUD: 09/17/2026."
-    },
-    {
-      "status": "Ongoing",
-      "city": "Ridgeland",
-      "state": "SC",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99867",
-      "recalling_firm": "Carolina Infusion, LLC",
-      "address_1": "95 Bees Creek Rd",
-      "address_2": "N/A",
-      "postal_code": "29936-7540",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "Nationwide within the U.S",
-      "recall_number": "D-0027-2027",
-      "product_description": "TIRZEPATIDE/CYANOCOBALAMIN 26/2 MG/ML INJECTABLE, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936",
-      "product_quantity": "297 mL - in patient specific syringe dose",
-      "reason_for_recall": "Lack of Assurance of Sterility: Related to formulation using bacteriostic water; Related to processing equipment used in compounded product.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261008",
-      "report_date": "20261014",
-      "code_info": "Lot:07212026@18, BUD: 9/4/2026; 07222026@14, BUD: 9/5/2026; 07292026@8, BUD: 9/12/2026; 08052026@14, BUD: 9/19/2026; 08142026@1, BUD: 9/28/2026; 08192026@10, BUD: 10/3/2026; 08242026@25, BUD: 10/8/2026; 08282026@2, BUD: 10/12/2026; 08292026@1, BUD:10/13/2026;"
-    },
-    {
-      "status": "Ongoing",
-      "city": "Ridgeland",
-      "state": "SC",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99867",
-      "recalling_firm": "Carolina Infusion, LLC",
-      "address_1": "95 Bees Creek Rd",
-      "address_2": "N/A",
-      "postal_code": "29936-7540",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "Nationwide within the U.S",
-      "recall_number": "D-0022-2027",
-      "product_description": "Tri-MIX (PAPAV/PHENTO/ALPROS),30/1/20, injectable,  Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936,",
-      "product_quantity": "15 mLs - in patient specific syringe doses",
-      "reason_for_recall": "Lack of Assurance of Sterility:  Related to processing equipment used in compounded product.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261008",
-      "report_date": "20261014",
-      "code_info": "Lot: 08072026@2, BUD:9/21/2026; 08032026@10, BUD:09/17/2026."
-    },
-    {
-      "status": "Ongoing",
-      "city": "Ridgeland",
-      "state": "SC",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99867",
-      "recalling_firm": "Carolina Infusion, LLC",
-      "address_1": "95 Bees Creek Rd",
-      "address_2": "N/A",
-      "postal_code": "29936-7540",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "Nationwide within the U.S",
-      "recall_number": "D-0023-2027",
-      "product_description": "Tri-MIX (PAPAV/PHENTO/ALPROS),30/1/10, injectable,  Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936,",
-      "product_quantity": "5 mL in patient specific syringe doses",
-      "reason_for_recall": "Lack of Assurance of Sterility: Related to processing equipment used in compounded product.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261008",
-      "report_date": "20261014",
-      "code_info": "Lot: 07242026@7, BUD: 09/7/2026."
-    },
-    {
-      "status": "Ongoing",
-      "city": "Ridgeland",
-      "state": "SC",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99867",
-      "recalling_firm": "Carolina Infusion, LLC",
-      "address_1": "95 Bees Creek Rd",
-      "address_2": "N/A",
-      "postal_code": "29936-7540",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "Nationwide within the U.S",
-      "recall_number": "D-0025-2027",
-      "product_description": "Tri-MIX (PAPAV/PHENTO/ALPROS),30/1/60, injectable, Packaged in single-use dosage syringes, total mL dispensed based on dosage per specific patient prescription, Carolina Infusion LLC, 95 Bees Creek Road, Ridgeland, SC 29936",
-      "product_quantity": "5 mL in patient specific syringe dose",
-      "reason_for_recall": "Lack of Assurance of Sterility: Related to processing equipment used in compounded product.",
-      "recall_initiation_date": "20260910",
-      "center_classification_date": "20261008",
-      "report_date": "20261014",
-      "code_info": "Lot:08062026@10, BUD: 9/20/2026."
     }
   ]
 }

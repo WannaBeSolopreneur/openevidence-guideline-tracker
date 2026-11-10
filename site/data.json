@@ -45,8 +45,8 @@
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-09",
-      "days_elapsed": 1,
+      "as_of": "2026-11-10",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -58,17 +58,17 @@
       "unit": "hours",
       "metric_kind": "snapshot",
       "direction": "lower",
-      "current_value": 41.0,
+      "current_value": 115.0,
       "target_value": 48.0,
-      "current_label": "41 hours",
+      "current_label": "115 hours",
       "target_label": "48 hours",
-      "progress_ratio": 1.170731707317073,
+      "progress_ratio": 0.41739130434782606,
       "pace_ratio": null,
-      "status": "on_track",
-      "status_label": "On track",
+      "status": "behind",
+      "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-09",
-      "days_elapsed": 1,
+      "as_of": "2026-11-10",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.404,
+      "current_value": 0.32950191570881227,
       "target_value": 0.4,
-      "current_label": "40.4%",
+      "current_label": "33%",
       "target_label": "40%",
-      "progress_ratio": 1.01,
+      "progress_ratio": 0.8237547892720306,
       "pace_ratio": null,
-      "status": "on_track",
-      "status_label": "On track",
+      "status": "at_risk",
+      "status_label": "At risk",
       "sort_order": 3,
-      "as_of": "2026-11-09",
-      "days_elapsed": 1,
+      "as_of": "2026-11-10",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 1 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 2 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 0.0,
+      "current_value": 1.0,
       "target_value": 4.0,
-      "current_label": "0",
+      "current_label": "1",
       "target_label": "4",
-      "progress_ratio": 0.0,
-      "pace_ratio": 0.14285714285714285,
-      "status": "behind",
-      "status_label": "Behind",
+      "progress_ratio": 0.25,
+      "pace_ratio": 0.2857142857142857,
+      "status": "at_risk",
+      "status_label": "At risk",
       "sort_order": 4,
-      "as_of": "2026-11-09",
-      "days_elapsed": 1,
+      "as_of": "2026-11-10",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-09T22:07:36Z",
+      "fetched_at": "2026-11-10T19:30:05Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,89 +131,128 @@
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-09T22:07:36Z",
-      "record_count": 64,
+      "fetched_at": "2026-11-10T19:30:05Z",
+      "record_count": 73,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
-      "latest_published_at": "2026-10-29T00:00:00Z"
+      "latest_published_at": "2026-11-09T00:00:00Z"
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-09T22:07:36Z",
-      "record_count": 66,
+      "fetched_at": "2026-11-10T19:30:05Z",
+      "record_count": 68,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
-      "latest_published_at": "2026-10-28T00:00:00Z"
+      "latest_published_at": "2026-11-04T00:00:00Z"
     },
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-09T22:07:36Z",
+      "fetched_at": "2026-11-10T19:30:05Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-09T00:00:00Z"
+      "latest_published_at": "2026-11-10T00:00:00Z"
     }
   ],
   "actions": [
     {
-      "action_id": "openfda_label:623b9672-b41e-4ec9-b2cc-f5bb383c39ba",
-      "item_id": "openfda_label:623b9672-b41e-4ec9-b2cc-f5bb383c39ba",
+      "action_id": "openfda_label:00d11130-c9ae-4258-9746-9763bc5deb84",
+      "item_id": "openfda_label:00d11130-c9ae-4258-9746-9763bc5deb84",
       "source_name": "FDA labels",
-      "title": "Sertraline HCl (SERTRALINE HYDROCHLORIDE)",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=623b9672-b41e-4ec9-b2cc-f5bb383c39ba",
+      "title": "AMITRIPTYLINE HYDROCHLORIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00d11130-c9ae-4258-9746-9763bc5deb84",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-10-23T00:00:00Z",
+      "published_at": "2026-11-06T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 1
     },
     {
-      "action_id": "openfda_label:7c1dd8ce-c490-40b4-b17a-da331df24cba",
-      "item_id": "openfda_label:7c1dd8ce-c490-40b4-b17a-da331df24cba",
+      "action_id": "openfda_label:0669ac77-10df-48af-bc42-55e768b69e4f",
+      "item_id": "openfda_label:0669ac77-10df-48af-bc42-55e768b69e4f",
       "source_name": "FDA labels",
-      "title": "CARBAMAZEPINE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c1dd8ce-c490-40b4-b17a-da331df24cba",
+      "title": "DIVALPROEX SODIUM",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0669ac77-10df-48af-bc42-55e768b69e4f",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-10-23T00:00:00Z",
+      "published_at": "2026-11-06T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 2
     },
     {
-      "action_id": "openfda_enforcement:D-0082-2027",
-      "item_id": "openfda_enforcement:D-0082-2027",
-      "source_name": "FDA recalls",
-      "title": "Argatroban Injection, USP, 250 mg/2.5mL (100 mg/mL), 2.5 mL x 1 Single Dose Vial, Rx only, Manufactured for: Endo USA, Malvern,PA 19355/Argatroban Injection, 250 mg/2.5mL (100",
-      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0082-2027\"&limit=1",
-      "impact_reason": "Class I recall",
-      "published_at": "2026-10-28T00:00:00Z",
-      "sentence": "This is a Class I drug recall. A clinician team should check who might be affected.",
+      "action_id": "openfda_label:0d971993-466c-46dd-bdd6-2e300173621e",
+      "item_id": "openfda_label:0d971993-466c-46dd-bdd6-2e300173621e",
+      "source_name": "FDA labels",
+      "title": "PHYTONADIONE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d971993-466c-46dd-bdd6-2e300173621e",
+      "impact_reason": "Boxed warning",
+      "published_at": "2026-11-06T00:00:00Z",
+      "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 3
     },
     {
-      "action_id": "openfda_enforcement:D-0083-2027",
-      "item_id": "openfda_enforcement:D-0083-2027",
-      "source_name": "FDA recalls",
-      "title": "Argatroban Injection, USP, 250 mg/2.5mL (100 mg/mL), 2.5 mL x 1 Single Dose Vial, Rx only, Manufactured for: Endo USA, Malvern,PA 19355/ Argatroban Injection, 250 mg/2.5mL (100",
-      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0083-2027\"&limit=1",
-      "impact_reason": "Class I recall",
-      "published_at": "2026-10-28T00:00:00Z",
-      "sentence": "This is a Class I drug recall. A clinician team should check who might be affected.",
+      "action_id": "openfda_label:1cf90be3-a744-4db5-999d-a84c67372304",
+      "item_id": "openfda_label:1cf90be3-a744-4db5-999d-a84c67372304",
+      "source_name": "FDA labels",
+      "title": "PHYTONADIONE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cf90be3-a744-4db5-999d-a84c67372304",
+      "impact_reason": "Boxed warning",
+      "published_at": "2026-11-06T00:00:00Z",
+      "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 4
     },
     {
-      "action_id": "openfda_enforcement:D-0084-2027",
-      "item_id": "openfda_enforcement:D-0084-2027",
-      "source_name": "FDA recalls",
-      "title": "Glutathione Injection (Glutathione-L, Ascorbic Acid, Sodium Hydroxide, Bacteriostatic Water), 200 mg/mL, 10 mL multi-dose vial, Rx only, Subcutaneous Only, Greenwich Rx.",
-      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0084-2027\"&limit=1",
-      "impact_reason": "Class I recall",
-      "published_at": "2026-10-28T00:00:00Z",
-      "sentence": "This is a Class I drug recall. A clinician team should check who might be affected.",
+      "action_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
+      "item_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
+      "source_name": "FDA labels",
+      "title": "METRONIDAZOLE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f7d84d4-1085-4243-be88-442eecb85205",
+      "impact_reason": "Boxed warning",
+      "published_at": "2026-11-06T00:00:00Z",
+      "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 5
     }
   ],
   "feed": [
+    {
+      "item_id": "federal_register:2026-22812",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "Medicare and Medicaid Programs, Cutting Administrative Requirements for Excellence in Patient Care",
+      "summary": "This proposed rule would reform Medicare and Medicaid regulations deemed obsolete or excessively burdensome on healthcare providers and suppliers, with the objective of reducing costs, enhancing flexibility in delivering innovative care, and streamlining existing regulations.",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22881",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
+      "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22881/proposed-data-collection-submitted-for-public-comment-and-recommendations",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-22883",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency, Guidance for Industry and Food and Drug Administration Staff, Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency.\" The guidance describes general recommendations for the",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22883/validation-of-certain-in-vitro-diagnostic-devices-for-emerging-pathogens-during-a-section-564",
+      "high_impact": 1,
+      "impact_reason": "FDA guidance",
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "federal_register:2026-22743",
       "source_id": "federal_register",
@@ -306,6 +345,32 @@
       "code_label": ""
     },
     {
+      "item_id": "openfda_label:5e5ebfcb-c3a2-1fcf-e063-6394a90a356a",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "AMINOCAPROIC ACID",
+      "summary": "INDICATIONS AND USAGE Aminocaproic acid tablets, USP is useful in enhancing hemostasis when fibrinolysis contributes to bleeding. In life-threatening situations, transfusion of appropriate blood products and other emergency measures may be required. Fibrinolytic bleeding may",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e5ebfcb-c3a2-1fcf-e063-6394a90a356a",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:5eeca7b4-92ac-bb1f-e063-6394a90a036a",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "TORSEMIDE",
+      "summary": "1 INDICATIONS & USAGE Torsemide tablets are a loop diuretic indicated for: • the treatment of edema associated with heart failure, renal disease or hepatic disease. (1.1) • the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5eeca7b4-92ac-bb1f-e063-6394a90a036a",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension"
+    },
+    {
       "item_id": "federal_register:2026-22657",
       "source_id": "federal_register",
       "source_name": "Federal Register",
@@ -332,299 +397,238 @@
       "code_label": ""
     },
     {
-      "item_id": "cdc_mmwr:766796",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Hantavirus Outbreak Caused by Andes Virus Linked to International Cruise Ship Travel - United States, 2026",
-      "summary": "This report describes cases of hantavirus among people on a cruise ship in the Atlantic Ocean.",
-      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7543a1.htm?s_cid=OS_mm7543a1_x",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "cdc_mmwr:766798",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Cutaneous Aspergillosis Among Extremely Preterm Neonates in Neonatal Intensive Care Units - Michigan and New York, 2023 - 2024",
-      "summary": "This report describes two clusters of cutaneous aspergillosis in neonatal intensive care units in Michigan and New York.",
-      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7543a2.htm?s_cid=OS_mm7543a2_x",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22549",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Office of the Director, Notice of Charter Renewal",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22549/office-of-the-director-notice-of-charter-renewal",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22557",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Proposed Information Collection Activity, Information Comparison With Insurance Data",
-      "summary": "The Office of Child Support Enforcement (OCSE), Administration for Children and Families (ACF), is requesting Office of Management and Budget (OMB) approval of the Information Comparison with Insurance Data (OMB #0970-0342, expiration January 31, 2027) for an additional 3 years.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22557/proposed-information-collection-activity-information-comparison-with-insurance-data",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22589",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Medical Devices, Orthopedic Devices, Classification of the Wearable Vibration Device for Orthopedic Use",
-      "summary": "The Food and Drug Administration (FDA) is classifying the wearable vibration device for orthopedic use into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22589/medical-devices-orthopedic-devices-classification-of-the-wearable-vibration-device-for-orthopedic",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22590",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Medical Devices, Neurological Devices, Classification of the Prognostic Assessment Software of Mild Cognitive Impairment",
-      "summary": "The Food and Drug Administration (FDA) is classifying the prognostic assessment software of mild cognitive impairment into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22590/medical-devices-neurological-devices-classification-of-the-prognostic-assessment-software-of-mild",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22593",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Medical Devices, Hematology and Pathology Devices, Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
-      "summary": "The Food and Drug Administration (FDA) is classifying the digital cervical cytology slide imaging system with artificial intelligence algorithm into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22611",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22611/agency-information-collection-activities-submission-for-omb-review-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22612",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-05T00:00:00Z",
-      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22612/agency-information-collection-activities-proposed-collection-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22369",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-03T00:00:00Z",
-      "title": "Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus, Guidance for Industry, Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus.\" The guidance document provides blood establishments that collect blood and blood",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22369/recommendations-for-reducing-the-risk-of-transfusion-transmitted-hepatitis-b-virus-guidance-for",
+      "item_id": "openfda_label:00d11130-c9ae-4258-9746-9763bc5deb84",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "AMITRIPTYLINE HYDROCHLORIDE",
+      "summary": "Suicidality and Antidepressant Drugs : Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00d11130-c9ae-4258-9746-9763bc5deb84",
       "high_impact": 1,
-      "impact_reason": "FDA guidance",
-      "area": "Not coded",
-      "code_label": ""
+      "impact_reason": "Boxed warning",
+      "area": "Mental health",
+      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. R45.851 Suicidal ideations"
     },
     {
-      "item_id": "federal_register:2026-22370",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-03T00:00:00Z",
-      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22370/agency-information-collection-activities-proposed-collection-comment-request",
+      "item_id": "openfda_label:043b81ed-f05c-43db-b2aa-499cb9f73b44",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "Diethylpropion Hydrochloride ER (DIETHYLPROPION HYDROCHLORIDE)",
+      "summary": "INDICATIONS AND USAGE Diethylpropion hydrochloride extended release tablets, 75 mg are indicated in the management of exogenous obesity as a short-term adjunct (a few weeks) in a regimen of weight reduction based on caloric restriction in patients with an initial body mass index",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=043b81ed-f05c-43db-b2aa-499cb9f73b44",
       "high_impact": 0,
       "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
+      "area": "Diabetes and metabolism",
+      "code_label": "ICD-10 E66.9 Obesity unspecified"
     },
     {
-      "item_id": "federal_register:2026-22381",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-03T00:00:00Z",
-      "title": "Medicare and Medicaid Programs, Organ Procurement Organizations Conditions for Coverage: Revisions to the Conditions for Coverage",
-      "summary": "This final rule revises the Conditions for Coverage for Organ Procurement Organizations (OPOs) to clarify outstanding procedural questions and provide additional operational flexibility for OPOs to achieve high performance resulting in the successful procurement, distribution,",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22381/medicare-and-medicaid-programs-organ-procurement-organizations-conditions-for-coverage-revisions-to",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22427",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-03T00:00:00Z",
-      "title": "Potency Assurance for Cellular and Gene Therapy Products, Guidance for Industry, Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Potency Assurance for Cellular and Gene Therapy Products.\" The guidance document provides recommendations to help assure the potency of human cellular therapy or gene",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability",
+      "item_id": "openfda_label:0669ac77-10df-48af-bc42-55e768b69e4f",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "DIVALPROEX SODIUM",
+      "summary": "WARNING: LIFE THREATENING ADVERSE REACTIONS Hepatotoxicity General Population: Hepatic failure resulting in fatalities has occurred in patients receiving valproate and its derivatives. These incidents usually have occurred during the first six months of treatment. Serious or",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0669ac77-10df-48af-bc42-55e768b69e4f",
       "high_impact": 1,
-      "impact_reason": "FDA guidance",
-      "area": "Not coded",
-      "code_label": ""
+      "impact_reason": "Boxed warning",
+      "area": "Mental health",
+      "code_label": "ICD-10 F31.9 Bipolar disorder unspecified. RxNorm 40254 valproate"
     },
     {
-      "item_id": "federal_register:2026-22273",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-02T00:00:00Z",
-      "title": "Infant Formula Nutrient Requirements",
-      "summary": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements",
+      "item_id": "openfda_label:08936fbe-b98b-4a97-a99b-3e06caa15aaf",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "OXYGEN",
+      "summary": "Label updated in the openFDA drug label index.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08936fbe-b98b-4a97-a99b-3e06caa15aaf",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22326",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-02T00:00:00Z",
-      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22326/agency-information-collection-activities-proposed-collection-comment-request",
+      "item_id": "openfda_label:0d971993-466c-46dd-bdd6-2e300173621e",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "PHYTONADIONE",
+      "summary": "BOXED WARNING WARNING - HYPERSENSITIVITY REACTIONS WITH INTRAVENOUS AND INTRAMUSCULAR USE Fatal hypersensitivity reactions, including anaphylaxis, have occurred during and immediately after intravenous and intramuscular injection of Phytonadione Injectable Emulsion. Reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d971993-466c-46dd-bdd6-2e300173621e",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:101cdc41-2131-4425-b550-6a0a60b5f4a4",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "GLIMEPIRIDE",
+      "summary": "1 INDICATIONS AND USAGE Glimepiride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus [see Clinical Studies ( 14.1 ) ]. Glimepiride tablets are a sulfonylurea indicated as an adjunct to diet and exercise",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=101cdc41-2131-4425-b550-6a0a60b5f4a4",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Diabetes and metabolism",
+      "code_label": "ICD-10 E10.9 Type 1 diabetes mellitus without complications. E11.9 Type 2 diabetes mellitus without complications. RxNorm 25789 glimepiride"
+    },
+    {
+      "item_id": "openfda_label:1441e7b9-97bf-c764-e063-6394a90a7015",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "OXYGEN",
+      "summary": "Label updated in the openFDA drug label index.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1441e7b9-97bf-c764-e063-6394a90a7015",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22329",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-02T00:00:00Z",
-      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22329/agency-forms-undergoing-paperwork-reduction-act-review",
+      "item_id": "openfda_label:1cf90be3-a744-4db5-999d-a84c67372304",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "PHYTONADIONE",
+      "summary": "BOXED WARNING WARNING - INTRAVENOUS AND INTRAMUSCULAR USE Severe reactions, including fatalities, have occurred during and immediately after INTRAVENOUS injection of phytonadione, even when precautions have been taken to dilute the phytonadione and to avoid rapid infusion.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cf90be3-a744-4db5-999d-a84c67372304",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:222b90fd-f070-4fa8-8f8b-720133cb2b0a",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "PRAVASTATIN SODIUM",
+      "summary": "Label updated in the openFDA drug label index.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=222b90fd-f070-4fa8-8f8b-720133cb2b0a",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 42463 pravastatin"
+    },
+    {
+      "item_id": "openfda_label:2506895d-f3e0-4be9-95cb-7a6fd44de46d",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "CEPHALEXIN",
+      "summary": "1 INDICATIONS AND USAGE Cephalexin capsules are a cephalosporin antibacterial drug indicated for the treatment of the following infections caused by susceptible isolates of designated bacteria Respiratory tract infection ( 1.1 ) Otitis media ( 1.2 ) Skin and skin structure",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2506895d-f3e0-4be9-95cb-7a6fd44de46d",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22330",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-02T00:00:00Z",
-      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22330/agency-forms-undergoing-paperwork-reduction-act-review",
+      "item_id": "openfda_label:2f752307-56a0-41e1-82e0-da3c9680faec",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "NITROGEN",
+      "summary": "Label updated in the openFDA drug label index.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f752307-56a0-41e1-82e0-da3c9680faec",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22179",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Medical Devices, General and Plastic Surgery Devices, Classification of the Software-Aided Adjunctive Diagnostic Device for Use by Physicians on Lesions Suspicious for Skin Cancer",
-      "summary": "The Food and Drug Administration (FDA) is classifying the software-aided adjunctive diagnostic device for use by physicians on lesions suspicious for skin cancer into class II (special controls). The special controls that apply to the device type are identified in this order and",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22179/medical-devices-general-and-plastic-surgery-devices-classification-of-the-software-aided-adjunctive",
+      "item_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "METRONIDAZOLE",
+      "summary": "WARNING Metronidazole has been shown to be carcinogenic in mice and rats (see PRECAUTIONS ). Unnecessary use of the drug should be avoided. Its use should be reserved for the conditions described in the INDICATIONS AND USAGE section below.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f7d84d4-1085-4243-be88-442eecb85205",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Not coded",
+      "code_label": "RxNorm 6922 metronidazole"
+    },
+    {
+      "item_id": "openfda_label:3101d4c6-109c-4720-96bd-988357d7de66",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "OXYGEN",
+      "summary": "Label updated in the openFDA drug label index.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3101d4c6-109c-4720-96bd-988357d7de66",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22180",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Medical Devices, Radiology Devices, Classification of the Radiology Software for Referral of Findings Related to Fibrotic Lung Disease",
-      "summary": "The Food and Drug Administration (FDA) is classifying the radiology software for referral of findings related to fibrotic lung disease into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22180/medical-devices-radiology-devices-classification-of-the-radiology-software-for-referral-of-findings",
+      "item_id": "openfda_label:312cd403-b211-64ef-e063-6394a90aab88",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "ISONIAZID",
+      "summary": "WARNING Severe and sometimes fatal hepatitis associated with isoniazid therapy has been reported and may occur or may develop even after many months of treatment. The risk of developing hepatitis is age related. Approximate case rates by age are: less than 1 per 1,000 for",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=312cd403-b211-64ef-e063-6394a90aab88",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Infection",
+      "code_label": "ICD-10 A15.9 Respiratory tuberculosis unspecified. RxNorm 6038 isoniazid"
+    },
+    {
+      "item_id": "openfda_label:31a907e6-7fae-0682-e063-6294a90a24a5",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "HYDROXYZINE HYDROCHLORIDE",
+      "summary": "INDICATIONS AND USAGE For symptomatic relief of anxiety and tension associated with psychoneurosis and as an adjunct in organic disease states in which anxiety is manifested. Useful in the management of pruritus due to allergic conditions such as chronic urticaria and atopic and",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a907e6-7fae-0682-e063-6294a90a24a5",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "federal_register:2026-22181",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Medical Devices, Anesthesiology Devices, Classification of the Spinal Imaging System for Neuraxial Procedures",
-      "summary": "The Food and Drug Administration (FDA) is classifying the spinal imaging system for neuraxial procedures into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22181/medical-devices-anesthesiology-devices-classification-of-the-spinal-imaging-system-for-neuraxial",
+      "item_id": "openfda_label:354a97e8-35c8-418b-91b2-9e8e066cec65",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-06T00:00:00Z",
+      "title": "DALFAMPRIDINE",
+      "summary": "1 INDICATIONS AND USAGE Dalfampridine Extended-Release Tablets are indicated as a treatment to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed [see Clinical Studies (14) ]. Dalfampridine Extended-Release",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=354a97e8-35c8-418b-91b2-9e8e066cec65",
       "high_impact": 0,
       "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22182",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-10-30T00:00:00Z",
-      "title": "Medical Devices, Anesthesiology Devices, Classification of the Over-the-Counter Device To Assess Risk of Sleep Apnea",
-      "summary": "The Food and Drug Administration (FDA) is classifying the over-the-counter device to assess risk of sleep apnea into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for",
-      "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22182/medical-devices-anesthesiology-devices-classification-of-the-over-the-counter-device-to-assess-risk",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
+      "area": "Brain and nerves",
+      "code_label": "ICD-10 G35 Multiple sclerosis"
     }
   ],
   "areas": [
     {
       "area": "Heart and vessels",
-      "item_count": 13
-    },
-    {
-      "area": "Diabetes and metabolism",
-      "item_count": 7
+      "item_count": 10
     },
     {
       "area": "Mental health",
-      "item_count": 7
+      "item_count": 9
     },
     {
-      "area": "Brain and nerves",
-      "item_count": 6
+      "area": "Diabetes and metabolism",
+      "item_count": 5
     },
     {
       "area": "Infection",
-      "item_count": 3
+      "item_count": 5
+    },
+    {
+      "area": "Brain and nerves",
+      "item_count": 2
+    },
+    {
+      "area": "Lung",
+      "item_count": 2
     },
     {
       "area": "Bone and joint",
@@ -635,12 +639,12 @@
       "item_count": 1
     },
     {
-      "area": "Lung",
+      "area": "Kidney",
       "item_count": 1
     },
     {
       "area": "Not coded",
-      "item_count": 208
+      "item_count": 222
     }
   ],
   "weekly": [
@@ -798,7 +802,7 @@
       "week_start": "2026-09-07",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 33
+      "item_count": 0
     },
     {
       "week_start": "2026-09-07",
@@ -822,7 +826,7 @@
       "week_start": "2026-09-14",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 9
+      "item_count": 0
     },
     {
       "week_start": "2026-09-14",
@@ -846,7 +850,7 @@
       "week_start": "2026-09-21",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 4
+      "item_count": 0
     },
     {
       "week_start": "2026-09-21",
@@ -870,7 +874,7 @@
       "week_start": "2026-09-28",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 4
+      "item_count": 0
     },
     {
       "week_start": "2026-09-28",
@@ -894,7 +898,7 @@
       "week_start": "2026-10-05",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 4
+      "item_count": 0
     },
     {
       "week_start": "2026-10-05",
@@ -906,7 +910,7 @@
       "week_start": "2026-10-05",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 18
+      "item_count": 16
     },
     {
       "week_start": "2026-10-12",
@@ -918,13 +922,13 @@
       "week_start": "2026-10-12",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 5
+      "item_count": 0
     },
     {
       "week_start": "2026-10-12",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 6
+      "item_count": 0
     },
     {
       "week_start": "2026-10-12",
@@ -942,13 +946,13 @@
       "week_start": "2026-10-19",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 3
+      "item_count": 0
     },
     {
       "week_start": "2026-10-19",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 5
+      "item_count": 0
     },
     {
       "week_start": "2026-10-19",
@@ -966,67 +970,67 @@
       "week_start": "2026-10-26",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 2
+      "item_count": 0
     },
     {
       "week_start": "2026-10-26",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 28
-    },
-    {
-      "week_start": "2026-10-26",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "item_count": 14
-    },
-    {
-      "week_start": "2026-11-02",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "item_count": 2
-    },
-    {
-      "week_start": "2026-11-02",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-11-02",
-      "source_id": "openfda_enforcement",
-      "source_name": "FDA recalls",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-11-02",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "item_count": 17
-    },
-    {
-      "week_start": "2026-11-09",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-11-09",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-11-09",
-      "source_id": "openfda_enforcement",
-      "source_name": "FDA recalls",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-11-09",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
       "item_count": 7
+    },
+    {
+      "week_start": "2026-10-26",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "item_count": 14
+    },
+    {
+      "week_start": "2026-11-02",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "item_count": 2
+    },
+    {
+      "week_start": "2026-11-02",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "item_count": 71
+    },
+    {
+      "week_start": "2026-11-02",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "item_count": 34
+    },
+    {
+      "week_start": "2026-11-02",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "item_count": 16
+    },
+    {
+      "week_start": "2026-11-09",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "item_count": 0
+    },
+    {
+      "week_start": "2026-11-09",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "item_count": 2
+    },
+    {
+      "week_start": "2026-11-09",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "item_count": 0
+    },
+    {
+      "week_start": "2026-11-09",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "item_count": 10
     }
   ],
   "counts": [
@@ -1038,12 +1042,12 @@
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 64
+      "item_count": 73
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 66
+      "item_count": 68
     },
     {
       "source_id": "federal_register",
@@ -1081,5 +1085,5 @@
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-09T22:07:36Z"
+  "generated_at": "2026-11-10T19:30:05Z"
 }

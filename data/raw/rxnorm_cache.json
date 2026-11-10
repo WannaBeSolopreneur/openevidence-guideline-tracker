@@ -3,6 +3,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1100072"
   },
+  "acetaminophen": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "161"
+  },
   "allopurinol": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "519"
@@ -19,6 +23,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "15202"
   },
+  "aripiprazole": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "89013"
+  },
   "atorvastatin": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "83367"
@@ -31,13 +39,37 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1819"
   },
+  "buspirone": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "1827"
+  },
   "carbamazepine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "2002"
   },
+  "carbidopa": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "2019"
+  },
+  "carboplatin": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "40048"
+  },
+  "cisplatin": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "2555"
+  },
+  "clomiphene": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "2596"
+  },
   "clopidogrel": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "32968"
+  },
+  "colchicine": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "2683"
   },
   "cyanocobalamin": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -51,9 +83,17 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "3008"
   },
+  "dabigatran": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "1546356"
+  },
   "dexamethasone": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "3264"
+  },
+  "digoxin": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "3407"
   },
   "doxorubicin": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -62,6 +102,10 @@
   "doxycycline": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "3640"
+  },
+  "emtricitabine": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "276237"
   },
   "epinephrine": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -79,9 +123,17 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "25480"
   },
+  "glimepiride": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "25789"
+  },
   "heparin": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "235473"
+  },
+  "hydrochlorothiazide": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "5487"
   },
   "hydrocortisone": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -91,9 +143,21 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "27792"
   },
+  "isoniazid": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "6038"
+  },
   "labetalol": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6185"
+  },
+  "levetiracetam": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "114477"
+  },
+  "levodopa": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "6375"
   },
   "levothyroxine": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -143,6 +207,14 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "61381"
   },
+  "oxycodone": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "7804"
+  },
+  "oxytocin": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "7824"
+  },
   "pantoprazole": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "40790"
@@ -151,6 +223,18 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "32937"
   },
+  "phenylephrine": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "8163"
+  },
+  "phenytoin": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "8183"
+  },
+  "prasugrel": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "613391"
+  },
   "pravastatin": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "42463"
@@ -158,6 +242,10 @@
   "pregabalin": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "187832"
+  },
+  "promethazine": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "8745"
   },
   "propofol": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -170,6 +258,14 @@
   "sertraline": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "36437"
+  },
+  "sildenafil": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "136411"
+  },
+  "sofosbuvir": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "1484911"
   },
   "spironolactone": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -203,6 +299,14 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "10737"
   },
+  "valacyclovir": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "73645"
+  },
+  "valproate": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "40254"
+  },
   "varenicline": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "591622"
@@ -210,5 +314,9 @@
   "venlafaxine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "39786"
+  },
+  "warfarin": {
+    "looked_up_at": "2026-11-10 19:30:05",
+    "rxcui": "11289"
   }
 }
