@@ -3,11 +3,11 @@
     "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
     "terms": "https://open.fda.gov/terms/",
     "license": "https://open.fda.gov/license/",
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-12",
     "results": {
       "skip": 0,
       "limit": 60,
-      "total": 8552
+      "total": 8479
     }
   },
   "results": [
@@ -3373,24 +3373,24 @@
           true
         ],
         "nui": [
-          "N0000193220",
-          "M0370111",
           "N0000175754",
-          "N0000175755"
+          "N0000175755",
+          "N0000193220",
+          "M0370111"
         ],
         "pharm_class_epc": [
-          "Aromatic Amino Acid [EPC]",
-          "Aromatic Amino Acid Decarboxylation Inhibitor [EPC]"
-        ],
-        "pharm_class_cs": [
-          "Amino Acids, Aromatic [CS]"
+          "Aromatic Amino Acid Decarboxylation Inhibitor [EPC]",
+          "Aromatic Amino Acid [EPC]"
         ],
         "pharm_class_moa": [
           "DOPA Decarboxylase Inhibitors [MoA]"
         ],
+        "pharm_class_cs": [
+          "Amino Acids, Aromatic [CS]"
+        ],
         "unii": [
-          "46627O600J",
-          "MNX7R8C5VO"
+          "MNX7R8C5VO",
+          "46627O600J"
         ]
       }
     },

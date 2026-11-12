@@ -45,8 +45,8 @@
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-11",
-      "days_elapsed": 3,
+      "as_of": "2026-11-12",
+      "days_elapsed": 4,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -67,8 +67,8 @@
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-11",
-      "days_elapsed": 3,
+      "as_of": "2026-11-12",
+      "days_elapsed": 4,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.3269230769230769,
+      "current_value": 0.33076923076923076,
       "target_value": 0.4,
-      "current_label": "32.7%",
+      "current_label": "33.1%",
       "target_label": "40%",
-      "progress_ratio": 0.8173076923076923,
+      "progress_ratio": 0.8269230769230769,
       "pace_ratio": null,
       "status": "at_risk",
       "status_label": "At risk",
       "sort_order": 3,
-      "as_of": "2026-11-11",
-      "days_elapsed": 3,
+      "as_of": "2026-11-12",
+      "days_elapsed": 4,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,7 +98,7 @@
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 3 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 4 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
@@ -107,12 +107,12 @@
       "current_label": "3",
       "target_label": "4",
       "progress_ratio": 0.75,
-      "pace_ratio": 0.42857142857142855,
+      "pace_ratio": 0.5714285714285714,
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 4,
-      "as_of": "2026-11-11",
-      "days_elapsed": 3,
+      "as_of": "2026-11-12",
+      "days_elapsed": 4,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,16 +122,16 @@
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-11T19:25:25Z",
+      "fetched_at": "2026-11-12T19:42:59Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
-      "latest_published_at": "2026-11-05T00:00:00Z"
+      "latest_published_at": "2026-11-12T00:00:00Z"
     },
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-11T19:25:25Z",
+      "fetched_at": "2026-11-12T19:42:59Z",
       "record_count": 72,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
@@ -140,7 +140,7 @@
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-11T19:25:25Z",
+      "fetched_at": "2026-11-12T19:42:59Z",
       "record_count": 68,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,7 +149,7 @@
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-11T19:25:25Z",
+      "fetched_at": "2026-11-12T19:42:59Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
@@ -214,6 +214,32 @@
     }
   ],
   "feed": [
+    {
+      "item_id": "cdc_mmwr:766820",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "Use of Glucagon-Like Peptide-1 Medications and Modified Medication Use Among Adults - United States, 2025",
+      "summary": "This report describes GLP-1 and compounded GLP-1 use among adults during 2025.",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7544a1.htm?s_cid=OS_mm7544a1_x",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4832 glucagon"
+    },
+    {
+      "item_id": "cdc_mmwr:766823",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "Notes from the Field: Dengue Outbreak - American Samoa, 2025 - 2026",
+      "summary": "This report describes a dengue outbreak in America Samoa that resulted in 1,048 confirmed cases and 371 hospitalizations during June 2025 - August 2026.",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7544a2.htm?s_cid=mm7544a2_x",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "federal_register:2026-22964",
       "source_id": "federal_register",
@@ -577,32 +603,6 @@
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:1cf90be3-a744-4db5-999d-a84c67372304",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "PHYTONADIONE",
-      "summary": "BOXED WARNING WARNING - INTRAVENOUS AND INTRAMUSCULAR USE Severe reactions, including fatalities, have occurred during and immediately after INTRAVENOUS injection of phytonadione, even when precautions have been taken to dilute the phytonadione and to avoid rapid infusion.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cf90be3-a744-4db5-999d-a84c67372304",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:222b90fd-f070-4fa8-8f8b-720133cb2b0a",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "PRAVASTATIN SODIUM",
-      "summary": "Label updated in the openFDA drug label index.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=222b90fd-f070-4fa8-8f8b-720133cb2b0a",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": "RxNorm 42463 pravastatin"
     }
   ],
   "areas": [
@@ -724,7 +724,7 @@
       "week_start": "2026-08-17",
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "item_count": 3
+      "item_count": 1
     },
     {
       "week_start": "2026-08-17",
@@ -1012,7 +1012,7 @@
       "week_start": "2026-11-09",
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "item_count": 0
+      "item_count": 2
     },
     {
       "week_start": "2026-11-09",
@@ -1085,5 +1085,5 @@
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-11T19:25:25Z"
+  "generated_at": "2026-11-12T19:42:59Z"
 }
