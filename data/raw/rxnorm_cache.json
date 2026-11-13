@@ -35,6 +35,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1256"
   },
+  "azithromycin": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "18631"
+  },
   "buprenorphine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1819"
@@ -107,9 +111,21 @@
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "276237"
   },
+  "entecavir": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "306266"
+  },
   "epinephrine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "3992"
+  },
+  "etoposide": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "4179"
+  },
+  "famotidine": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "4278"
   },
   "fluconazole": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -143,6 +159,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "5492"
   },
+  "ibuprofen": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "5640"
+  },
   "ioversol": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "27792"
@@ -175,6 +195,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6470"
   },
+  "losartan": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "52175"
+  },
   "metformin": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6809"
@@ -202,6 +226,14 @@
   "morphine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "7052"
+  },
+  "naproxen": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "7258"
+  },
+  "nicardipine": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "7396"
   },
   "norepinephrine": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -242,6 +274,10 @@
   "pravastatin": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "42463"
+  },
+  "prednisone": {
+    "looked_up_at": "2026-11-13 19:24:58",
+    "rxcui": "8640"
   },
   "pregabalin": {
     "looked_up_at": "2026-11-06 17:17:20",

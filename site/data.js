@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-12",
-      "days_elapsed": 4,
+      "as_of": "2026-11-13",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -67,8 +67,8 @@ window.SITE_DATA = {
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-12",
-      "days_elapsed": 4,
+      "as_of": "2026-11-13",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@ window.SITE_DATA = {
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.33076923076923076,
+      "current_value": 0.3153846153846154,
       "target_value": 0.4,
-      "current_label": "33.1%",
+      "current_label": "31.5%",
       "target_label": "40%",
-      "progress_ratio": 0.8269230769230769,
+      "progress_ratio": 0.7884615384615384,
       "pace_ratio": null,
-      "status": "at_risk",
-      "status_label": "At risk",
+      "status": "behind",
+      "status_label": "Behind",
       "sort_order": 3,
-      "as_of": "2026-11-12",
-      "days_elapsed": 4,
+      "as_of": "2026-11-13",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 4 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 5 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 3.0,
+      "current_value": 29.0,
       "target_value": 4.0,
-      "current_label": "3",
+      "current_label": "29",
       "target_label": "4",
-      "progress_ratio": 0.75,
-      "pace_ratio": 0.5714285714285714,
+      "progress_ratio": 7.25,
+      "pace_ratio": 0.7142857142857143,
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 4,
-      "as_of": "2026-11-12",
-      "days_elapsed": 4,
+      "as_of": "2026-11-13",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-12T19:42:59Z",
+      "fetched_at": "2026-11-13T19:24:58Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,7 +131,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-12T19:42:59Z",
+      "fetched_at": "2026-11-13T19:24:58Z",
       "record_count": 72,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
@@ -140,7 +140,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-12T19:42:59Z",
+      "fetched_at": "2026-11-13T19:24:58Z",
       "record_count": 68,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,11 +149,11 @@ window.SITE_DATA = {
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-12T19:42:59Z",
+      "fetched_at": "2026-11-13T19:24:58Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-12T00:00:00Z"
+      "latest_published_at": "2026-11-13T00:00:00Z"
     }
   ],
   "actions": [
@@ -169,51 +169,103 @@ window.SITE_DATA = {
       "sort_order": 1
     },
     {
-      "action_id": "openfda_label:00d11130-c9ae-4258-9746-9763bc5deb84",
-      "item_id": "openfda_label:00d11130-c9ae-4258-9746-9763bc5deb84",
+      "action_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "item_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
       "source_name": "FDA labels",
-      "title": "AMITRIPTYLINE HYDROCHLORIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00d11130-c9ae-4258-9746-9763bc5deb84",
+      "title": "TRAZODONE HYDROCHLORIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=295e92a9-bcb0-4d53-ba62-e30020e9834b",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-06T00:00:00Z",
+      "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 2
     },
     {
-      "action_id": "openfda_label:0669ac77-10df-48af-bc42-55e768b69e4f",
-      "item_id": "openfda_label:0669ac77-10df-48af-bc42-55e768b69e4f",
+      "action_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "item_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
       "source_name": "FDA labels",
-      "title": "DIVALPROEX SODIUM",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0669ac77-10df-48af-bc42-55e768b69e4f",
+      "title": "OLMESARTAN MEDOXOMIL",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=37e59db2-6d89-4593-ad00-35d77ab9d013",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-06T00:00:00Z",
+      "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 3
     },
     {
-      "action_id": "openfda_label:0d971993-466c-46dd-bdd6-2e300173621e",
-      "item_id": "openfda_label:0d971993-466c-46dd-bdd6-2e300173621e",
+      "action_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
+      "item_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
       "source_name": "FDA labels",
-      "title": "PHYTONADIONE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d971993-466c-46dd-bdd6-2e300173621e",
+      "title": "OLMESARTAN MEDOXOMIL",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d25e7549-3e35-46f4-9d3a-ca1eef356e03",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-06T00:00:00Z",
+      "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 4
     },
     {
-      "action_id": "openfda_label:1cf90be3-a744-4db5-999d-a84c67372304",
-      "item_id": "openfda_label:1cf90be3-a744-4db5-999d-a84c67372304",
+      "action_id": "openfda_label:def332bf-2906-4a6c-b85d-dfb56bb94312",
+      "item_id": "openfda_label:def332bf-2906-4a6c-b85d-dfb56bb94312",
       "source_name": "FDA labels",
-      "title": "PHYTONADIONE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cf90be3-a744-4db5-999d-a84c67372304",
+      "title": "ENTECAVIR",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=def332bf-2906-4a6c-b85d-dfb56bb94312",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-06T00:00:00Z",
+      "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 5
     }
   ],
   "feed": [
+    {
+      "item_id": "federal_register:2026-23114",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Order Under Sections 362 and 365 of the Public Health Service Act Continuing the Suspension of the Right To Introduce Certain Persons From Countries Where a Quarantinable Communicable Disease Exists",
+      "summary": "The Centers for Disease Control and Prevention (CDC), a component of the Department of Health and Human Services (HHS), announces it is issuing an Order under Sections 362 and 365 of the Public Health Service Act, and associated implementing regulations, continuing the",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23114/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23119",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23119/agency-information-collection-activities-submission-for-omb-review-comment-request",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23146",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23146/agency-information-collection-activities-submission-for-omb-review-comment-request",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23189",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23189/agency-information-collection-activities-proposed-collection-comment-request",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "cdc_mmwr:766820",
       "source_id": "cdc_mmwr",
@@ -329,7 +381,7 @@ window.SITE_DATA = {
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension"
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension. RxNorm 977880 amiloride hydrochloride"
     },
     {
       "item_id": "federal_register:2026-22812",
@@ -369,6 +421,58 @@ window.SITE_DATA = {
       "impact_reason": "FDA guidance",
       "area": "Not coded",
       "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "TRAZODONE HYDROCHLORIDE",
+      "summary": "WARNING: SUICIDAL THOUGHTS and BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Mental health",
+      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. R45.851 Suicidal ideations. RxNorm 10737 trazodone"
+    },
+    {
+      "item_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "OLMESARTAN MEDOXOMIL",
+      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue olmesartan medoxomil as soon as possible ( 5.1 , 8.1) . Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus ( 5.1 , 8.1 ) . WARNING: FETAL TOXICITY See full",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I10 Essential hypertension"
+    },
+    {
+      "item_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "OLMESARTAN MEDOXOMIL",
+      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue olmesartan medoxomil as soon as possible ( 5.1 , 8.1) . Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus ( 5.1 , 8.1 ) . WARNING: FETAL TOXICITY See full",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d25e7549-3e35-46f4-9d3a-ca1eef356e03",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I10 Essential hypertension"
+    },
+    {
+      "item_id": "openfda_label:def332bf-2906-4a6c-b85d-dfb56bb94312",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-10T00:00:00Z",
+      "title": "ENTECAVIR",
+      "summary": "WARNING: SEVERE ACUTE EXACERBATIONS OF HEPATITIS B, PATIENTS CO-INFECTED WITH HIV AND HBV, and LACTIC ACIDOSIS AND HEPATOMEGALY Severe acute exacerbations of hepatitis B have been reported in patients who have discontinued anti-hepatitis B therapy, including entecavir. Hepatic",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=def332bf-2906-4a6c-b85d-dfb56bb94312",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Not coded",
+      "code_label": "RxNorm 306266 entecavir"
     },
     {
       "item_id": "federal_register:2026-22743",
@@ -462,168 +566,64 @@ window.SITE_DATA = {
       "code_label": ""
     },
     {
-      "item_id": "openfda_label:5e5ebfcb-c3a2-1fcf-e063-6394a90a356a",
+      "item_id": "openfda_label:01a2d234-eac6-4cdd-a736-adce7268865b",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
       "published_at": "2026-11-09T00:00:00Z",
-      "title": "AMINOCAPROIC ACID",
-      "summary": "INDICATIONS AND USAGE Aminocaproic acid tablets, USP is useful in enhancing hemostasis when fibrinolysis contributes to bleeding. In life-threatening situations, transfusion of appropriate blood products and other emergency measures may be required. Fibrinolytic bleeding may",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e5ebfcb-c3a2-1fcf-e063-6394a90a356a",
+      "title": "OXYGEN",
+      "summary": "Label updated in the openFDA drug label index.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01a2d234-eac6-4cdd-a736-adce7268865b",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
     },
     {
-      "item_id": "openfda_label:5eeca7b4-92ac-bb1f-e063-6394a90a036a",
+      "item_id": "openfda_label:0230a3c3-34cf-478b-88c3-4d96e5300018",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
       "published_at": "2026-11-09T00:00:00Z",
-      "title": "TORSEMIDE",
-      "summary": "1 INDICATIONS & USAGE Torsemide tablets are a loop diuretic indicated for: • the treatment of edema associated with heart failure, renal disease or hepatic disease. (1.1) • the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5eeca7b4-92ac-bb1f-e063-6394a90a036a",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension"
-    },
-    {
-      "item_id": "federal_register:2026-22657",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "Medical Devices, Ear, Nose, and Throat Devices, Classification of the External Mechanical Stimulator for the Relief of Congestion",
-      "summary": "The Food and Drug Administration (FDA) is classifying the external mechanical stimulator for the relief of congestion into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22657/medical-devices-ear-nose-and-throat-devices-classification-of-the-external-mechanical-stimulator-for",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22739",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems, and Quality Reporting Programs, including the Hospital Outpatient Quality Reporting Program and Ambulatory",
-      "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:00d11130-c9ae-4258-9746-9763bc5deb84",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "AMITRIPTYLINE HYDROCHLORIDE",
-      "summary": "Suicidality and Antidepressant Drugs : Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00d11130-c9ae-4258-9746-9763bc5deb84",
+      "title": "METFORMIN HYDROCHLORIDE",
+      "summary": "WARNING: LACTIC ACIDOSIS Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias. The onset of metformin-associated lactic acidosis is often subtle, accompanied only by nonspecific symptoms such",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0230a3c3-34cf-478b-88c3-4d96e5300018",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
-      "area": "Mental health",
-      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. R45.851 Suicidal ideations"
-    },
-    {
-      "item_id": "openfda_label:043b81ed-f05c-43db-b2aa-499cb9f73b44",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "Diethylpropion Hydrochloride ER (DIETHYLPROPION HYDROCHLORIDE)",
-      "summary": "INDICATIONS AND USAGE Diethylpropion hydrochloride extended release tablets, 75 mg are indicated in the management of exogenous obesity as a short-term adjunct (a few weeks) in a regimen of weight reduction based on caloric restriction in patients with an initial body mass index",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=043b81ed-f05c-43db-b2aa-499cb9f73b44",
-      "high_impact": 0,
-      "impact_reason": null,
       "area": "Diabetes and metabolism",
-      "code_label": "ICD-10 E66.9 Obesity unspecified"
+      "code_label": "ICD-10 E11.9 Type 2 diabetes mellitus without complications. RxNorm 6809 metformin"
     },
     {
-      "item_id": "openfda_label:0669ac77-10df-48af-bc42-55e768b69e4f",
+      "item_id": "openfda_label:0be243c6-de02-45dd-8210-cab1bbc8dfa7",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "DIVALPROEX SODIUM",
-      "summary": "WARNING: LIFE THREATENING ADVERSE REACTIONS Hepatotoxicity General Population: Hepatic failure resulting in fatalities has occurred in patients receiving valproate and its derivatives. These incidents usually have occurred during the first six months of treatment. Serious or",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0669ac77-10df-48af-bc42-55e768b69e4f",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Mental health",
-      "code_label": "ICD-10 F31.9 Bipolar disorder unspecified. RxNorm 40254 valproate"
-    },
-    {
-      "item_id": "openfda_label:08936fbe-b98b-4a97-a99b-3e06caa15aaf",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "OXYGEN",
-      "summary": "Label updated in the openFDA drug label index.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08936fbe-b98b-4a97-a99b-3e06caa15aaf",
+      "published_at": "2026-11-09T00:00:00Z",
+      "title": "CLARITHROMYCIN",
+      "summary": "1 INDICATIONS AND USAGE Clarithromycin is a macrolide antimicrobial indicated for mild to moderate infections caused by designated, susceptible bacteria in the following: Acute Bacterial Exacerbation of Chronic Bronchitis in Adults ( 1.1 ) Acute Maxillary Sinusitis ( 1.2 )",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0be243c6-de02-45dd-8210-cab1bbc8dfa7",
       "high_impact": 0,
       "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:0d971993-466c-46dd-bdd6-2e300173621e",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "PHYTONADIONE",
-      "summary": "BOXED WARNING WARNING - HYPERSENSITIVITY REACTIONS WITH INTRAVENOUS AND INTRAMUSCULAR USE Fatal hypersensitivity reactions, including anaphylaxis, have occurred during and immediately after intravenous and intramuscular injection of Phytonadione Injectable Emulsion. Reactions",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d971993-466c-46dd-bdd6-2e300173621e",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:101cdc41-2131-4425-b550-6a0a60b5f4a4",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "GLIMEPIRIDE",
-      "summary": "1 INDICATIONS AND USAGE Glimepiride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus [see Clinical Studies ( 14.1 ) ]. Glimepiride tablets are a sulfonylurea indicated as an adjunct to diet and exercise",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=101cdc41-2131-4425-b550-6a0a60b5f4a4",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Diabetes and metabolism",
-      "code_label": "ICD-10 E10.9 Type 1 diabetes mellitus without complications. E11.9 Type 2 diabetes mellitus without complications. RxNorm 25789 glimepiride"
-    },
-    {
-      "item_id": "openfda_label:1441e7b9-97bf-c764-e063-6394a90a7015",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-06T00:00:00Z",
-      "title": "OXYGEN",
-      "summary": "Label updated in the openFDA drug label index.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1441e7b9-97bf-c764-e063-6394a90a7015",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
+      "area": "Lung",
+      "code_label": "ICD-10 J18.9 Pneumonia unspecified organism"
     }
   ],
   "areas": [
     {
       "area": "Heart and vessels",
-      "item_count": 10
-    },
-    {
-      "area": "Mental health",
-      "item_count": 9
+      "item_count": 21
     },
     {
       "area": "Diabetes and metabolism",
-      "item_count": 5
+      "item_count": 7
+    },
+    {
+      "area": "Mental health",
+      "item_count": 4
     },
     {
       "area": "Infection",
-      "item_count": 5
+      "item_count": 3
     },
     {
-      "area": "Brain and nerves",
+      "area": "Cancer",
       "item_count": 2
     },
     {
@@ -631,20 +631,8 @@ window.SITE_DATA = {
       "item_count": 2
     },
     {
-      "area": "Bone and joint",
-      "item_count": 1
-    },
-    {
-      "area": "Cancer",
-      "item_count": 1
-    },
-    {
-      "area": "Kidney",
-      "item_count": 1
-    },
-    {
       "area": "Not coded",
-      "item_count": 221
+      "item_count": 218
     }
   ],
   "weekly": [
@@ -910,7 +898,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-05",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 11
+      "item_count": 7
     },
     {
       "week_start": "2026-10-12",
@@ -994,7 +982,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-02",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 69
+      "item_count": 3
     },
     {
       "week_start": "2026-11-02",
@@ -1018,7 +1006,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-09",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 3
+      "item_count": 69
     },
     {
       "week_start": "2026-11-09",
@@ -1030,7 +1018,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-09",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 16
+      "item_count": 20
     }
   ],
   "counts": [
@@ -1085,5 +1073,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-12T19:42:59Z"
+  "generated_at": "2026-11-13T19:24:58Z"
 };
