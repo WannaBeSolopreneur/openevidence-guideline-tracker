@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-15",
-      "days_elapsed": 7,
+      "as_of": "2026-11-16",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -58,17 +58,17 @@ window.SITE_DATA = {
       "unit": "hours",
       "metric_kind": "snapshot",
       "direction": "lower",
-      "current_value": 115.0,
+      "current_value": 19.0,
       "target_value": 48.0,
-      "current_label": "115 hours",
+      "current_label": "19 hours",
       "target_label": "48 hours",
-      "progress_ratio": 0.41739130434782606,
+      "progress_ratio": 2.526315789473684,
       "pace_ratio": null,
-      "status": "behind",
-      "status_label": "Behind",
+      "status": "on_track",
+      "status_label": "On track",
       "sort_order": 2,
-      "as_of": "2026-11-15",
-      "days_elapsed": 7,
+      "as_of": "2026-11-16",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@ window.SITE_DATA = {
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.31153846153846154,
+      "current_value": 0.3088803088803089,
       "target_value": 0.4,
-      "current_label": "31.2%",
+      "current_label": "30.9%",
       "target_label": "40%",
-      "progress_ratio": 0.7788461538461539,
+      "progress_ratio": 0.7722007722007721,
       "pace_ratio": null,
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 3,
-      "as_of": "2026-11-15",
-      "days_elapsed": 7,
+      "as_of": "2026-11-16",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 7 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 1 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 29.0,
+      "current_value": 1.0,
       "target_value": 4.0,
-      "current_label": "29",
+      "current_label": "1",
       "target_label": "4",
-      "progress_ratio": 7.25,
-      "pace_ratio": 1.0,
+      "progress_ratio": 0.25,
+      "pace_ratio": 0.14285714285714285,
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 4,
-      "as_of": "2026-11-15",
-      "days_elapsed": 7,
+      "as_of": "2026-11-16",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-15T18:40:12Z",
+      "fetched_at": "2026-11-16T21:49:32Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,16 +131,16 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-15T18:40:12Z",
-      "record_count": 72,
+      "fetched_at": "2026-11-16T21:49:32Z",
+      "record_count": 71,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
-      "latest_published_at": "2026-11-11T00:00:00Z"
+      "latest_published_at": "2026-11-16T00:00:00Z"
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-15T18:40:12Z",
+      "fetched_at": "2026-11-16T21:49:32Z",
       "record_count": 68,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,7 +149,7 @@ window.SITE_DATA = {
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-15T18:40:12Z",
+      "fetched_at": "2026-11-16T21:49:32Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
@@ -157,6 +157,17 @@ window.SITE_DATA = {
     }
   ],
   "actions": [
+    {
+      "action_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "item_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "source_name": "FDA labels",
+      "title": "BUMETANIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "impact_reason": "Boxed warning",
+      "published_at": "2026-11-16T00:00:00Z",
+      "sentence": "A boxed warning changed on this label. A clinician team should read it.",
+      "sort_order": 1
+    },
     {
       "action_id": "openfda_label:5eedadbd-9be9-b920-e063-6394a90afa68",
       "item_id": "openfda_label:5eedadbd-9be9-b920-e063-6394a90afa68",
@@ -166,7 +177,7 @@ window.SITE_DATA = {
       "impact_reason": "Boxed warning",
       "published_at": "2026-11-11T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
-      "sort_order": 1
+      "sort_order": 2
     },
     {
       "action_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
@@ -177,7 +188,7 @@ window.SITE_DATA = {
       "impact_reason": "Boxed warning",
       "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
-      "sort_order": 2
+      "sort_order": 3
     },
     {
       "action_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
@@ -188,7 +199,7 @@ window.SITE_DATA = {
       "impact_reason": "Boxed warning",
       "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
-      "sort_order": 3
+      "sort_order": 4
     },
     {
       "action_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
@@ -196,17 +207,6 @@ window.SITE_DATA = {
       "source_name": "FDA labels",
       "title": "OLMESARTAN MEDOXOMIL",
       "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d25e7549-3e35-46f4-9d3a-ca1eef356e03",
-      "impact_reason": "Boxed warning",
-      "published_at": "2026-11-10T00:00:00Z",
-      "sentence": "A boxed warning changed on this label. A clinician team should read it.",
-      "sort_order": 4
-    },
-    {
-      "action_id": "openfda_label:def332bf-2906-4a6c-b85d-dfb56bb94312",
-      "item_id": "openfda_label:def332bf-2906-4a6c-b85d-dfb56bb94312",
-      "source_name": "FDA labels",
-      "title": "ENTECAVIR",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=def332bf-2906-4a6c-b85d-dfb56bb94312",
       "impact_reason": "Boxed warning",
       "published_at": "2026-11-10T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
@@ -265,6 +265,19 @@ window.SITE_DATA = {
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "BUMETANIDE",
+      "summary": "WARNING Bumetanide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required, and dose and dosage schedule have to be adjusted to the individual patient’s",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 197417 bumetanide. RxNorm 197418 bumetanide. RxNorm 197419 bumetanide"
     },
     {
       "item_id": "federal_register:2026-23114",
@@ -590,25 +603,12 @@ window.SITE_DATA = {
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22820",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-09T00:00:00Z",
-      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22820/agency-forms-undergoing-paperwork-reduction-act-review",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
     }
   ],
   "areas": [
     {
       "area": "Heart and vessels",
-      "item_count": 21
+      "item_count": 22
     },
     {
       "area": "Diabetes and metabolism",
@@ -628,38 +628,14 @@ window.SITE_DATA = {
     },
     {
       "area": "Lung",
-      "item_count": 2
-    },
-    {
-      "area": "Not coded",
-      "item_count": 219
-    }
-  ],
-  "weekly": [
-    {
-      "week_start": "2026-07-27",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-07-27",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-07-27",
-      "source_id": "openfda_enforcement",
-      "source_name": "FDA recalls",
       "item_count": 1
     },
     {
-      "week_start": "2026-07-27",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "item_count": 0
-    },
+      "area": "Not coded",
+      "item_count": 218
+    }
+  ],
+  "weekly": [
     {
       "week_start": "2026-08-03",
       "source_id": "cdc_mmwr",
@@ -982,7 +958,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-02",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 3
+      "item_count": 2
     },
     {
       "week_start": "2026-11-02",
@@ -1006,7 +982,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-09",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 69
+      "item_count": 68
     },
     {
       "week_start": "2026-11-09",
@@ -1019,6 +995,30 @@ window.SITE_DATA = {
       "source_id": "federal_register",
       "source_name": "Federal Register",
       "item_count": 20
+    },
+    {
+      "week_start": "2026-11-16",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "item_count": 0
+    },
+    {
+      "week_start": "2026-11-16",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "item_count": 1
+    },
+    {
+      "week_start": "2026-11-16",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "item_count": 0
+    },
+    {
+      "week_start": "2026-11-16",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "item_count": 4
     }
   ],
   "counts": [
@@ -1030,7 +1030,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 72
+      "item_count": 71
     },
     {
       "source_id": "openfda_enforcement",
@@ -1073,5 +1073,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-15T18:40:12Z"
+  "generated_at": "2026-11-16T21:49:32Z"
 };
