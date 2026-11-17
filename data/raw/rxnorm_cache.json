@@ -11,6 +11,14 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "519"
   },
+  "alprazolam": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "596"
+  },
+  "amiodarone": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "703"
+  },
   "amlodipine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "17767"
@@ -39,9 +47,17 @@
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "18631"
   },
+  "bisoprolol": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "19484"
+  },
   "buprenorphine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1819"
+  },
+  "bupropion": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "42347"
   },
   "buspirone": {
     "looked_up_at": "2026-11-10 19:30:05",
@@ -110,6 +126,10 @@
   "emtricitabine": {
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "276237"
+  },
+  "enalapril": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "3827"
   },
   "entecavir": {
     "looked_up_at": "2026-11-13 19:24:58",
@@ -271,6 +291,10 @@
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "8183"
   },
+  "piperacillin": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "8339"
+  },
   "prasugrel": {
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "613391"
@@ -295,9 +319,17 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "8782"
   },
+  "propranolol": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "8787"
+  },
   "rivaroxaban": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1114195"
+  },
+  "semaglutide": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "1991302"
   },
   "sertraline": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -362,5 +394,13 @@
   "warfarin": {
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "11289"
+  },
+  "zoledronic": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": null
+  },
+  "zolpidem": {
+    "looked_up_at": "2026-11-17 20:39:49",
+    "rxcui": "39993"
   }
 }

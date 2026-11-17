@@ -3,7 +3,7 @@
     "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
     "terms": "https://open.fda.gov/terms/",
     "license": "https://open.fda.gov/license/",
-    "last_updated": "2026-11-04",
+    "last_updated": "2026-11-11",
     "results": {
       "skip": 0,
       "limit": 30,
@@ -836,8 +836,8 @@
           "Fresenius Kabi, USA LLC"
         ],
         "product_ndc": [
-          "76045-004",
           "76045-238",
+          "76045-004",
           "76045-005",
           "76045-006",
           "76045-007",
@@ -1051,7 +1051,56 @@
       "state": "IL",
       "country": "United States",
       "classification": "Class I",
-      "openfda": {},
+      "openfda": {
+        "application_number": [
+          "NDA207131"
+        ],
+        "brand_name": [
+          "CEFAZOLIN"
+        ],
+        "generic_name": [
+          "CEFAZOLIN SODIUM"
+        ],
+        "manufacturer_name": [
+          "Baxter Healthcare Corporation"
+        ],
+        "product_ndc": [
+          "0338-0096",
+          "0338-3508",
+          "0338-3503"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "CEFAZOLIN SODIUM"
+        ],
+        "rxcui": [
+          "1665050",
+          "1665060",
+          "2630753"
+        ],
+        "spl_id": [
+          "092b9ea3-0c78-4236-80c9-ff97d09fa14e"
+        ],
+        "spl_set_id": [
+          "d91a8d13-99a0-4d87-88dc-71cbd37922b4"
+        ],
+        "package_ndc": [
+          "0338-3508-41",
+          "0338-3503-41",
+          "0338-0096-06"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "P380M0454Z"
+        ]
+      },
       "product_type": "Drugs",
       "event_id": "99463",
       "recalling_firm": "Baxter Healthcare Corporation",
@@ -1222,7 +1271,53 @@
       "state": "TX",
       "country": "United States",
       "classification": "Class I",
-      "openfda": {},
+      "openfda": {
+        "application_number": [
+          "NDA020832"
+        ],
+        "brand_name": [
+          "CHLORAPREP ONE-STEP"
+        ],
+        "generic_name": [
+          "CHLORHEXIDINE GLUCONATE AND ISOPROPYL ALCOHOL"
+        ],
+        "manufacturer_name": [
+          "CareFusion 213, LLC"
+        ],
+        "product_ndc": [
+          "54365-400"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "route": [
+          "TOPICAL"
+        ],
+        "substance_name": [
+          "CHLORHEXIDINE GLUCONATE",
+          "ISOPROPYL ALCOHOL"
+        ],
+        "rxcui": [
+          "858726",
+          "998282"
+        ],
+        "spl_id": [
+          "5e85e3a9-5760-c590-e063-6294a90a39e4"
+        ],
+        "spl_set_id": [
+          "85291b2b-40b9-07fa-e053-2a91aa0a84e4"
+        ],
+        "package_ndc": [
+          "54365-400-31"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "MOR84MUD8E",
+          "ND2M416302"
+        ]
+      },
       "product_type": "Drugs",
       "event_id": "99114",
       "recalling_firm": "CareFusion 213, LLC",
@@ -1247,7 +1342,53 @@
       "state": "TX",
       "country": "United States",
       "classification": "Class I",
-      "openfda": {},
+      "openfda": {
+        "application_number": [
+          "NDA020832"
+        ],
+        "brand_name": [
+          "CHLORAPREP ONE-STEP"
+        ],
+        "generic_name": [
+          "CHLORHEXIDINE GLUCONATE AND ISOPROPYL ALCOHOL"
+        ],
+        "manufacturer_name": [
+          "CareFusion 213, LLC"
+        ],
+        "product_ndc": [
+          "54365-400"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "route": [
+          "TOPICAL"
+        ],
+        "substance_name": [
+          "CHLORHEXIDINE GLUCONATE",
+          "ISOPROPYL ALCOHOL"
+        ],
+        "rxcui": [
+          "858726",
+          "998282"
+        ],
+        "spl_id": [
+          "5e85f4ef-a1a9-d9b3-e063-6294a90a4b24"
+        ],
+        "spl_set_id": [
+          "8528a4f5-5ff4-45f3-e053-2991aa0a804c"
+        ],
+        "package_ndc": [
+          "54365-400-30"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "MOR84MUD8E",
+          "ND2M416302"
+        ]
+      },
       "product_type": "Drugs",
       "event_id": "99114",
       "recalling_firm": "CareFusion 213, LLC",

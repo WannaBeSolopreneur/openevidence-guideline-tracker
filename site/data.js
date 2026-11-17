@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-16",
-      "days_elapsed": 1,
+      "as_of": "2026-11-17",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -58,17 +58,17 @@ window.SITE_DATA = {
       "unit": "hours",
       "metric_kind": "snapshot",
       "direction": "lower",
-      "current_value": 19.0,
+      "current_value": 164.0,
       "target_value": 48.0,
-      "current_label": "19 hours",
+      "current_label": "164 hours",
       "target_label": "48 hours",
-      "progress_ratio": 2.526315789473684,
+      "progress_ratio": 0.2926829268292683,
       "pace_ratio": null,
-      "status": "on_track",
-      "status_label": "On track",
+      "status": "behind",
+      "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-16",
-      "days_elapsed": 1,
+      "as_of": "2026-11-17",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@ window.SITE_DATA = {
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.3088803088803089,
+      "current_value": 0.2835249042145594,
       "target_value": 0.4,
-      "current_label": "30.9%",
+      "current_label": "28.4%",
       "target_label": "40%",
-      "progress_ratio": 0.7722007722007721,
+      "progress_ratio": 0.7088122605363985,
       "pace_ratio": null,
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 3,
-      "as_of": "2026-11-16",
-      "days_elapsed": 1,
+      "as_of": "2026-11-17",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 1 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 2 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 1.0,
+      "current_value": 0.0,
       "target_value": 4.0,
-      "current_label": "1",
+      "current_label": "0",
       "target_label": "4",
-      "progress_ratio": 0.25,
-      "pace_ratio": 0.14285714285714285,
-      "status": "on_track",
-      "status_label": "On track",
+      "progress_ratio": 0.0,
+      "pace_ratio": 0.2857142857142857,
+      "status": "behind",
+      "status_label": "Behind",
       "sort_order": 4,
-      "as_of": "2026-11-16",
-      "days_elapsed": 1,
+      "as_of": "2026-11-17",
+      "days_elapsed": 2,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-16T21:49:32Z",
+      "fetched_at": "2026-11-17T20:39:49Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,89 +131,141 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-16T21:49:32Z",
-      "record_count": 71,
+      "fetched_at": "2026-11-17T20:39:49Z",
+      "record_count": 72,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
-      "latest_published_at": "2026-11-16T00:00:00Z"
+      "latest_published_at": "2026-11-12T00:00:00Z"
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-16T21:49:32Z",
-      "record_count": 68,
+      "fetched_at": "2026-11-17T20:39:49Z",
+      "record_count": 69,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
-      "latest_published_at": "2026-11-04T00:00:00Z"
+      "latest_published_at": "2026-11-11T00:00:00Z"
     },
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-16T21:49:32Z",
+      "fetched_at": "2026-11-17T20:39:49Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-16T00:00:00Z"
+      "latest_published_at": "2026-11-17T00:00:00Z"
     }
   ],
   "actions": [
     {
-      "action_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
-      "item_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "action_id": "openfda_label:0db62c57-d020-4ddb-b24a-ecb349ce3850",
+      "item_id": "openfda_label:0db62c57-d020-4ddb-b24a-ecb349ce3850",
       "source_name": "FDA labels",
-      "title": "BUMETANIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "title": "LEVOTHYROXINE SODIUM",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0db62c57-d020-4ddb-b24a-ecb349ce3850",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-16T00:00:00Z",
+      "published_at": "2026-11-12T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 1
     },
     {
-      "action_id": "openfda_label:5eedadbd-9be9-b920-e063-6394a90afa68",
-      "item_id": "openfda_label:5eedadbd-9be9-b920-e063-6394a90afa68",
+      "action_id": "openfda_label:63466eb1-16b1-4d86-8c65-ce85def031b2",
+      "item_id": "openfda_label:63466eb1-16b1-4d86-8c65-ce85def031b2",
       "source_name": "FDA labels",
-      "title": "AMILORIDE HYDROCHLORIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68",
+      "title": "LEVOTHYROXINE SODIUM",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63466eb1-16b1-4d86-8c65-ce85def031b2",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-11T00:00:00Z",
+      "published_at": "2026-11-12T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 2
     },
     {
-      "action_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
-      "item_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "action_id": "openfda_label:6563b923-269f-40c3-b992-cbacdfca6e16",
+      "item_id": "openfda_label:6563b923-269f-40c3-b992-cbacdfca6e16",
       "source_name": "FDA labels",
-      "title": "TRAZODONE HYDROCHLORIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "title": "BUPROPION HYDROCHLORIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6563b923-269f-40c3-b992-cbacdfca6e16",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-10T00:00:00Z",
+      "published_at": "2026-11-12T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 3
     },
     {
-      "action_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
-      "item_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "action_id": "openfda_label:668a2730-e95a-4639-a506-ae95a6502ca1",
+      "item_id": "openfda_label:668a2730-e95a-4639-a506-ae95a6502ca1",
       "source_name": "FDA labels",
-      "title": "OLMESARTAN MEDOXOMIL",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "title": "PIPERACILLIN AND TAZOBACTAM",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=668a2730-e95a-4639-a506-ae95a6502ca1",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-10T00:00:00Z",
+      "published_at": "2026-11-12T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 4
     },
     {
-      "action_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
-      "item_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
+      "action_id": "openfda_label:8f86f677-2ebd-43c4-b2dd-2e07d4d54147",
+      "item_id": "openfda_label:8f86f677-2ebd-43c4-b2dd-2e07d4d54147",
       "source_name": "FDA labels",
-      "title": "OLMESARTAN MEDOXOMIL",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d25e7549-3e35-46f4-9d3a-ca1eef356e03",
+      "title": "BUPROPION HYDROCHLORIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f86f677-2ebd-43c4-b2dd-2e07d4d54147",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-10T00:00:00Z",
+      "published_at": "2026-11-12T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 5
     }
   ],
   "feed": [
+    {
+      "item_id": "federal_register:2026-23300",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "Draft Policy Update to the NIH Policy for Data and Safety Monitoring",
+      "summary": "The National Institutes of Health (NIH) is committed to ensuring risk-based monitoring for participant safety and to upholding the quality and integrity of data for all NIH-supported clinical research. To further this goal, NIH is seeking public input on proposed updates to the",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23300/draft-policy-update-to-the-nih-policy-for-data-and-safety-monitoring",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23301",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
+      "summary": "Federal Register document.",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23301/agency-forms-undergoing-paperwork-reduction-act-review",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23350",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
+      "summary": "Federal Register document.",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23350/agency-information-collection-activities-proposed-collection-comment-request",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23351",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "Rulemaking To Provide That N-acetyl-L-cysteine Is Not Excluded From the Dietary Supplement Definition",
+      "summary": "The Food and Drug Administration (FDA or we) is proposing to issue a regulation finding that N-acetyl-L-cysteine (NAC) is not excluded from the dietary supplement definition in the Federal Food, Drug, and Cosmetic Act (FD&C Act). This action, if finalized, would allow products",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23351/rulemaking-to-provide-that-n-acetyl-l-cysteine-is-not-excluded-from-the-dietary-supplement",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "federal_register:2026-23204",
       "source_id": "federal_register",
@@ -265,19 +317,6 @@ window.SITE_DATA = {
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "BUMETANIDE",
-      "summary": "WARNING Bumetanide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required, and dose and dosage schedule have to be adjusted to the individual patient’s",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 197417 bumetanide. RxNorm 197418 bumetanide. RxNorm 197419 bumetanide"
     },
     {
       "item_id": "federal_register:2026-23114",
@@ -436,169 +475,130 @@ window.SITE_DATA = {
       "code_label": ""
     },
     {
-      "item_id": "openfda_label:5eedadbd-9be9-b920-e063-6394a90afa68",
+      "item_id": "openfda_label:0556378a-b794-4235-ba09-ebdc295e9092",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-11T00:00:00Z",
-      "title": "AMILORIDE HYDROCHLORIDE",
-      "summary": "Like other potassium-conserving agents, amiloride may cause hyperkalemia (serum potassium levels greater than 5.5 mEq per liter) which, if uncorrected, is potentially fatal. Hyperkalemia occurs commonly (about 10%) when amiloride is used without a kaliuretic diuretic. This",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "Nafcillin (NAFCILLIN SODIUM)",
+      "summary": "INDICATIONS AND USAGE Nafcillin is indicated in the treatment of infections caused by penicillinase-producing staphylococci which have demonstrated susceptibility to the drug. Culture and susceptibility tests should be performed initially to determine the causative organism and",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0556378a-b794-4235-ba09-ebdc295e9092",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:0db62c57-d020-4ddb-b24a-ecb349ce3850",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "LEVOTHYROXINE SODIUM",
+      "summary": "WARNING: NOT FOR TREATMENT OF OBESITY OR FOR WEIGHT LOSS Thyroid hormones, including levothyroxine sodium, either alone or with other therapeutic agents, should not be used for the treatment of obesity or for weight loss. In euthyroid patients, doses within the range of daily",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0db62c57-d020-4ddb-b24a-ecb349ce3850",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension. RxNorm 977880 amiloride hydrochloride"
+      "area": "Diabetes and metabolism",
+      "code_label": "ICD-10 E03.9 Hypothyroidism unspecified. E66.9 Obesity unspecified. RxNorm 10582 levothyroxine"
     },
     {
-      "item_id": "federal_register:2026-22812",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "Medicare and Medicaid Programs, Cutting Administrative Requirements for Excellence in Patient Care",
-      "summary": "This proposed rule would reform Medicare and Medicaid regulations deemed obsolete or excessively burdensome on healthcare providers and suppliers, with the objective of reducing costs, enhancing flexibility in delivering innovative care, and streamlining existing regulations.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22881",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "Proposed Data Collection Submitted for Public Comment and Recommendations",
-      "summary": "The Centers for Disease Control and Prevention (CDC), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22881/proposed-data-collection-submitted-for-public-comment-and-recommendations",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22883",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency, Guidance for Industry and Food and Drug Administration Staff, Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency.\" The guidance describes general recommendations for the",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22883/validation-of-certain-in-vitro-diagnostic-devices-for-emerging-pathogens-during-a-section-564",
-      "high_impact": 1,
-      "impact_reason": "FDA guidance",
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "item_id": "openfda_label:19546563-50b7-4160-8cbe-f8e7079cba69",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "TRAZODONE HYDROCHLORIDE",
-      "summary": "WARNING: SUICIDAL THOUGHTS and BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=295e92a9-bcb0-4d53-ba62-e30020e9834b",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "Ampicillin (AMPICILLIN SODIUM)",
+      "summary": "INDICATIONS AND USAGE Ampicillin for Injection, USP is indicated in the treatment of infections caused by susceptible strains of the designated organisms in the following conditions: Respiratory Tract Infections caused by Streptococcus pneumoniae, Staphylococcus aureus",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=19546563-50b7-4160-8cbe-f8e7079cba69",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:4446d4c8-056d-4bc3-8f58-21255b063398",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "AMPICILLIN AND SULBACTAM",
+      "summary": "INDICATIONS AND USAGE Ampicillin and sulbactam for injection is indicated for the treatment of infections due to susceptible strains of the designated microorganisms in the conditions listed below. Skin and Skin Structure Infections caused by beta-lactamase producing strains of",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:4b699dd8-d232-4bdb-88ce-9b42ed93e036",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "ZOLEDRONIC ACID",
+      "summary": "1 INDICATIONS AND USAGE Zoledronic acid injection is a bisphosphonate indicated for the treatment of: Hypercalcemia of malignancy. ( 1.1 ) Patients with multiple myeloma and patients with documented bone metastases from solid tumors, in conjunction with standard antineoplastic",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b699dd8-d232-4bdb-88ce-9b42ed93e036",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Cancer",
+      "code_label": "ICD-10 C61 Malignant neoplasm of prostate"
+    },
+    {
+      "item_id": "openfda_label:577dd6f0-d56a-4c82-9f72-274c3a4a0f01",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "AMPICILLIN AND SULBACTAM",
+      "summary": "INDICATIONS AND USAGE Ampicillin and sulbactam for injection is indicated for the treatment of infections due to susceptible strains of the designated microorganisms in the conditions listed below. Skin and Skin Structure Infections caused by beta-lactamase producing strains of",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=577dd6f0-d56a-4c82-9f72-274c3a4a0f01",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:63466eb1-16b1-4d86-8c65-ce85def031b2",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "LEVOTHYROXINE SODIUM",
+      "summary": "WARNING: NOT FOR TREATMENT OF OBESITY OR FOR WEIGHT LOSS Thyroid hormones, including levothyroxine sodium, either alone or with other therapeutic agents, should not be used for the treatment of obesity or for weight loss. In euthyroid patients, doses within the range of daily",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63466eb1-16b1-4d86-8c65-ce85def031b2",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Diabetes and metabolism",
+      "code_label": "ICD-10 E03.9 Hypothyroidism unspecified. E66.9 Obesity unspecified. RxNorm 10582 levothyroxine"
+    },
+    {
+      "item_id": "openfda_label:6563b923-269f-40c3-b992-cbacdfca6e16",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "BUPROPION HYDROCHLORIDE",
+      "summary": "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS SUICIDALITY AND ANTIDEPRESSANT DRUGS Antidepressants increased the risk of suicidal thoughts and behavior in children, adolescents, and young adults in short-term trials. These trials did not show an increase in the risk of suicidal",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6563b923-269f-40c3-b992-cbacdfca6e16",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Mental health",
-      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. R45.851 Suicidal ideations. RxNorm 10737 trazodone"
+      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. R45.851 Suicidal ideations. RxNorm 42347 bupropion"
     },
     {
-      "item_id": "openfda_label:37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "item_id": "openfda_label:668a2730-e95a-4639-a506-ae95a6502ca1",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "OLMESARTAN MEDOXOMIL",
-      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue olmesartan medoxomil as soon as possible ( 5.1 , 8.1) . Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus ( 5.1 , 8.1 ) . WARNING: FETAL TOXICITY See full",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=37e59db2-6d89-4593-ad00-35d77ab9d013",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "PIPERACILLIN AND TAZOBACTAM",
+      "summary": "PHARMACY BULK PACKAGE - NOT FOR DIRECT INFUSION PHARMACY BULK PACKAGE - NOT FOR DIRECT INFUSION",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=668a2730-e95a-4639-a506-ae95a6502ca1",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I10 Essential hypertension"
+      "area": "Lung",
+      "code_label": "ICD-10 J18.9 Pneumonia unspecified organism. RxNorm 8339 piperacillin"
     },
     {
-      "item_id": "openfda_label:d25e7549-3e35-46f4-9d3a-ca1eef356e03",
+      "item_id": "openfda_label:6f044d16-295e-43ff-72a3-b045c387bc5c",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "OLMESARTAN MEDOXOMIL",
-      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue olmesartan medoxomil as soon as possible ( 5.1 , 8.1) . Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus ( 5.1 , 8.1 ) . WARNING: FETAL TOXICITY See full",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d25e7549-3e35-46f4-9d3a-ca1eef356e03",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I10 Essential hypertension"
-    },
-    {
-      "item_id": "openfda_label:def332bf-2906-4a6c-b85d-dfb56bb94312",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-10T00:00:00Z",
-      "title": "ENTECAVIR",
-      "summary": "WARNING: SEVERE ACUTE EXACERBATIONS OF HEPATITIS B, PATIENTS CO-INFECTED WITH HIV AND HBV, and LACTIC ACIDOSIS AND HEPATOMEGALY Severe acute exacerbations of hepatitis B have been reported in patients who have discontinued anti-hepatitis B therapy, including entecavir. Hepatic",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=def332bf-2906-4a6c-b85d-dfb56bb94312",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Not coded",
-      "code_label": "RxNorm 306266 entecavir"
-    },
-    {
-      "item_id": "federal_register:2026-22743",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-09T00:00:00Z",
-      "title": "Medicare and Medicaid Programs, CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies, Medicare Shared Savings Program Requirements, and Medicare",
-      "summary": "This final rule addresses: changes to the physician fee schedule (PFS), other changes to Medicare Part B payment policies to ensure that payment systems are updated to reflect changes in medical practice, relative value of services, and changes in the statute, codification of",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22750",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-09T00:00:00Z",
-      "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update, Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model, Medicare Provider Enrollment, Durable",
-      "summary": "This final rule sets forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this final rule discusses the behavior adjustments and finalizes a temporary behavior adjustment. It also",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22750/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22792",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-09T00:00:00Z",
-      "title": "Medicare Drug Price Negotiation Program and Medicare Prescription Drug Benefit Program",
-      "summary": "This rule finalizes and codifies the Medicare Drug Price Negotiation Program (\"Negotiation Program\") and establishes certain new policies for the Negotiation Program and the Medicare Prescription Drug Benefit Program (\"Part D Program\") as required by the Inflation Reduction Act",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22794",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-09T00:00:00Z",
-      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22794/agency-information-collection-activities-proposed-collection-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-22819",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-09T00:00:00Z",
-      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22819/agency-forms-undergoing-paperwork-reduction-act-review",
+      "published_at": "2026-11-12T00:00:00Z",
+      "title": "Sodium Phosphates (SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE AND SODIUM PHOSPHATE, DIBASIC, ANHYDROUS)",
+      "summary": "INDICATIONS AND USAGE Sodium Phosphates Injection, USP, 3 mM P/mL is indicated as a source of phosphorus, for addition to large volume intravenous fluids, to prevent or correct hypophosphatemia in patients with restricted or no oral intake. It is also useful as an additive for",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f044d16-295e-43ff-72a3-b045c387bc5c",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
@@ -608,18 +608,26 @@ window.SITE_DATA = {
   "areas": [
     {
       "area": "Heart and vessels",
-      "item_count": 22
-    },
-    {
-      "area": "Diabetes and metabolism",
-      "item_count": 7
+      "item_count": 13
     },
     {
       "area": "Mental health",
-      "item_count": 4
+      "item_count": 12
+    },
+    {
+      "area": "Brain and nerves",
+      "item_count": 3
     },
     {
       "area": "Cancer",
+      "item_count": 3
+    },
+    {
+      "area": "Lung",
+      "item_count": 3
+    },
+    {
+      "area": "Diabetes and metabolism",
       "item_count": 2
     },
     {
@@ -627,12 +635,8 @@ window.SITE_DATA = {
       "item_count": 2
     },
     {
-      "area": "Lung",
-      "item_count": 1
-    },
-    {
       "area": "Not coded",
-      "item_count": 218
+      "item_count": 220
     }
   ],
   "weekly": [
@@ -874,7 +878,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-05",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 3
+      "item_count": 0
     },
     {
       "week_start": "2026-10-12",
@@ -898,7 +902,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-12",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 14
+      "item_count": 13
     },
     {
       "week_start": "2026-10-19",
@@ -940,7 +944,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-26",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 7
+      "item_count": 3
     },
     {
       "week_start": "2026-10-26",
@@ -958,13 +962,13 @@ window.SITE_DATA = {
       "week_start": "2026-11-02",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 2
+      "item_count": 0
     },
     {
       "week_start": "2026-11-02",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 34
+      "item_count": 0
     },
     {
       "week_start": "2026-11-02",
@@ -982,13 +986,13 @@ window.SITE_DATA = {
       "week_start": "2026-11-09",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 68
+      "item_count": 72
     },
     {
       "week_start": "2026-11-09",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 0
+      "item_count": 39
     },
     {
       "week_start": "2026-11-09",
@@ -1006,7 +1010,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-16",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 1
+      "item_count": 0
     },
     {
       "week_start": "2026-11-16",
@@ -1018,7 +1022,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-16",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 4
+      "item_count": 8
     }
   ],
   "counts": [
@@ -1030,12 +1034,12 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 71
+      "item_count": 72
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 68
+      "item_count": 69
     },
     {
       "source_id": "federal_register",
@@ -1073,5 +1077,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-16T21:49:32Z"
+  "generated_at": "2026-11-17T20:39:49Z"
 };
