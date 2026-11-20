@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-19",
-      "days_elapsed": 4,
+      "as_of": "2026-11-20",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -58,17 +58,17 @@ window.SITE_DATA = {
       "unit": "hours",
       "metric_kind": "snapshot",
       "direction": "lower",
-      "current_value": 140.0,
+      "current_value": 115.0,
       "target_value": 48.0,
-      "current_label": "140 hours",
+      "current_label": "115 hours",
       "target_label": "48 hours",
-      "progress_ratio": 0.34285714285714286,
+      "progress_ratio": 0.41739130434782606,
       "pace_ratio": null,
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-19",
-      "days_elapsed": 4,
+      "as_of": "2026-11-20",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@ window.SITE_DATA = {
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.3371647509578544,
+      "current_value": 0.35294117647058826,
       "target_value": 0.4,
-      "current_label": "33.7%",
+      "current_label": "35.3%",
       "target_label": "40%",
-      "progress_ratio": 0.842911877394636,
+      "progress_ratio": 0.8823529411764706,
       "pace_ratio": null,
       "status": "at_risk",
       "status_label": "At risk",
       "sort_order": 3,
-      "as_of": "2026-11-19",
-      "days_elapsed": 4,
+      "as_of": "2026-11-20",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 4 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 5 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 1.0,
+      "current_value": 24.0,
       "target_value": 4.0,
-      "current_label": "1",
+      "current_label": "24",
       "target_label": "4",
-      "progress_ratio": 0.25,
-      "pace_ratio": 0.5714285714285714,
-      "status": "behind",
-      "status_label": "Behind",
+      "progress_ratio": 6.0,
+      "pace_ratio": 0.7142857142857143,
+      "status": "on_track",
+      "status_label": "On track",
       "sort_order": 4,
-      "as_of": "2026-11-19",
-      "days_elapsed": 4,
+      "as_of": "2026-11-20",
+      "days_elapsed": 5,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-19T20:17:04Z",
+      "fetched_at": "2026-11-20T19:49:38Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,8 +131,8 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-19T20:17:04Z",
-      "record_count": 72,
+      "fetched_at": "2026-11-20T19:49:38Z",
+      "record_count": 66,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
       "latest_published_at": "2026-11-18T00:00:00Z"
@@ -140,7 +140,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-19T20:17:04Z",
+      "fetched_at": "2026-11-20T19:49:38Z",
       "record_count": 69,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,11 +149,11 @@ window.SITE_DATA = {
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-19T20:17:04Z",
+      "fetched_at": "2026-11-20T19:49:38Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-19T00:00:00Z"
+      "latest_published_at": "2026-11-20T00:00:00Z"
     }
   ],
   "actions": [
@@ -169,51 +169,77 @@ window.SITE_DATA = {
       "sort_order": 1
     },
     {
-      "action_id": "openfda_label:7d15c40a-4b01-4b80-ac75-784017545066",
-      "item_id": "openfda_label:7d15c40a-4b01-4b80-ac75-784017545066",
+      "action_id": "openfda_label:08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+      "item_id": "openfda_label:08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
       "source_name": "FDA labels",
-      "title": "VALSARTAN",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d15c40a-4b01-4b80-ac75-784017545066",
+      "title": "PAROXETINE (PAROXETINE HYDROCHLORIDE)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-15T00:00:00Z",
+      "published_at": "2026-11-16T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 2
     },
     {
-      "action_id": "openfda_label:604576da-e234-a27f-e063-6294a90a6d8d",
-      "item_id": "openfda_label:604576da-e234-a27f-e063-6294a90a6d8d",
+      "action_id": "openfda_label:15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+      "item_id": "openfda_label:15e4c3a3-7d64-471e-bfdf-6156731e24aa",
       "source_name": "FDA labels",
-      "title": "TACROLIMUS",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=604576da-e234-a27f-e063-6294a90a6d8d",
+      "title": "FUROSEMIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-14T00:00:00Z",
+      "published_at": "2026-11-16T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 3
     },
     {
-      "action_id": "openfda_label:3310a3c2-389a-4b27-a478-67c905789854",
-      "item_id": "openfda_label:3310a3c2-389a-4b27-a478-67c905789854",
+      "action_id": "openfda_label:2a23b0fa-803c-4abb-b588-12cfe83326a9",
+      "item_id": "openfda_label:2a23b0fa-803c-4abb-b588-12cfe83326a9",
       "source_name": "FDA labels",
-      "title": "LOPERAMIDE HYDROCHLORIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3310a3c2-389a-4b27-a478-67c905789854",
+      "title": "KETOROLAC TROMETHAMINE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a23b0fa-803c-4abb-b588-12cfe83326a9",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-13T00:00:00Z",
+      "published_at": "2026-11-16T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 4
     },
     {
-      "action_id": "openfda_label:437edd12-2c08-4df4-8cf7-64c47e4779ac",
-      "item_id": "openfda_label:437edd12-2c08-4df4-8cf7-64c47e4779ac",
+      "action_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
+      "item_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
       "source_name": "FDA labels",
-      "title": "MEDROXYPROGESTERONE ACETATE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=437edd12-2c08-4df4-8cf7-64c47e4779ac",
+      "title": "METRONIDAZOLE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f7d84d4-1085-4243-be88-442eecb85205",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-13T00:00:00Z",
+      "published_at": "2026-11-16T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 5
     }
   ],
   "feed": [
+    {
+      "item_id": "federal_register:2026-23668",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-20T00:00:00Z",
+      "title": "Transfer of a Premarket Notification (510(k)) Clearance-Questions and Answers, Guidance for Industry and Food and Drug Administration Staff, Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled \"Transfer of a Premarket Notification (510(k)) Clearance--Questions and Answers.\" This guidance provides information on the most frequently asked questions regarding the",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23668/transfer-of-a-premarket-notification-510k-clearance-questions-and-answers-guidance-for-industry-and",
+      "high_impact": 1,
+      "impact_reason": "FDA guidance",
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23692",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-20T00:00:00Z",
+      "title": "Product-Specific Guidances, Draft and Revised Draft Guidances for Industry, Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23692/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+      "high_impact": 1,
+      "impact_reason": "FDA guidance",
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "cdc_mmwr:766874",
       "source_id": "cdc_mmwr",
@@ -329,7 +355,7 @@ window.SITE_DATA = {
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 4603 furosemide"
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 197417 bumetanide. RxNorm 197419 bumetanide. RxNorm 197418 bumetanide"
     },
     {
       "item_id": "federal_register:2026-23300",
@@ -394,7 +420,7 @@ window.SITE_DATA = {
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
-      "code_label": "RxNorm 2582 clindamycin"
+      "code_label": "RxNorm 197519 clindamycin phosphate. RxNorm 804973 clindamycin phosphate. RxNorm 309333 clindamycin phosphate"
     },
     {
       "item_id": "federal_register:2026-23204",
@@ -449,190 +475,168 @@ window.SITE_DATA = {
       "code_label": ""
     },
     {
-      "item_id": "openfda_label:7d15c40a-4b01-4b80-ac75-784017545066",
+      "item_id": "openfda_label:0789baef-3424-43ab-a3fb-4908172da565",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-15T00:00:00Z",
-      "title": "VALSARTAN",
-      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue valsartan tablets as soon as possible. ( 5.1 ) Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus. ( 5.1 ) WARNING: FETAL TOXICITY See full prescribing",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d15c40a-4b01-4b80-ac75-784017545066",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "HYDROCHLOROTHIAZIDE",
+      "summary": "INDICATIONS AND USAGE Hydrochlorothiazide capsules, USP are indicated in the management of hypertension either as the sole therapeutic agent, or in combination with other antihypertensives. Unlike potassium sparing combination diuretic products, hydrochlorothiazide capsules, USP",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0789baef-3424-43ab-a3fb-4908172da565",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5487 hydrochlorothiazide"
+    },
+    {
+      "item_id": "openfda_label:08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "PAROXETINE (PAROXETINE HYDROCHLORIDE)",
+      "summary": "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Mental health",
+      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. F41.9 Anxiety disorder unspecified. R45.851 Suicidal ideations. RxNorm 32937 paroxetine"
+    },
+    {
+      "item_id": "openfda_label:0abe9478-4084-286d-e063-6294a90a9ba7",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "OXCARBAZEPINE",
+      "summary": "1 INDICATIONS AND USAGE Oxcarbazepine tablets are indicated for use as monotherapy or adjunctive therapy in the treatment of partial-onset seizures in adults and as monotherapy in the treatment of partial-onset seizures in pediatric patients aged 4 years and above, and as",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0abe9478-4084-286d-e063-6294a90a9ba7",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:0c7f9bd0-6c0a-4521-b77a-3582faa96874",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "HYDRALAZINE HYDROCHLORIDE",
+      "summary": "INDICATIONS AND USAGE Essential hypertension, alone or as an adjunct.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c7f9bd0-6c0a-4521-b77a-3582faa96874",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5470 hydralazine"
+    },
+    {
+      "item_id": "openfda_label:0ea3cd84-de0f-4981-a420-1d01d1ecd620",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "SULFACETAMIDE SODIUM, SULFUR",
+      "summary": "INDICATIONS: This product is indicated for use in the topical control of acne vulgaris, acne rosacea and seborrheic dermatitis.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ea3cd84-de0f-4981-a420-1d01d1ecd620",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "FUROSEMIDE",
+      "summary": "BOXED WARNING WARNING Furosemide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required and dose and dose schedule must be adjusted to the individual",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I21.9 Acute myocardial infarction unspecified. I50.9 Heart failure unspecified. I10 Essential hypertension. RxNorm 69749 valsartan"
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 4603 furosemide"
     },
     {
-      "item_id": "openfda_label:8134c0da-9985-461e-85f4-d33709233535",
+      "item_id": "openfda_label:174e45e0-45bb-48b7-9e60-8f6cfc1d22bb",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-15T00:00:00Z",
-      "title": "AXITINIB",
-      "summary": "1 INDICATIONS AND USAGE Axitinib tablets are a kinase inhibitor indicated: • in combination with avelumab, for the first-line treatment of patients with advanced renal cell carcinoma (RCC). ( 1.1 ) • in combination with pembrolizumab, for the first-line treatment of patients",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8134c0da-9985-461e-85f4-d33709233535",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "Zetia (EZETIMIBE)",
+      "summary": "1 INDICATIONS AND USAGE ZETIA ® is indicated: In combination with a statin, or alone when additional low-density lipoprotein cholesterol (LDL-C) lowering therapy is not possible, as an adjunct to diet to reduce elevated LDL-C in adults with primary hyperlipidemia, including",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174e45e0-45bb-48b7-9e60-8f6cfc1d22bb",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Diabetes and metabolism",
+      "code_label": "ICD-10 E78.5 Hyperlipidemia unspecified. RxNorm 341248 ezetimibe"
+    },
+    {
+      "item_id": "openfda_label:1760ccdc-46f7-4182-a563-96b13212cb7e",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "PREGABALIN",
+      "summary": "1 INDICATIONS AND USAGE Pregabalin capsules are indicated for: • Management of neuropathic pain associated with diabetic peripheral neuropathy • Management of postherpetic neuralgia • Adjunctive therapy for the treatment of partial-onset seizures in patients 1 month of age and",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1760ccdc-46f7-4182-a563-96b13212cb7e",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
-      "code_label": "RxNorm 1547545 pembrolizumab"
+      "code_label": "RxNorm 187832 pregabalin"
     },
     {
-      "item_id": "openfda_label:d820e42d-ad2b-4e11-907b-a94d698ca285",
+      "item_id": "openfda_label:20508a94-01bc-4f1d-a42b-122a31402aaf",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-15T00:00:00Z",
-      "title": "UROGESIC BLUE (METHENAMINE, SODIUM PHOSPHATE, MONOBASIC, METHYLENE BLUE, AND HYOSCYAMINE SULFATE)",
-      "summary": "INDICATIONS AND USAGE UROGESIC-BLUE™ is indicated for the treatment of symptoms of irritative voiding. Indicated for the relief of local symptoms, such as hypermotility which accompany lower urinary tract infections and as antispasmodic. Indicated for the relief of urinary tract",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d820e42d-ad2b-4e11-907b-a94d698ca285",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "HYDROCORTISONE",
+      "summary": "INDICATIONS AND USAGE Hydrocortisone Topical Solution 2.5% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20508a94-01bc-4f1d-a42b-122a31402aaf",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
-      "code_label": ""
+      "code_label": "RxNorm 5492 hydrocortisone"
     },
     {
-      "item_id": "openfda_label:d949a09c-de98-458d-a250-fb4024c04ee5",
+      "item_id": "openfda_label:2a23b0fa-803c-4abb-b588-12cfe83326a9",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-15T00:00:00Z",
-      "title": "AXITINIB",
-      "summary": "1 INDICATIONS AND USAGE Axitinib is a kinase inhibitor indicated: • in combination with avelumab, for the first-line treatment of patients with advanced renal cell carcinoma (RCC). ( 1.1 ) • in combination with pembrolizumab, for the first-line treatment of patients with",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d949a09c-de98-458d-a250-fb4024c04ee5",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": "RxNorm 1547545 pembrolizumab"
-    },
-    {
-      "item_id": "openfda_label:e53ccf1b-315f-4454-824e-f69769908597",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-15T00:00:00Z",
-      "title": "TRIMETHOPRIM",
-      "summary": "INDICATIONS AND USAGE To reduce the development of drug-resistant bacteria and maintain the effectiveness of trimethoprim tablets and other antibacterial drugs, trimethoprim tablets should be used only to treat or prevent infections that are proven or strongly suspected to be",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:4698e4e1-c5f6-4db1-9328-74464a85afea",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-14T00:00:00Z",
-      "title": "Dorzolamide Hydrochloride Ophthalmic Solution (DORZOLAMIDE HYDROCHLORIDE)",
-      "summary": "1 INDICATIONS AND USAGE Dorzolamide hydrochloride ophthalmic solution is indicated in the treatment of elevated intraocular pressure in patients with ocular hypertension or open-angle glaucoma. Dorzolamide hydrochloride ophthalmic solution is a carbonic anhydrase inhibitor",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I10 Essential hypertension"
-    },
-    {
-      "item_id": "openfda_label:604576da-e234-a27f-e063-6294a90a6d8d",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-14T00:00:00Z",
-      "title": "TACROLIMUS",
-      "summary": "WARNING: MALIGNANCIES AND SERIOUS INFECTIONS Increased risk for developing serious infections and malignancies with tacrolimus or other immunosuppressants that may lead to hospitalization or death. (5.1, 5.2) WARNING: MALIGNANCIES AND SERIOUS INFECTIONS See full prescribing",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=604576da-e234-a27f-e063-6294a90a6d8d",
+      "published_at": "2026-11-16T00:00:00Z",
+      "title": "KETOROLAC TROMETHAMINE",
+      "summary": "WARNING Ketorolac tromethamine, a nonsteroidal anti-inflammatory drug (NSAID), is indicated for the short-term (up to 5 days in adults) management of moderately severe acute pain that requires analgesia at the opioid level. Oral ketorolac tromethamine is indicated only as",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a23b0fa-803c-4abb-b588-12cfe83326a9",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Not coded",
-      "code_label": "RxNorm 42316 tacrolimus"
-    },
-    {
-      "item_id": "federal_register:2026-23114",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-13T00:00:00Z",
-      "title": "Order Under Sections 362 and 365 of the Public Health Service Act Continuing the Suspension of the Right To Introduce Certain Persons From Countries Where a Quarantinable Communicable Disease Exists",
-      "summary": "The Centers for Disease Control and Prevention (CDC), a component of the Department of Health and Human Services (HHS), announces it is issuing an Order under Sections 362 and 365 of the Public Health Service Act, and associated implementing regulations, continuing the",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23114/order-under-sections-362-and-365-of-the-public-health-service-act-continuing-the-suspension-of-the",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
       "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23119",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-13T00:00:00Z",
-      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23119/agency-information-collection-activities-submission-for-omb-review-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23146",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-13T00:00:00Z",
-      "title": "Agency Information Collection Activities: Submission for OMB Review, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23146/agency-information-collection-activities-submission-for-omb-review-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23189",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-13T00:00:00Z",
-      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23189/agency-information-collection-activities-proposed-collection-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:00de1f16-f979-4dbf-aa60-246ffac8d410",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-13T00:00:00Z",
-      "title": "METOPROLOL TARTRATE",
-      "summary": "1 INDICATIONS AND USAGE Metoprolol tartrate tablets are a beta-adrenergic blocker indicated for the treatment of: Hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00de1f16-f979-4dbf-aa60-246ffac8d410",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I21.9 Acute myocardial infarction unspecified. I10 Essential hypertension. RxNorm 6918 metoprolol"
     }
   ],
   "areas": [
     {
       "area": "Heart and vessels",
-      "item_count": 16
+      "item_count": 19
     },
     {
       "area": "Mental health",
-      "item_count": 7
+      "item_count": 5
     },
     {
-      "area": "Diabetes and metabolism",
-      "item_count": 4
+      "area": "Brain and nerves",
+      "item_count": 2
     },
     {
       "area": "Cancer",
-      "item_count": 3
+      "item_count": 2
+    },
+    {
+      "area": "Diabetes and metabolism",
+      "item_count": 2
     },
     {
       "area": "Infection",
       "item_count": 2
     },
     {
-      "area": "Brain and nerves",
+      "area": "Lung",
       "item_count": 1
     },
     {
       "area": "Not coded",
-      "item_count": 225
+      "item_count": 219
     }
   ],
   "weekly": [
@@ -898,7 +902,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-12",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 8
+      "item_count": 6
     },
     {
       "week_start": "2026-10-19",
@@ -982,7 +986,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-09",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 70
+      "item_count": 11
     },
     {
       "week_start": "2026-11-09",
@@ -1006,7 +1010,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-16",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 2
+      "item_count": 55
     },
     {
       "week_start": "2026-11-16",
@@ -1018,7 +1022,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-16",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 14
+      "item_count": 16
     }
   ],
   "counts": [
@@ -1030,7 +1034,7 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 72
+      "item_count": 66
     },
     {
       "source_id": "openfda_enforcement",
@@ -1073,5 +1077,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-19T20:17:04Z"
+  "generated_at": "2026-11-20T19:49:38Z"
 };

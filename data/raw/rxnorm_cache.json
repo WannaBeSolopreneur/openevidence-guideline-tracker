@@ -75,6 +75,10 @@
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "40048"
   },
+  "celecoxib": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "140587"
+  },
   "ciprofloxacin": {
     "looked_up_at": "2026-11-18 20:14:06",
     "rxcui": "2551"
@@ -123,6 +127,10 @@
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "1546356"
   },
+  "dapagliflozin": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "1488564"
+  },
   "dexamethasone": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "3264"
@@ -167,13 +175,25 @@
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "4179"
   },
+  "ezetimibe": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "341248"
+  },
   "famotidine": {
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "4278"
   },
+  "finasteride": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "25025"
+  },
   "fluconazole": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "4450"
+  },
+  "fluorouracil": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "4492"
   },
   "fluoxetine": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -223,6 +243,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "27792"
   },
+  "irinotecan": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "51499"
+  },
   "isoniazid": {
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "6038"
@@ -247,6 +271,10 @@
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "6375"
   },
+  "levofloxacin": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "82122"
+  },
   "levothyroxine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "10582"
@@ -254,6 +282,14 @@
   "lidocaine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6387"
+  },
+  "lisinopril": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "29046"
+  },
+  "lithium": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "6448"
   },
   "lorazepam": {
     "looked_up_at": "2026-11-06 17:17:20",
@@ -310,6 +346,10 @@
   "olanzapine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "61381"
+  },
+  "omeprazole": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "7646"
   },
   "oxycodone": {
     "looked_up_at": "2026-11-10 19:30:05",
@@ -371,6 +411,14 @@
     "looked_up_at": "2026-11-17 20:39:49",
     "rxcui": "8787"
   },
+  "risperidone": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "35636"
+  },
+  "rituximab": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "121191"
+  },
   "rivaroxaban": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1114195"
@@ -403,6 +451,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "42316"
   },
+  "tadalafil": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "358263"
+  },
   "tamoxifen": {
     "looked_up_at": "2026-11-18 20:14:06",
     "rxcui": "10324"
@@ -426,6 +478,10 @@
   "topiramate": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "38404"
+  },
+  "tramadol": {
+    "looked_up_at": "2026-11-20 19:49:38",
+    "rxcui": "10689"
   },
   "trazodone": {
     "looked_up_at": "2026-11-06 17:17:20",
