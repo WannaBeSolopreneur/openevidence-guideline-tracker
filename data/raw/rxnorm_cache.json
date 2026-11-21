@@ -171,6 +171,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "3992"
   },
+  "esomeprazole": {
+    "looked_up_at": "2026-11-21 18:55:00",
+    "rxcui": "283742"
+  },
   "etoposide": {
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "4179"
@@ -182,6 +186,10 @@
   "famotidine": {
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "4278"
+  },
+  "filgrastim": {
+    "looked_up_at": "2026-11-21 18:55:00",
+    "rxcui": "68442"
   },
   "finasteride": {
     "looked_up_at": "2026-11-20 19:49:38",
@@ -311,6 +319,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6851"
   },
+  "methylphenidate": {
+    "looked_up_at": "2026-11-21 18:55:00",
+    "rxcui": "6901"
+  },
   "metoclopramide": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6915"
@@ -423,6 +435,10 @@
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "1114195"
   },
+  "rosuvastatin": {
+    "looked_up_at": "2026-11-21 18:55:00",
+    "rxcui": "301542"
+  },
   "semaglutide": {
     "looked_up_at": "2026-11-17 20:39:49",
     "rxcui": "1991302"
@@ -474,6 +490,10 @@
   "tocilizumab": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "612865"
+  },
+  "tofacitinib": {
+    "looked_up_at": "2026-11-21 18:55:00",
+    "rxcui": "1357536"
   },
   "topiramate": {
     "looked_up_at": "2026-11-06 17:17:20",

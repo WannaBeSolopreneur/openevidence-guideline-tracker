@@ -45,8 +45,8 @@
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-20",
-      "days_elapsed": 5,
+      "as_of": "2026-11-21",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -58,17 +58,17 @@
       "unit": "hours",
       "metric_kind": "snapshot",
       "direction": "lower",
-      "current_value": 115.0,
+      "current_value": 114.0,
       "target_value": 48.0,
-      "current_label": "115 hours",
+      "current_label": "114 hours",
       "target_label": "48 hours",
-      "progress_ratio": 0.41739130434782606,
+      "progress_ratio": 0.42105263157894735,
       "pace_ratio": null,
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-20",
-      "days_elapsed": 5,
+      "as_of": "2026-11-21",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.35294117647058826,
+      "current_value": 0.35877862595419846,
       "target_value": 0.4,
-      "current_label": "35.3%",
+      "current_label": "35.9%",
       "target_label": "40%",
-      "progress_ratio": 0.8823529411764706,
+      "progress_ratio": 0.8969465648854961,
       "pace_ratio": null,
       "status": "at_risk",
       "status_label": "At risk",
       "sort_order": 3,
-      "as_of": "2026-11-20",
-      "days_elapsed": 5,
+      "as_of": "2026-11-21",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 5 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 6 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 24.0,
+      "current_value": 32.0,
       "target_value": 4.0,
-      "current_label": "24",
+      "current_label": "32",
       "target_label": "4",
-      "progress_ratio": 6.0,
-      "pace_ratio": 0.7142857142857143,
+      "progress_ratio": 8.0,
+      "pace_ratio": 0.8571428571428571,
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 4,
-      "as_of": "2026-11-20",
-      "days_elapsed": 5,
+      "as_of": "2026-11-21",
+      "days_elapsed": 6,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-20T19:49:38Z",
+      "fetched_at": "2026-11-21T18:55:00Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,8 +131,8 @@
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-20T19:49:38Z",
-      "record_count": 66,
+      "fetched_at": "2026-11-21T18:55:00Z",
+      "record_count": 73,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
       "latest_published_at": "2026-11-18T00:00:00Z"
@@ -140,7 +140,7 @@
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-20T19:49:38Z",
+      "fetched_at": "2026-11-21T18:55:00Z",
       "record_count": 69,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,11 +149,11 @@
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-20T19:49:38Z",
+      "fetched_at": "2026-11-21T18:55:00Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-20T00:00:00Z"
+      "latest_published_at": "2026-11-23T00:00:00Z"
     }
   ],
   "actions": [
@@ -169,51 +169,77 @@
       "sort_order": 1
     },
     {
-      "action_id": "openfda_label:08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
-      "item_id": "openfda_label:08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+      "action_id": "openfda_label:07d43bf6-a695-453a-a5c7-9581effe585c",
+      "item_id": "openfda_label:07d43bf6-a695-453a-a5c7-9581effe585c",
       "source_name": "FDA labels",
-      "title": "PAROXETINE (PAROXETINE HYDROCHLORIDE)",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+      "title": "RISPERIDONE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07d43bf6-a695-453a-a5c7-9581effe585c",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-16T00:00:00Z",
+      "published_at": "2026-11-17T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 2
     },
     {
-      "action_id": "openfda_label:15e4c3a3-7d64-471e-bfdf-6156731e24aa",
-      "item_id": "openfda_label:15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+      "action_id": "openfda_label:0f692652-4451-4eef-901d-1e6aadc43847",
+      "item_id": "openfda_label:0f692652-4451-4eef-901d-1e6aadc43847",
       "source_name": "FDA labels",
-      "title": "FUROSEMIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+      "title": "OLANZAPINE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f692652-4451-4eef-901d-1e6aadc43847",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-16T00:00:00Z",
+      "published_at": "2026-11-17T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 3
     },
     {
-      "action_id": "openfda_label:2a23b0fa-803c-4abb-b588-12cfe83326a9",
-      "item_id": "openfda_label:2a23b0fa-803c-4abb-b588-12cfe83326a9",
+      "action_id": "openfda_label:0fd4f3cc-409a-4609-affc-29947714461e",
+      "item_id": "openfda_label:0fd4f3cc-409a-4609-affc-29947714461e",
       "source_name": "FDA labels",
-      "title": "KETOROLAC TROMETHAMINE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a23b0fa-803c-4abb-b588-12cfe83326a9",
+      "title": "TOFACITINIB",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fd4f3cc-409a-4609-affc-29947714461e",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-16T00:00:00Z",
+      "published_at": "2026-11-17T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 4
     },
     {
-      "action_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
-      "item_id": "openfda_label:2f7d84d4-1085-4243-be88-442eecb85205",
+      "action_id": "openfda_label:176b400b-2b4e-481d-b6c4-0f99e4c711c3",
+      "item_id": "openfda_label:176b400b-2b4e-481d-b6c4-0f99e4c711c3",
       "source_name": "FDA labels",
-      "title": "METRONIDAZOLE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f7d84d4-1085-4243-be88-442eecb85205",
+      "title": "VALSARTAN AND HYDROCHLOROTHIAZIDE",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=176b400b-2b4e-481d-b6c4-0f99e4c711c3",
       "impact_reason": "Boxed warning",
-      "published_at": "2026-11-16T00:00:00Z",
+      "published_at": "2026-11-17T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
       "sort_order": 5
     }
   ],
   "feed": [
+    {
+      "item_id": "federal_register:2026-23798",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-23T00:00:00Z",
+      "title": "Request for Public Comment on the Proposed Short-Term Exposure Limit for Occupational Exposure to Carbon Monoxide",
+      "summary": "The National Institute for Occupational Safety and Health (NIOSH) in the Centers for Disease Control and Prevention (CDC), an operating division of the Department of Health and Human Services (HHS), requests public comment on the draft document, Proposed Short- Term Exposure",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23798/request-for-public-comment-on-the-proposed-short-term-exposure-limit-for-occupational-exposure-to",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23799",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-23T00:00:00Z",
+      "title": "National Institute for Occupational Safety and Health (NIOSH) Center for Occupational Robotics Research (CORR), Request for Information",
+      "summary": "The Centers for Disease Control and Prevention's (CDC) National Institute for Occupational Safety and Health (NIOSH), in the Department of Health and Human Services, requests public input on research priorities and prevention needs related to humanoid robots in workplaces.",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23799/national-institute-for-occupational-safety-and-health-niosh-center-for-occupational-robotics",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "federal_register:2026-23668",
       "source_id": "federal_register",
@@ -410,6 +436,97 @@
       "code_label": ""
     },
     {
+      "item_id": "openfda_label:02797697-300a-43db-92cf-9b78f08626be",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "ROSUVASTATIN CALCIUM",
+      "summary": "1 INDICATIONS AND USAGE Rosuvastatin tablets is indicated: To reduce the risk major adverse cardiovascular (CV) events (CV death, nonfatal myocardial infarction, nonfatal stroke, or an arterial revascularization procedure) in adults without established coronary heart disease who",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02797697-300a-43db-92cf-9b78f08626be",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I21.9 Acute myocardial infarction unspecified. E78.5 Hyperlipidemia unspecified. RxNorm 301542 rosuvastatin"
+    },
+    {
+      "item_id": "openfda_label:07d43bf6-a695-453a-a5c7-9581effe585c",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "RISPERIDONE",
+      "summary": "WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Risperidone is not approved for the treatment of patients with dementia-related",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07d43bf6-a695-453a-a5c7-9581effe585c",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Not coded",
+      "code_label": "RxNorm 6448 lithium. RxNorm 35636 risperidone. RxNorm 40254 valproate"
+    },
+    {
+      "item_id": "openfda_label:0f692652-4451-4eef-901d-1e6aadc43847",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "OLANZAPINE",
+      "summary": "WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Analyses of seventeen placebo-controlled trials (modal duration of 10 weeks),",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f692652-4451-4eef-901d-1e6aadc43847",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Not coded",
+      "code_label": "RxNorm 61381 olanzapine"
+    },
+    {
+      "item_id": "openfda_label:0fd4f3cc-409a-4609-affc-29947714461e",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "TOFACITINIB",
+      "summary": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS SERIOUS INFECTIONS Patients treated with tofacitinib extended-release tablets are at increased risk for developing serious bacterial, fungal, viral, and opportunistic",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fd4f3cc-409a-4609-affc-29947714461e",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Bone and joint",
+      "code_label": "ICD-10 M05.9 Rheumatoid arthritis with rheumatoid factor unspecified. RxNorm 1357536 tofacitinib"
+    },
+    {
+      "item_id": "openfda_label:176b400b-2b4e-481d-b6c4-0f99e4c711c3",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "VALSARTAN AND HYDROCHLOROTHIAZIDE",
+      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue valsartan and hydrochlorothiazide tablets as soon as possible. ( 5.1 ) Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus. ( 5.1 ). WARNING: FETAL TOXICITY See",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=176b400b-2b4e-481d-b6c4-0f99e4c711c3",
+      "high_impact": 1,
+      "impact_reason": "Boxed warning",
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5487 hydrochlorothiazide. RxNorm 69749 valsartan"
+    },
+    {
+      "item_id": "openfda_label:1e566c10-4498-4f79-8874-4cc8c4216213",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "METOLAZONE",
+      "summary": "INDICATIONS AND USAGE Metolazone tablets are indicated for the treatment of salt and water retention including: • edema accompanying congestive heart failure, • edema accompanying renal diseases, including the nephrotic syndrome and states of diminished renal function.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e566c10-4498-4f79-8874-4cc8c4216213",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Heart and vessels",
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension"
+    },
+    {
+      "item_id": "openfda_label:3f99b26b-79b9-4efb-aa2c-2868e1e126c8",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "TOPIRAMATE",
+      "summary": "1 INDICATIONS AND USAGE Topiramate tablets are indicated for: Epilepsy: initial monotherapy for the treatment of partial-onset or primary generalized tonic-clonic seizures in patients 2 years of age and older ( 1.1 ), adjunctive therapy for the treatment of partial-onset",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f99b26b-79b9-4efb-aa2c-2868e1e126c8",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Brain and nerves",
+      "code_label": "ICD-10 G40.909 Epilepsy unspecified not intractable without status epilepticus. RxNorm 38404 topiramate"
+    },
+    {
       "item_id": "openfda_label:4a3901a4-194f-4a15-9c85-3d0982afcf31",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
@@ -423,207 +540,86 @@
       "code_label": "RxNorm 197519 clindamycin phosphate. RxNorm 804973 clindamycin phosphate. RxNorm 309333 clindamycin phosphate"
     },
     {
-      "item_id": "federal_register:2026-23204",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "Target Product Profile for a Rapid Diagnostic Test for West Nile Virus Disease: Request for Information",
-      "summary": "The Centers for Disease Control and Prevention (CDC) in the Department of Health and Human Services (HHS) announces the opening of a docket to obtain comment on the proposed Target Product Profile for a Rapid Diagnostic Test for West Nile Virus Disease for Use in Hospitals and",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23204/target-product-profile-for-a-rapid-diagnostic-test-for-west-nile-virus-disease-request-for",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23205",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "Target Product Profile for Monoclonal Antibodies for West Nile Virus Disease Prevention: Request for Information",
-      "summary": "The Centers for Disease Control and Prevention (CDC) in the Department of Health and Human Services (HHS) announces the opening of a docket to obtain comment on the proposed Target Product Profile for Monoclonal Antibodies for West Nile Virus Disease Prevention. This Request for",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23205/target-product-profile-for-monoclonal-antibodies-for-west-nile-virus-disease-prevention-request-for",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23206",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "Target Product Profile for a Human West Nile Virus Vaccine: Request for Information",
-      "summary": "The Centers for Disease Control and Prevention (CDC) in the Department of Health and Human Services (HHS) announces the opening of a docket to obtain comment on the proposed Target Product Profile for a Human West Nile Virus Vaccine. This Request for Information (RFI) invites",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23206/target-product-profile-for-a-human-west-nile-virus-vaccine-request-for-information",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23279",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "Restoring Flexibility To Support Head Start Program Access",
-      "summary": "In this final rule, the Administration for Children and Families (ACF) removes requirements from the Head Start Program Performance Standards (Performance Standards) to restore local flexibility to Head Start programs and improve access to quality services. Specifically, this",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23279/restoring-flexibility-to-support-head-start-program-access",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:0789baef-3424-43ab-a3fb-4908172da565",
+      "item_id": "openfda_label:581d7430-1a80-42a6-befb-4c3ae8140392",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "HYDROCHLOROTHIAZIDE",
-      "summary": "INDICATIONS AND USAGE Hydrochlorothiazide capsules, USP are indicated in the management of hypertension either as the sole therapeutic agent, or in combination with other antihypertensives. Unlike potassium sparing combination diuretic products, hydrochlorothiazide capsules, USP",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0789baef-3424-43ab-a3fb-4908172da565",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "Erythromycin Ethylsuccinate (ERYTHROMYCIN)",
+      "summary": "INDICATIONS AND USAGE To reduce the development of drug-resistant bacteria and maintain the effectiveness of erythromycin ethylsuccinate for oral suspension and other antibacterial drugs, erythromycin ethylsuccinate for oral suspension should be used only to treat or prevent",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=581d7430-1a80-42a6-befb-4c3ae8140392",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:5da82411-1a22-465f-9663-8299a1424e02",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "METOPROLOL TARTRATE (METOPROLOL)",
+      "summary": "1 INDICATIONS AND USAGE Metoprolol tartrate tablet is a beta-adrenergic blocker indicated for the treatment of: • Hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5da82411-1a22-465f-9663-8299a1424e02",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5487 hydrochlorothiazide"
+      "code_label": "ICD-10 I21.9 Acute myocardial infarction unspecified. I10 Essential hypertension. RxNorm 6918 metoprolol"
     },
     {
-      "item_id": "openfda_label:08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
+      "item_id": "openfda_label:6b7f96c3-daf4-4029-a96b-baa37add0edb",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "PAROXETINE (PAROXETINE HYDROCHLORIDE)",
-      "summary": "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behaviors in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening, and for emergence of suicidal",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08320ea3-8f93-6f04-5d1c-f69af3eb5a81",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Mental health",
-      "code_label": "ICD-10 F32.9 Major depressive disorder single episode unspecified. F41.9 Anxiety disorder unspecified. R45.851 Suicidal ideations. RxNorm 32937 paroxetine"
-    },
-    {
-      "item_id": "openfda_label:0abe9478-4084-286d-e063-6294a90a9ba7",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "OXCARBAZEPINE",
-      "summary": "1 INDICATIONS AND USAGE Oxcarbazepine tablets are indicated for use as monotherapy or adjunctive therapy in the treatment of partial-onset seizures in adults and as monotherapy in the treatment of partial-onset seizures in pediatric patients aged 4 years and above, and as",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0abe9478-4084-286d-e063-6294a90a9ba7",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:0c7f9bd0-6c0a-4521-b77a-3582faa96874",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "HYDRALAZINE HYDROCHLORIDE",
-      "summary": "INDICATIONS AND USAGE Essential hypertension, alone or as an adjunct.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c7f9bd0-6c0a-4521-b77a-3582faa96874",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "BISOPROLOL FUMARATE AND HYDROCHLOROTHIAZIDE",
+      "summary": "INDICATIONS & USAGE Bisoprolol fumarate and hydrochlorothiazide tablets are indicated in the management of hypertension.",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6b7f96c3-daf4-4029-a96b-baa37add0edb",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5470 hydralazine"
+      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 19484 bisoprolol. RxNorm 5487 hydrochlorothiazide"
     },
     {
-      "item_id": "openfda_label:0ea3cd84-de0f-4981-a420-1d01d1ecd620",
+      "item_id": "openfda_label:6cb41b00-0589-42d0-9e3e-230385768875",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "SULFACETAMIDE SODIUM, SULFUR",
-      "summary": "INDICATIONS: This product is indicated for use in the topical control of acne vulgaris, acne rosacea and seborrheic dermatitis.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ea3cd84-de0f-4981-a420-1d01d1ecd620",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "AZITHROMYCIN",
+      "summary": "1 INDICATIONS AND USAGE Azithromycin for oral suspension is a macrolide antibacterial drug indicated for treatment of patients with mild to moderate infections caused by susceptible strains of the designated microorganisms in the specific conditions listed below: • Acute",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6cb41b00-0589-42d0-9e3e-230385768875",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
-      "code_label": ""
+      "code_label": "RxNorm 18631 azithromycin"
     },
     {
-      "item_id": "openfda_label:15e4c3a3-7d64-471e-bfdf-6156731e24aa",
+      "item_id": "openfda_label:74e1ec6e-1630-4654-895c-2bd355f939e7",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "FUROSEMIDE",
-      "summary": "BOXED WARNING WARNING Furosemide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required and dose and dose schedule must be adjusted to the individual",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15e4c3a3-7d64-471e-bfdf-6156731e24aa",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 4603 furosemide"
-    },
-    {
-      "item_id": "openfda_label:174e45e0-45bb-48b7-9e60-8f6cfc1d22bb",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "Zetia (EZETIMIBE)",
-      "summary": "1 INDICATIONS AND USAGE ZETIA ® is indicated: In combination with a statin, or alone when additional low-density lipoprotein cholesterol (LDL-C) lowering therapy is not possible, as an adjunct to diet to reduce elevated LDL-C in adults with primary hyperlipidemia, including",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174e45e0-45bb-48b7-9e60-8f6cfc1d22bb",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Diabetes and metabolism",
-      "code_label": "ICD-10 E78.5 Hyperlipidemia unspecified. RxNorm 341248 ezetimibe"
-    },
-    {
-      "item_id": "openfda_label:1760ccdc-46f7-4182-a563-96b13212cb7e",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "PREGABALIN",
-      "summary": "1 INDICATIONS AND USAGE Pregabalin capsules are indicated for: • Management of neuropathic pain associated with diabetic peripheral neuropathy • Management of postherpetic neuralgia • Adjunctive therapy for the treatment of partial-onset seizures in patients 1 month of age and",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1760ccdc-46f7-4182-a563-96b13212cb7e",
+      "published_at": "2026-11-17T00:00:00Z",
+      "title": "RELEUKO (FILGRASTIM)",
+      "summary": "1 INDICATIONS AND USAGE RELEUKO is a leukocyte growth factor indicated to: Decrease the incidence of infection‚ as manifested by febrile neutropenia‚ in patients with nonmyeloid malignancies receiving myelosuppressive anti- cancer drugs associated with a significant incidence of",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7",
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
-      "code_label": "RxNorm 187832 pregabalin"
-    },
-    {
-      "item_id": "openfda_label:20508a94-01bc-4f1d-a42b-122a31402aaf",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "HYDROCORTISONE",
-      "summary": "INDICATIONS AND USAGE Hydrocortisone Topical Solution 2.5% is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20508a94-01bc-4f1d-a42b-122a31402aaf",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": "RxNorm 5492 hydrocortisone"
-    },
-    {
-      "item_id": "openfda_label:2a23b0fa-803c-4abb-b588-12cfe83326a9",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-16T00:00:00Z",
-      "title": "KETOROLAC TROMETHAMINE",
-      "summary": "WARNING Ketorolac tromethamine, a nonsteroidal anti-inflammatory drug (NSAID), is indicated for the short-term (up to 5 days in adults) management of moderately severe acute pain that requires analgesia at the opioid level. Oral ketorolac tromethamine is indicated only as",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a23b0fa-803c-4abb-b588-12cfe83326a9",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Not coded",
-      "code_label": ""
+      "code_label": "RxNorm 68442 filgrastim"
     }
   ],
   "areas": [
     {
       "area": "Heart and vessels",
-      "item_count": 19
-    },
-    {
-      "area": "Mental health",
-      "item_count": 5
-    },
-    {
-      "area": "Brain and nerves",
-      "item_count": 2
-    },
-    {
-      "area": "Cancer",
-      "item_count": 2
+      "item_count": 17
     },
     {
       "area": "Diabetes and metabolism",
+      "item_count": 7
+    },
+    {
+      "area": "Mental health",
+      "item_count": 6
+    },
+    {
+      "area": "Brain and nerves",
       "item_count": 2
     },
     {
@@ -631,12 +627,24 @@
       "item_count": 2
     },
     {
+      "area": "Bone and joint",
+      "item_count": 1
+    },
+    {
+      "area": "Cancer",
+      "item_count": 1
+    },
+    {
       "area": "Lung",
       "item_count": 1
     },
     {
+      "area": "Skin",
+      "item_count": 1
+    },
+    {
       "area": "Not coded",
-      "item_count": 219
+      "item_count": 221
     }
   ],
   "weekly": [
@@ -902,7 +910,7 @@
       "week_start": "2026-10-12",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 6
+      "item_count": 4
     },
     {
       "week_start": "2026-10-19",
@@ -986,7 +994,7 @@
       "week_start": "2026-11-09",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 11
+      "item_count": 0
     },
     {
       "week_start": "2026-11-09",
@@ -1010,7 +1018,7 @@
       "week_start": "2026-11-16",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 55
+      "item_count": 73
     },
     {
       "week_start": "2026-11-16",
@@ -1034,7 +1042,7 @@
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 66
+      "item_count": 73
     },
     {
       "source_id": "openfda_enforcement",
@@ -1077,5 +1085,5 @@
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-20T19:49:38Z"
+  "generated_at": "2026-11-21T18:55:00Z"
 }
