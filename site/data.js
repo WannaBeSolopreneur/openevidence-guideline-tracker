@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-22",
-      "days_elapsed": 7,
+      "as_of": "2026-11-23",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -67,8 +67,8 @@ window.SITE_DATA = {
       "status": "behind",
       "status_label": "Behind",
       "sort_order": 2,
-      "as_of": "2026-11-22",
-      "days_elapsed": 7,
+      "as_of": "2026-11-23",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -89,8 +89,8 @@ window.SITE_DATA = {
       "status": "at_risk",
       "status_label": "At risk",
       "sort_order": 3,
-      "as_of": "2026-11-22",
-      "days_elapsed": 7,
+      "as_of": "2026-11-23",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 7 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 1 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 32.0,
+      "current_value": 0.0,
       "target_value": 4.0,
-      "current_label": "32",
+      "current_label": "0",
       "target_label": "4",
-      "progress_ratio": 8.0,
-      "pace_ratio": 1.0,
-      "status": "on_track",
-      "status_label": "On track",
+      "progress_ratio": 0.0,
+      "pace_ratio": 0.14285714285714285,
+      "status": "behind",
+      "status_label": "Behind",
       "sort_order": 4,
-      "as_of": "2026-11-22",
-      "days_elapsed": 7,
+      "as_of": "2026-11-23",
+      "days_elapsed": 1,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,7 +122,7 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-22T19:15:28Z",
+      "fetched_at": "2026-11-23T23:38:04Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
@@ -131,16 +131,16 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-22T19:15:28Z",
+      "fetched_at": "2026-11-23T23:38:04Z",
       "record_count": 73,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
-      "latest_published_at": "2026-11-22T00:00:00Z"
+      "latest_published_at": "2026-11-23T00:00:00Z"
     },
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-22T19:15:28Z",
+      "fetched_at": "2026-11-23T23:38:04Z",
       "record_count": 69,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
@@ -149,7 +149,7 @@ window.SITE_DATA = {
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-22T19:15:28Z",
+      "fetched_at": "2026-11-23T23:38:04Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
@@ -239,6 +239,19 @@ window.SITE_DATA = {
       "impact_reason": null,
       "area": "Not coded",
       "code_label": ""
+    },
+    {
+      "item_id": "openfda_label:fc8e868f-9699-4ae6-83d5-fa27789336cd",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "published_at": "2026-11-23T00:00:00Z",
+      "title": "ADAPALENE AND BENZOYL PEROXIDE",
+      "summary": "1 INDICATIONS AND USAGE Adapalene and benzoyl peroxide gel is indicated for the topical treatment of acne vulgaris in patients 9 years of age and older. Adapalene and benzoyl peroxide gel is a combination of adapalene, a retinoid, and benzoyl peroxide, and is indicated for the",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc8e868f-9699-4ae6-83d5-fa27789336cd",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 829539 adapalene and benzoyl peroxide. RxNorm 60223 adapalene"
     },
     {
       "item_id": "openfda_label:a4ddf68d-1502-4242-89aa-c96436bdcbf6",
@@ -394,7 +407,7 @@ window.SITE_DATA = {
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 197418 bumetanide. RxNorm 197417 bumetanide. RxNorm 197419 bumetanide"
+      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 197419 bumetanide. RxNorm 197417 bumetanide. RxNorm 197418 bumetanide"
     },
     {
       "item_id": "federal_register:2026-23300",
@@ -550,7 +563,7 @@ window.SITE_DATA = {
       "high_impact": 0,
       "impact_reason": null,
       "area": "Not coded",
-      "code_label": "RxNorm 309333 clindamycin phosphate. RxNorm 804973 clindamycin phosphate. RxNorm 197519 clindamycin phosphate"
+      "code_label": "RxNorm 804973 clindamycin phosphate. RxNorm 309333 clindamycin phosphate. RxNorm 197519 clindamycin phosphate"
     },
     {
       "item_id": "openfda_label:581d7430-1a80-42a6-befb-4c3ae8140392",
@@ -590,19 +603,6 @@ window.SITE_DATA = {
       "impact_reason": null,
       "area": "Heart and vessels",
       "code_label": "ICD-10 I10 Essential hypertension. RxNorm 19484 bisoprolol. RxNorm 5487 hydrochlorothiazide"
-    },
-    {
-      "item_id": "openfda_label:6cb41b00-0589-42d0-9e3e-230385768875",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "AZITHROMYCIN",
-      "summary": "1 INDICATIONS AND USAGE Azithromycin for oral suspension is a macrolide antibacterial drug indicated for treatment of patients with mild to moderate infections caused by susceptible strains of the designated microorganisms in the specific conditions listed below: • Acute",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6cb41b00-0589-42d0-9e3e-230385768875",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": "RxNorm 18631 azithromycin"
     }
   ],
   "areas": [
@@ -611,12 +611,12 @@ window.SITE_DATA = {
       "item_count": 17
     },
     {
-      "area": "Diabetes and metabolism",
+      "area": "Mental health",
       "item_count": 6
     },
     {
-      "area": "Mental health",
-      "item_count": 6
+      "area": "Diabetes and metabolism",
+      "item_count": 5
     },
     {
       "area": "Brain and nerves",
@@ -648,30 +648,6 @@ window.SITE_DATA = {
     }
   ],
   "weekly": [
-    {
-      "week_start": "2026-08-03",
-      "source_id": "cdc_mmwr",
-      "source_name": "CDC MMWR",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-08-03",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-08-03",
-      "source_id": "openfda_enforcement",
-      "source_name": "FDA recalls",
-      "item_count": 0
-    },
-    {
-      "week_start": "2026-08-03",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "item_count": 0
-    },
     {
       "week_start": "2026-08-10",
       "source_id": "cdc_mmwr",
@@ -1018,7 +994,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-16",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "item_count": 73
+      "item_count": 72
     },
     {
       "week_start": "2026-11-16",
@@ -1031,6 +1007,30 @@ window.SITE_DATA = {
       "source_id": "federal_register",
       "source_name": "Federal Register",
       "item_count": 16
+    },
+    {
+      "week_start": "2026-11-23",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "item_count": 0
+    },
+    {
+      "week_start": "2026-11-23",
+      "source_id": "openfda_label",
+      "source_name": "FDA labels",
+      "item_count": 1
+    },
+    {
+      "week_start": "2026-11-23",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "item_count": 0
+    },
+    {
+      "week_start": "2026-11-23",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "item_count": 2
     }
   ],
   "counts": [
@@ -1085,5 +1085,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-22T19:15:28Z"
+  "generated_at": "2026-11-23T23:38:04Z"
 };
