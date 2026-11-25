@@ -45,8 +45,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 1,
-      "as_of": "2026-11-24",
-      "days_elapsed": 2,
+      "as_of": "2026-11-25",
+      "days_elapsed": 3,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -67,8 +67,8 @@ window.SITE_DATA = {
       "status": "on_track",
       "status_label": "On track",
       "sort_order": 2,
-      "as_of": "2026-11-24",
-      "days_elapsed": 2,
+      "as_of": "2026-11-25",
+      "days_elapsed": 3,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -80,17 +80,17 @@ window.SITE_DATA = {
       "unit": "percent",
       "metric_kind": "snapshot",
       "direction": "higher",
-      "current_value": 0.3549618320610687,
+      "current_value": 0.35877862595419846,
       "target_value": 0.4,
-      "current_label": "35.5%",
+      "current_label": "35.9%",
       "target_label": "40%",
-      "progress_ratio": 0.8874045801526717,
+      "progress_ratio": 0.8969465648854961,
       "pace_ratio": null,
       "status": "at_risk",
       "status_label": "At risk",
       "sort_order": 3,
-      "as_of": "2026-11-24",
-      "days_elapsed": 2,
+      "as_of": "2026-11-25",
+      "days_elapsed": 3,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -98,21 +98,21 @@ window.SITE_DATA = {
     {
       "goal_id": "high_impact_week",
       "label": "High-impact changes this week",
-      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 2 of 7.",
+      "detail": "Example target. Boxed warnings, CDC recommendations, Class I recalls, and FDA guidance notices published this week. Pace line is day 3 of 7.",
       "unit": "count",
       "metric_kind": "pace",
       "direction": "higher",
-      "current_value": 0.0,
+      "current_value": 2.0,
       "target_value": 4.0,
-      "current_label": "0",
+      "current_label": "2",
       "target_label": "4",
-      "progress_ratio": 0.0,
-      "pace_ratio": 0.2857142857142857,
-      "status": "behind",
-      "status_label": "Behind",
+      "progress_ratio": 0.5,
+      "pace_ratio": 0.42857142857142855,
+      "status": "on_track",
+      "status_label": "On track",
       "sort_order": 4,
-      "as_of": "2026-11-24",
-      "days_elapsed": 2,
+      "as_of": "2026-11-25",
+      "days_elapsed": 3,
       "days_in_period": 7,
       "on_track_ratio": 0.95,
       "at_risk_ratio": 0.8
@@ -122,16 +122,16 @@ window.SITE_DATA = {
     {
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "fetched_at": "2026-11-24T22:09:03Z",
+      "fetched_at": "2026-11-25T21:25:10Z",
       "record_count": 40,
       "ok": 1,
       "note": "CDC media collection 342778, the live MMWR collection.",
-      "latest_published_at": "2026-11-19T00:00:00Z"
+      "latest_published_at": "2026-11-25T00:00:00Z"
     },
     {
       "source_id": "openfda_label",
       "source_name": "FDA labels",
-      "fetched_at": "2026-11-24T22:09:03Z",
+      "fetched_at": "2026-11-25T21:25:10Z",
       "record_count": 73,
       "ok": 1,
       "note": "openFDA drug labels, prescription products, plus boxed warnings.",
@@ -140,29 +140,29 @@ window.SITE_DATA = {
     {
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "fetched_at": "2026-11-24T22:09:03Z",
+      "fetched_at": "2026-11-25T21:25:10Z",
       "record_count": 69,
       "ok": 1,
       "note": "openFDA drug enforcement. The link is the openFDA record.",
-      "latest_published_at": "2026-11-11T00:00:00Z"
+      "latest_published_at": "2026-11-18T00:00:00Z"
     },
     {
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "fetched_at": "2026-11-24T22:09:03Z",
+      "fetched_at": "2026-11-25T21:25:10Z",
       "record_count": 80,
       "ok": 1,
       "note": "FDA, CDC, CMS, and HHS documents that match guidance or recommendation.",
-      "latest_published_at": "2026-11-24T00:00:00Z"
+      "latest_published_at": "2026-11-25T00:00:00Z"
     }
   ],
   "actions": [
     {
-      "action_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
-      "item_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "action_id": "openfda_label:4116ccde-2e23-45f4-b12f-6337df877744",
+      "item_id": "openfda_label:4116ccde-2e23-45f4-b12f-6337df877744",
       "source_name": "FDA labels",
-      "title": "BUMETANIDE",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "title": "HYZAAR (LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4116ccde-2e23-45f4-b12f-6337df877744",
       "impact_reason": "Boxed warning",
       "published_at": "2026-11-18T00:00:00Z",
       "sentence": "A boxed warning changed on this label. A clinician team should read it.",
@@ -214,6 +214,84 @@ window.SITE_DATA = {
     }
   ],
   "feed": [
+    {
+      "item_id": "cdc_mmwr:766910",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "published_at": "2026-11-25T00:00:00Z",
+      "title": "Differences Between Urban and Rural Counties in Pregnancy-Related Deaths - United States, 2015 - 2024",
+      "summary": "This report describes differences between pregnancy-related deaths in urban and rural areas during 2015 - 2024.",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7546a1.htm?s_cid=OS_mm7546a1_x",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "cdc_mmwr:766911",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "published_at": "2026-11-25T00:00:00Z",
+      "title": "Notes from the Field: Death Involving the Semisynthetic Kratom-Derived Opioid Dihydro-7-Hydroxymitragynine (MGM-15) from a Product Labeled Cat's Claw - San Francisco, California, September 2026",
+      "summary": "This report describes an accidental death in San Francisco, California, involving MGM-15.",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7546a2.htm?s_cid=OS_mm7546a2_x",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "cdc_mmwr:766912",
+      "source_id": "cdc_mmwr",
+      "source_name": "CDC MMWR",
+      "published_at": "2026-11-25T00:00:00Z",
+      "title": "QuickStats: Age-Adjusted Percentage of Adults Aged ≥18 Years Who Visited a Doctor or Other Health Professional During the Preceding 12 Months, by Urbanization Level and Family Income - United States, 2025",
+      "summary": "This report describes the percentage of adults who visited a doctor or other health professional during the preceding 12 months.",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7546a3.htm?s_cid=OS_mm7546a3_x",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23960",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-25T00:00:00Z",
+      "title": "Medicare Program, Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Programs of All-Inclusive Care for the Elderly",
+      "summary": "This proposed rule would revise the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Programs of All- Inclusive Care for the Elderly regulations to implement changes related to marketing and communications, drug coverage, enrollment processes,",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-23960/medicare-program-contract-year-2028-policy-and-technical-changes-to-the-medicare-advantage-program",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-23995",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-25T00:00:00Z",
+      "title": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities, Draft Guidance for Industry, Extension of Comment Period",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is extending the comment period for the notice of availability that appeared in the Federal Register of August 28, 2026. In the notice, FDA requested comments on the draft guidance for industry (GFI) #256B titled \"Compounding",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-23995/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
+      "high_impact": 1,
+      "impact_reason": "FDA guidance",
+      "area": "Not coded",
+      "code_label": ""
+    },
+    {
+      "item_id": "federal_register:2026-24015",
+      "source_id": "federal_register",
+      "source_name": "Federal Register",
+      "published_at": "2026-11-25T00:00:00Z",
+      "title": "Over-the-Counter Monograph Order Requests: Format and Content, Guidance for Industry, Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled \"Over-the- Counter Monograph Order Requests: Format and Content.\" This guidance provides recommendations on the format and content of the information that a",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-24015/over-the-counter-monograph-order-requests-format-and-content-guidance-for-industry-availability",
+      "high_impact": 1,
+      "impact_reason": "FDA guidance",
+      "area": "Not coded",
+      "code_label": ""
+    },
     {
       "item_id": "federal_register:2026-23909",
       "source_id": "federal_register",
@@ -410,199 +488,121 @@ window.SITE_DATA = {
       "code_label": ""
     },
     {
-      "item_id": "openfda_label:8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "item_id": "openfda_enforcement:D-0174-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "Lisdexamfetamine Dimesylate Capsules 40 mg, 100-count bottle, Rx Only, Manufactured by: Ohm Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries,",
+      "summary": "Failed Dissolution Specifications",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0174-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 854830 lisdexamfetamine dimesylate. RxNorm 854838 lisdexamfetamine dimesylate. RxNorm 854834 lisdexamfetamine dimesylate"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0175-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "ORL Organic Oral Care Bubblegum Kids natural toothpaste, 4 oz., ORL, Manufactured in USA, ORL LAbs, LLC, Scottsdale, Arizona, USA, UPC# 850006245505",
+      "summary": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0175-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4083 estradiol"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0176-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "ORL Organic Oral Care Cinnamint toothpaste, 4 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA UPC# 850006245512",
+      "summary": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0176-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4083 estradiol"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0177-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "ORL Organic Oral Care Fresh Mint natural toothpaste, 4 oz., ORL, Manufactured in USA, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC 850006245499",
+      "summary": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0177-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4083 estradiol"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0178-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "ORL Organic Oral Care Bubblegum Kids Mouthwash, 16.9 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC# #850006245475",
+      "summary": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0178-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4083 estradiol"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0179-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "Organic Oral Care Cinnamint Kids Mouthwash, 16.9 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA, 16.9 oz. UPC# #850006245468",
+      "summary": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0179-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4083 estradiol"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0180-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "ORL Organic Oral Care Fresh mint mouthwash, 16.9 oz., ORL, Manufactured in USA, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC# #850006245451",
+      "summary": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0180-2027\"&limit=1",
+      "high_impact": 0,
+      "impact_reason": null,
+      "area": "Not coded",
+      "code_label": "RxNorm 4083 estradiol"
+    },
+    {
+      "item_id": "openfda_enforcement:D-0189-2027",
+      "source_id": "openfda_enforcement",
+      "source_name": "FDA recalls",
+      "published_at": "2026-11-18T00:00:00Z",
+      "title": "UMARY Acido Hialuronico, also known as: \"New Hyaluronic Acid 850mg Sealed 30 Caps\", Suplemento Alimenticio, Contenido Neto: 30 capletas de 850 mg.",
+      "summary": "Marketed without approved NDA/ANDA- FDA laboratory analysis found product to be tainted with undeclared ingredients: Dexamethasone, Diclofenac and Omeprazole.",
+      "source_url": "https://api.fda.gov/drug/enforcement.json?search=recall_number:\"D-0189-2027\"&limit=1",
+      "high_impact": 1,
+      "impact_reason": "Class I recall",
+      "area": "Not coded",
+      "code_label": "RxNorm 3264 dexamethasone. RxNorm 7646 omeprazole"
+    },
+    {
+      "item_id": "openfda_label:4116ccde-2e23-45f4-b12f-6337df877744",
       "source_id": "openfda_label",
       "source_name": "FDA labels",
       "published_at": "2026-11-18T00:00:00Z",
-      "title": "BUMETANIDE",
-      "summary": "WARNING Bumetanide is a potent diuretic which, if given in excessive amounts, can lead to a profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required, and dose and dosage schedule have to be adjusted to the individual patient’s",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8914d8bf-61b7-4cd2-a8ef-7e1c5df37828",
+      "title": "HYZAAR (LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE)",
+      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue HYZAAR as soon as possible. Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus [see Warnings and Precautions (5.1) ] . WARNING: FETAL TOXICITY See full",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4116ccde-2e23-45f4-b12f-6337df877744",
       "high_impact": 1,
       "impact_reason": "Boxed warning",
       "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. RxNorm 197418 bumetanide. RxNorm 197417 bumetanide. RxNorm 197419 bumetanide"
-    },
-    {
-      "item_id": "federal_register:2026-23300",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "Draft Policy Update to the NIH Policy for Data and Safety Monitoring",
-      "summary": "The National Institutes of Health (NIH) is committed to ensuring risk-based monitoring for participant safety and to upholding the quality and integrity of data for all NIH-supported clinical research. To further this goal, NIH is seeking public input on proposed updates to the",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23300/draft-policy-update-to-the-nih-policy-for-data-and-safety-monitoring",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23301",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23301/agency-forms-undergoing-paperwork-reduction-act-review",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23350",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "Agency Information Collection Activities: Proposed Collection, Comment Request",
-      "summary": "Federal Register document.",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23350/agency-information-collection-activities-proposed-collection-comment-request",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "federal_register:2026-23351",
-      "source_id": "federal_register",
-      "source_name": "Federal Register",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "Rulemaking To Provide That N-acetyl-L-cysteine Is Not Excluded From the Dietary Supplement Definition",
-      "summary": "The Food and Drug Administration (FDA or we) is proposing to issue a regulation finding that N-acetyl-L-cysteine (NAC) is not excluded from the dietary supplement definition in the Federal Food, Drug, and Cosmetic Act (FD&C Act). This action, if finalized, would allow products",
-      "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23351/rulemaking-to-provide-that-n-acetyl-l-cysteine-is-not-excluded-from-the-dietary-supplement",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:02797697-300a-43db-92cf-9b78f08626be",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "ROSUVASTATIN CALCIUM",
-      "summary": "1 INDICATIONS AND USAGE Rosuvastatin tablets is indicated: To reduce the risk major adverse cardiovascular (CV) events (CV death, nonfatal myocardial infarction, nonfatal stroke, or an arterial revascularization procedure) in adults without established coronary heart disease who",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02797697-300a-43db-92cf-9b78f08626be",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I21.9 Acute myocardial infarction unspecified. E78.5 Hyperlipidemia unspecified. RxNorm 301542 rosuvastatin"
-    },
-    {
-      "item_id": "openfda_label:07d43bf6-a695-453a-a5c7-9581effe585c",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "RISPERIDONE",
-      "summary": "WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Risperidone is not approved for the treatment of patients with dementia-related",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07d43bf6-a695-453a-a5c7-9581effe585c",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Not coded",
-      "code_label": "RxNorm 6448 lithium. RxNorm 35636 risperidone. RxNorm 40254 valproate"
-    },
-    {
-      "item_id": "openfda_label:0f692652-4451-4eef-901d-1e6aadc43847",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "OLANZAPINE",
-      "summary": "WARNING: INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Analyses of seventeen placebo-controlled trials (modal duration of 10 weeks),",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f692652-4451-4eef-901d-1e6aadc43847",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Not coded",
-      "code_label": "RxNorm 61381 olanzapine"
-    },
-    {
-      "item_id": "openfda_label:0fd4f3cc-409a-4609-affc-29947714461e",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "TOFACITINIB",
-      "summary": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS SERIOUS INFECTIONS Patients treated with tofacitinib extended-release tablets are at increased risk for developing serious bacterial, fungal, viral, and opportunistic",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fd4f3cc-409a-4609-affc-29947714461e",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Bone and joint",
-      "code_label": "ICD-10 M05.9 Rheumatoid arthritis with rheumatoid factor unspecified. RxNorm 1357536 tofacitinib"
-    },
-    {
-      "item_id": "openfda_label:176b400b-2b4e-481d-b6c4-0f99e4c711c3",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "VALSARTAN AND HYDROCHLOROTHIAZIDE",
-      "summary": "WARNING: FETAL TOXICITY When pregnancy is detected, discontinue valsartan and hydrochlorothiazide tablets as soon as possible. ( 5.1 ) Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus. ( 5.1 ). WARNING: FETAL TOXICITY See",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=176b400b-2b4e-481d-b6c4-0f99e4c711c3",
-      "high_impact": 1,
-      "impact_reason": "Boxed warning",
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5487 hydrochlorothiazide. RxNorm 69749 valsartan"
-    },
-    {
-      "item_id": "openfda_label:1e566c10-4498-4f79-8874-4cc8c4216213",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "METOLAZONE",
-      "summary": "INDICATIONS AND USAGE Metolazone tablets are indicated for the treatment of salt and water retention including: • edema accompanying congestive heart failure, • edema accompanying renal diseases, including the nephrotic syndrome and states of diminished renal function.",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e566c10-4498-4f79-8874-4cc8c4216213",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I50.9 Heart failure unspecified. I10 Essential hypertension"
-    },
-    {
-      "item_id": "openfda_label:3f99b26b-79b9-4efb-aa2c-2868e1e126c8",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "TOPIRAMATE",
-      "summary": "1 INDICATIONS AND USAGE Topiramate tablets are indicated for: Epilepsy: initial monotherapy for the treatment of partial-onset or primary generalized tonic-clonic seizures in patients 2 years of age and older ( 1.1 ), adjunctive therapy for the treatment of partial-onset",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f99b26b-79b9-4efb-aa2c-2868e1e126c8",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Brain and nerves",
-      "code_label": "ICD-10 G40.909 Epilepsy unspecified not intractable without status epilepticus. RxNorm 38404 topiramate"
-    },
-    {
-      "item_id": "openfda_label:4a3901a4-194f-4a15-9c85-3d0982afcf31",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "Cleocin T (CLINDAMYCIN PHOSPHATE)",
-      "summary": "INDICATIONS AND USAGE CLEOCIN T Topical Solution, CLEOCIN T Topical Gel and CLEOCIN T Topical Lotion are indicated in the treatment of acne vulgaris. In view of the potential for diarrhea, bloody diarrhea and pseudomembranous colitis, the physician should consider whether other",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a3901a4-194f-4a15-9c85-3d0982afcf31",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": "RxNorm 197519 clindamycin phosphate. RxNorm 309333 clindamycin phosphate. RxNorm 804973 clindamycin phosphate"
-    },
-    {
-      "item_id": "openfda_label:581d7430-1a80-42a6-befb-4c3ae8140392",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "Erythromycin Ethylsuccinate (ERYTHROMYCIN)",
-      "summary": "INDICATIONS AND USAGE To reduce the development of drug-resistant bacteria and maintain the effectiveness of erythromycin ethylsuccinate for oral suspension and other antibacterial drugs, erythromycin ethylsuccinate for oral suspension should be used only to treat or prevent",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=581d7430-1a80-42a6-befb-4c3ae8140392",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Not coded",
-      "code_label": ""
-    },
-    {
-      "item_id": "openfda_label:5da82411-1a22-465f-9663-8299a1424e02",
-      "source_id": "openfda_label",
-      "source_name": "FDA labels",
-      "published_at": "2026-11-17T00:00:00Z",
-      "title": "METOPROLOL TARTRATE (METOPROLOL)",
-      "summary": "1 INDICATIONS AND USAGE Metoprolol tartrate tablet is a beta-adrenergic blocker indicated for the treatment of: • Hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial",
-      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5da82411-1a22-465f-9663-8299a1424e02",
-      "high_impact": 0,
-      "impact_reason": null,
-      "area": "Heart and vessels",
-      "code_label": "ICD-10 I21.9 Acute myocardial infarction unspecified. I10 Essential hypertension. RxNorm 6918 metoprolol"
+      "code_label": "ICD-10 I10 Essential hypertension. RxNorm 5487 hydrochlorothiazide. RxNorm 52175 losartan"
     }
   ],
   "areas": [
@@ -635,16 +635,12 @@ window.SITE_DATA = {
       "item_count": 1
     },
     {
-      "area": "Lung",
-      "item_count": 1
-    },
-    {
       "area": "Skin",
       "item_count": 1
     },
     {
       "area": "Not coded",
-      "item_count": 223
+      "item_count": 228
     }
   ],
   "weekly": [
@@ -700,7 +696,7 @@ window.SITE_DATA = {
       "week_start": "2026-08-24",
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "item_count": 1
+      "item_count": 0
     },
     {
       "week_start": "2026-08-24",
@@ -724,7 +720,7 @@ window.SITE_DATA = {
       "week_start": "2026-08-31",
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "item_count": 3
+      "item_count": 1
     },
     {
       "week_start": "2026-08-31",
@@ -736,7 +732,7 @@ window.SITE_DATA = {
       "week_start": "2026-08-31",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 2
+      "item_count": 3
     },
     {
       "week_start": "2026-08-31",
@@ -832,7 +828,7 @@ window.SITE_DATA = {
       "week_start": "2026-09-28",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 0
+      "item_count": 1
     },
     {
       "week_start": "2026-09-28",
@@ -856,7 +852,7 @@ window.SITE_DATA = {
       "week_start": "2026-10-05",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 0
+      "item_count": 3
     },
     {
       "week_start": "2026-10-05",
@@ -880,13 +876,13 @@ window.SITE_DATA = {
       "week_start": "2026-10-12",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 0
+      "item_count": 4
     },
     {
       "week_start": "2026-10-12",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 3
+      "item_count": 2
     },
     {
       "week_start": "2026-10-19",
@@ -928,13 +924,13 @@ window.SITE_DATA = {
       "week_start": "2026-10-26",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 3
+      "item_count": 4
     },
     {
       "week_start": "2026-10-26",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 14
+      "item_count": 13
     },
     {
       "week_start": "2026-11-02",
@@ -976,7 +972,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-09",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 39
+      "item_count": 32
     },
     {
       "week_start": "2026-11-09",
@@ -1000,19 +996,19 @@ window.SITE_DATA = {
       "week_start": "2026-11-16",
       "source_id": "openfda_enforcement",
       "source_name": "FDA recalls",
-      "item_count": 0
+      "item_count": 8
     },
     {
       "week_start": "2026-11-16",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 16
+      "item_count": 15
     },
     {
       "week_start": "2026-11-23",
       "source_id": "cdc_mmwr",
       "source_name": "CDC MMWR",
-      "item_count": 0
+      "item_count": 3
     },
     {
       "week_start": "2026-11-23",
@@ -1030,7 +1026,7 @@ window.SITE_DATA = {
       "week_start": "2026-11-23",
       "source_id": "federal_register",
       "source_name": "Federal Register",
-      "item_count": 3
+      "item_count": 6
     }
   ],
   "counts": [
@@ -1085,5 +1081,5 @@ window.SITE_DATA = {
       "staging/stg_rxnorm_lookup"
     ]
   },
-  "generated_at": "2026-11-24T22:09:03Z"
+  "generated_at": "2026-11-25T21:25:10Z"
 };

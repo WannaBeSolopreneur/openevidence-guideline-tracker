@@ -3,14 +3,40 @@
     "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
     "terms": "https://open.fda.gov/terms/",
     "license": "https://open.fda.gov/license/",
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-18",
     "results": {
       "skip": 0,
       "limit": 30,
-      "total": 41
+      "total": 52
     }
   },
   "results": [
+    {
+      "status": "Ongoing",
+      "city": "Dover Plains",
+      "state": "NY",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99622",
+      "recalling_firm": "IBeautiStore.com",
+      "address_1": "3042 Route 22 # 38",
+      "address_2": "",
+      "postal_code": "12522-5920",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "USA Nationwide",
+      "recall_number": "D-0189-2027",
+      "product_description": "UMARY Acido Hialuronico, also known as: \"New Hyaluronic Acid 850mg Sealed 30 Caps\", Suplemento Alimenticio, Contenido Neto: 30 capletas de 850 mg.",
+      "product_quantity": "15 bottles",
+      "reason_for_recall": "Marketed without approved NDA/ANDA- FDA laboratory analysis found product to be tainted with undeclared ingredients: Dexamethasone, Diclofenac and Omeprazole.",
+      "recall_initiation_date": "20260422",
+      "center_classification_date": "20261119",
+      "report_date": "20261118",
+      "code_info": "All lots within expiry",
+      "more_code_info": ""
+    },
     {
       "status": "Ongoing",
       "city": "Rochester",
@@ -90,6 +116,78 @@
       "center_classification_date": "20261026",
       "report_date": "20261028",
       "code_info": "Lot #: 83449, Exp Date: 10/2026; 82682, Exp Date: 11/2026; 86714, 87302, 87560, Exp Date: 02/2027; 87753, 88401, Exp Date: 03/2027; 88614, 88836, Exp Date: 04/2027; 90220, Exp Date: 05/2027; 91216, 91219, Exp Date: 06/2027; 92004, 92006, Exp Date: 07/2027; 92009, 92596, 92782, 93107, 93329, Exp Date: 08/2027; 93890, Exp Date: 09/2027.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Rochester",
+      "state": "MI",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {
+        "application_number": [
+          "NDA011559"
+        ],
+        "brand_name": [
+          "BREVITAL SODIUM"
+        ],
+        "generic_name": [
+          "METHOHEXITAL SODIUM"
+        ],
+        "manufacturer_name": [
+          "Par Health USA, LLC"
+        ],
+        "product_ndc": [
+          "42023-105"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAMUSCULAR",
+          "INTRAVENOUS",
+          "RECTAL"
+        ],
+        "substance_name": [
+          "METHOHEXITAL SODIUM"
+        ],
+        "rxcui": [
+          "1244233",
+          "1244638"
+        ],
+        "spl_id": [
+          "6efcbde7-9a3d-4d12-93ea-793a9e72725a"
+        ],
+        "spl_set_id": [
+          "eccd8340-ead3-4363-8902-0c19d33aa2ac"
+        ],
+        "package_ndc": [
+          "42023-105-01"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "60200PNZ7Q"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100051",
+      "recalling_firm": "Par Health USA, LLC",
+      "address_1": "870 Parkdale Rd",
+      "address_2": "",
+      "postal_code": "48307-1740",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Press Release",
+      "distribution_pattern": "US Nationwide and Canada",
+      "recall_number": "D-0156-2027",
+      "product_description": "Brevital Sodium (Methohexital Sodium), For Injection, USP, 500 mg/vial, 500 mg Multiple Dose Vial,, Rx only, Distributed by: Par Pharmaceutical, Chestnut Ridge, NY 10977, NDC: 42023-105-01.",
+      "product_quantity": "20,567 vials",
+      "reason_for_recall": "Presence of Particulate Matter; Particulates identified as cellulose",
+      "recall_initiation_date": "20261008",
+      "center_classification_date": "20261030",
+      "report_date": "20261028",
+      "code_info": "Lot: 86930, Exp. 02/2028; 88623, Exp. 04/2028.",
       "more_code_info": ""
     },
     {
@@ -197,6 +295,332 @@
       "center_classification_date": "20261026",
       "report_date": "20261028",
       "code_info": "Lot #: 84193, Exp Date: 10/2026; 92880, Exp Date: 08/2027.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Tomball",
+      "state": "TX",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99860",
+      "recalling_firm": "Centric Compounding LLC",
+      "address_1": "909 Graham Dr Ste D",
+      "address_2": "N/A",
+      "postal_code": "77375-3335",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "USA Nationwide.",
+      "recall_number": "D-0046-2027",
+      "product_description": "Glutathione 200 mg/mL, 30 mL multi-dose vial, Rx only, Centric Compounding, 7447 Harwin Dr. Suite 111, Houston, TX 77036",
+      "product_quantity": "45 vials",
+      "reason_for_recall": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "recall_initiation_date": "20260727",
+      "center_classification_date": "20261016",
+      "report_date": "20261014",
+      "code_info": "Lot #: 062326:B, Beyond Use Date 8/7/26; 070826:A, Beyond Use Date: 8/22/26; 072726:D, Beyond Use Date: 9/25/26"
+    },
+    {
+      "status": "Ongoing",
+      "city": "Tomball",
+      "state": "TX",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99860",
+      "recalling_firm": "Centric Compounding LLC",
+      "address_1": "909 Graham Dr Ste D",
+      "address_2": "N/A",
+      "postal_code": "77375-3335",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "USA Nationwide.",
+      "recall_number": "D-0047-2027",
+      "product_description": "Multidose Myers Cocktail (Ascorbic Acid 500 mg/10 mL, Calcium Gluconate 10 mg/mL. Calcium Panthothenate 2 mg/10 mL, Glutathione-L 200 mg/10mL, Magnesium Chloride 800 mg/10 mL, Methylcobalamin 1 mg/10 mL, B-Complex 1 ml/10 mL, Zinc Sulfate 2.5 mg/10 mL) IV injection, 3 Myers Cocktails (1 Myers/10 mL), 30 mL vial, Rx only, Centric Compounding, 7447 Harwin Dr. Suite 111, Houston, TX 77036",
+      "product_quantity": "9 vials",
+      "reason_for_recall": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "recall_initiation_date": "20260727",
+      "center_classification_date": "20261016",
+      "report_date": "20261014",
+      "code_info": "Lot #: 070226:D, Beyond Use Date: 8/16/26; 072126:A, Beyond Use Date: 9/4/26"
+    },
+    {
+      "status": "Ongoing",
+      "city": "Studio City",
+      "state": "CA",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99029",
+      "recalling_firm": "Erotic Enhancers",
+      "address_1": "12605 Ventura Blvd",
+      "address_2": "N/A",
+      "postal_code": "91604-2415",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "The product was sold to 6 customers through eBay.",
+      "recall_number": "D-0071-2027",
+      "product_description": "WAP Sensual Enhancement Capsules, 1 capsule per blister pack, UPC 6 80174 00463 1",
+      "product_quantity": "6 blister packs",
+      "reason_for_recall": "Marketed Without an Approved NDA/ANDA: Found to contain undeclared sildenafil, tadalafil and flibanserin",
+      "recall_initiation_date": "20260506",
+      "center_classification_date": "20261020",
+      "report_date": "20261014",
+      "code_info": "All lots within expiry"
+    },
+    {
+      "status": "Ongoing",
+      "city": "Tomball",
+      "state": "TX",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99860",
+      "recalling_firm": "Centric Compounding LLC",
+      "address_1": "909 Graham Dr Ste D",
+      "address_2": "N/A",
+      "postal_code": "77375-3335",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "USA Nationwide.",
+      "recall_number": "D-0048-2027",
+      "product_description": "Tri-Immune Boost (Glutathione: 200 mg, Ascorbic Acid: 200 mg, Zinc: 2.5 mg), 30 mL vial, Rx only, Centric Compounding, 7447 Harwin Dr. Suite 111, Houston, TX 77036",
+      "product_quantity": "3 vials",
+      "reason_for_recall": "Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+      "recall_initiation_date": "20260727",
+      "center_classification_date": "20261016",
+      "report_date": "20261014",
+      "code_info": "Lot #: 071626:B, Beyond Use Date: 8/30/26"
+    },
+    {
+      "status": "Ongoing",
+      "city": "Rochester",
+      "state": "MI",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {
+        "application_number": [
+          "ANDA203972"
+        ],
+        "brand_name": [
+          "DEXMEDETOMIDINE HYDROCHLORIDE"
+        ],
+        "generic_name": [
+          "DEXMEDETOMIDINE HYDROCHLORIDE"
+        ],
+        "manufacturer_name": [
+          "Par Health USA, LLC"
+        ],
+        "product_ndc": [
+          "42023-146",
+          "42023-186",
+          "42023-187"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "DEXMEDETOMIDINE HYDROCHLORIDE"
+        ],
+        "rxcui": [
+          "309710",
+          "1718906",
+          "1718909"
+        ],
+        "spl_id": [
+          "54174211-6684-4fb9-a605-be12b94e2948"
+        ],
+        "spl_set_id": [
+          "1ee59985-4c1d-48f7-b8f9-5584c2d55e08"
+        ],
+        "package_ndc": [
+          "42023-146-25",
+          "42023-186-20",
+          "42023-187-10",
+          "42023-187-01"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "1018WH7F9I"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "99890",
+      "recalling_firm": "Par Health USA, LLC",
+      "address_1": "870 Parkdale Rd",
+      "address_2": "",
+      "postal_code": "48307-1740",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Press Release",
+      "distribution_pattern": "Nationwide in the  U.S.A",
+      "recall_number": "D-0072-2027",
+      "product_description": "Dexmedetomidine HCl in 0.9% Sodium Chloride Injection, 400 mcg/100 mL (4mcg/mL), Rx Only, 10x100 mL Single-Dose Vials per carton, Manufactured for: Endo USA, Malvern, PA 19355, Carton: NDC 42023-187-10. Vial NDC:  42023-187-01",
+      "product_quantity": "773 10x100ml vials per carton",
+      "reason_for_recall": "Presence of Particulate Matter: the particulate was identified as cellulose or stopper material",
+      "recall_initiation_date": "20260918",
+      "center_classification_date": "20261021",
+      "report_date": "20261007",
+      "code_info": "Lot #: 87558, Exp: 02/28/2027; 88802, Exp: 04/30/2027.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Lincoln",
+      "state": "NE",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99857",
+      "recalling_firm": "DANALVIG LLC",
+      "address_1": "812 W Belmont Ave",
+      "address_2": "",
+      "postal_code": "68521-3410",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide in the USA through e-bay.",
+      "recall_number": "D-0043-2027",
+      "product_description": "Orbi 20, Whitening Cream formulated to Brighten Fresh, Glowing and Even tone skin packaged in a plastic container, further packaged in a box, White Gold International, Lahore, Pakistan",
+      "product_quantity": "17 containers",
+      "reason_for_recall": "Presence of Foreign Substance; FDA analysis found the products to be tainted with mercury.",
+      "recall_initiation_date": "20260615",
+      "center_classification_date": "20261014",
+      "report_date": "20261007",
+      "code_info": "All codes within expiry",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Lincoln",
+      "state": "NE",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99857",
+      "recalling_firm": "DANALVIG LLC",
+      "address_1": "812 W Belmont Ave",
+      "address_2": "",
+      "postal_code": "68521-3410",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Nationwide in the USA through e-bay.",
+      "recall_number": "D-0044-2027",
+      "product_description": "Omni Gold Anti-Marks Cream Extra Brightening, packaged in a plastic container, further packaged in a box, White Gold International, Lahore, Pakistan",
+      "product_quantity": "17 containers",
+      "reason_for_recall": "Presence of Foreign Substance; FDA analysis found the products to be tainted with mercury.",
+      "recall_initiation_date": "20260615",
+      "center_classification_date": "20261014",
+      "report_date": "20261007",
+      "code_info": "All codes within expiry",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Austin",
+      "state": "TX",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {
+        "application_number": [
+          "NDA018090"
+        ],
+        "brand_name": [
+          "SODIUM CHLORIDE"
+        ],
+        "generic_name": [
+          "SODIUM CHLORIDE"
+        ],
+        "manufacturer_name": [
+          "ICU Medical Inc."
+        ],
+        "product_ndc": [
+          "0990-7730",
+          "0990-7983",
+          "0990-7984",
+          "0990-7985"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "SODIUM CHLORIDE"
+        ],
+        "rxcui": [
+          "1807548",
+          "1807549",
+          "1807550",
+          "1807551",
+          "1807552",
+          "1807627",
+          "1807630",
+          "1807631",
+          "1807632",
+          "1807633",
+          "1807634",
+          "1807639"
+        ],
+        "spl_id": [
+          "3c1024d2-4044-4d25-a498-02073762e826"
+        ],
+        "spl_set_id": [
+          "5f372b75-d7a4-471e-8ac6-290040fc84b0"
+        ],
+        "package_ndc": [
+          "0990-7730-36",
+          "0990-7730-37",
+          "0990-7983-61",
+          "0990-7983-02",
+          "0990-7983-03",
+          "0990-7983-09",
+          "0990-7983-55",
+          "0990-7983-53",
+          "0990-7984-37",
+          "0990-7984-20",
+          "0990-7984-13",
+          "0990-7984-23",
+          "0990-7984-36",
+          "0990-7985-02",
+          "0990-7985-03",
+          "0990-7985-09"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "451W47IQ8X"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "99892",
+      "recalling_firm": "Otsuka ICU Medical LLC",
+      "address_1": "3900 Howard Ln",
+      "address_2": "",
+      "postal_code": "78728-6515",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "Natinowide within the United States",
+      "recall_number": "D-0001-2027",
+      "product_description": "0.9% Sodium Chloride Injection, USP, 100 mL single-dose container, ICU Medical, Inc., Lake Forest, Illinois 60045, USA, NDC 0990-7984-23.",
+      "product_quantity": "258,480 container",
+      "reason_for_recall": "Product Mix-up: Product overwrap labeled as 0.9% SODIUM CHLORIDE Injection, USP may contain a bag of POTASSIUM CHLORIDE Inj.10 mEq",
+      "recall_initiation_date": "20260911",
+      "center_classification_date": "20261001",
+      "report_date": "20260930",
+      "code_info": "Lot #: 1042188, Exp. Date 10/31/2027",
       "more_code_info": ""
     },
     {
@@ -585,6 +1009,31 @@
     },
     {
       "status": "Ongoing",
+      "city": "Woburn",
+      "state": "MA",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99666",
+      "recalling_firm": "Safecor Health, LLC",
+      "address_1": "317 New Boston St",
+      "address_2": "N/A",
+      "postal_code": "01801-6231",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "MA only",
+      "recall_number": "D-0112-2027",
+      "product_description": "Children's Motrin (Ibuprofen) Oral Suspension, 150 mg per 7.5 mL, Delivers: 7.5 mL, Conc: 20 mg/mL, Oral Syringes, Berry Flavor/Alcohol Free, Mfg By: MCNEIL, Pkg by: Safecor, Woburn, MA",
+      "product_quantity": "302 syringes",
+      "reason_for_recall": "Product Mixup; syringe filled with Atovaquone instead of Ibuprofen",
+      "recall_initiation_date": "20260814",
+      "center_classification_date": "20261029",
+      "report_date": "20260902",
+      "code_info": "Lot #: 26281630, Exp. Date 01/12/2027"
+    },
+    {
+      "status": "Ongoing",
       "city": "Lake Zurich",
       "state": "IL",
       "country": "United States",
@@ -836,8 +1285,8 @@
           "Fresenius Kabi, USA LLC"
         ],
         "product_ndc": [
-          "76045-238",
           "76045-004",
+          "76045-238",
           "76045-005",
           "76045-006",
           "76045-007",
@@ -1170,566 +1619,6 @@
       "center_classification_date": "20260807",
       "report_date": "20260812",
       "code_info": "Lot # C23019V1, Exp 10/31/2026; C24015V1, Exp 4/30/2027",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Mumbai",
-      "state": "N/A",
-      "country": "India",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "ANDA077829"
-        ],
-        "brand_name": [
-          "CETIRIZINE HYDROCHLORIDE"
-        ],
-        "generic_name": [
-          "CETIRIZINE HYDROCHLORIDE"
-        ],
-        "manufacturer_name": [
-          "Rising Pharma Holdings, Inc."
-        ],
-        "product_ndc": [
-          "16571-401"
-        ],
-        "product_type": [
-          "HUMAN OTC DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "CETIRIZINE HYDROCHLORIDE"
-        ],
-        "rxcui": [
-          "1014676"
-        ],
-        "spl_id": [
-          "37fb3dd8-d5bf-46e4-8331-0c8c1eac540d"
-        ],
-        "spl_set_id": [
-          "6493d4f6-dead-45ec-ade1-28ce624af33d"
-        ],
-        "package_ndc": [
-          "16571-401-10"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "64O047KTOA"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "99321",
-      "recalling_firm": "JB Chemicals and Pharmaceuticals Ltd",
-      "address_1": "Neelam Centre A Wing A B Wing",
-      "address_2": "4th Floor; Hind Cycle Road",
-      "postal_code": "N/A",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide in the USA",
-      "recall_number": "D-0732-2026",
-      "product_description": "Cetirizine Hydrochloride Tablets USP 5 mg, 100-count bottle, Manufactured by: Unique Pharmaceuticals Labs, (A Div. of J.B. Chemicals & Pharmaceuticals, Ltd.), Mumbai 400 030, India. Distributed by: Rising Pharma Holdings, Inc., East Brunswick, NJ 08816, NDC 16571-401-10.",
-      "product_quantity": "34,020 100-count bottles.",
-      "reason_for_recall": "Cross Contamination with Other Products: Customer complaints for appearance of  discolored tablets and red dots observed on Cetirizine Hydrochloride Tablets USP 5 mg. Determined to be Ranitidine.",
-      "recall_initiation_date": "20260624",
-      "center_classification_date": "20260803",
-      "report_date": "20260729",
-      "code_info": "Lots: GY825029, GY825030, GY825031, GY825032, expires: 2028-OCT"
-    },
-    {
-      "status": "Ongoing",
-      "city": "Santa Fe Springs",
-      "state": "CA",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "98731",
-      "recalling_firm": "Blaine Labs Inc",
-      "address_1": "11037 Lockport Pl",
-      "address_2": "N/A",
-      "postal_code": "90670-4634",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Press Release",
-      "distribution_pattern": "Nationwide in the USA",
-      "recall_number": "D-0692-2026",
-      "product_description": "Revitaderm Wound Care Gel, Benzalkonium Chloride 0.1%, packaged in 1.0 FL OZ (37 mL) bottle, shorter twist cap, Manufactured By: Blaine Labs, Inc. 11037 Lockport Place Santa Fe Springs, CA 90670, NDC 63347-120-02.",
-      "product_quantity": "1,171 - 1 oz bottles",
-      "reason_for_recall": "Microbial contamination of Non-Sterile Product: samples identified the presence of Lysinibacillus fusiformis and other Bacillus spp",
-      "recall_initiation_date": "20260408",
-      "center_classification_date": "20260716",
-      "report_date": "20260708",
-      "code_info": "Lot#: BL3608, Exp. 07/01/28."
-    },
-    {
-      "status": "Ongoing",
-      "city": "El Paso",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "NDA020832"
-        ],
-        "brand_name": [
-          "CHLORAPREP ONE-STEP"
-        ],
-        "generic_name": [
-          "CHLORHEXIDINE GLUCONATE AND ISOPROPYL ALCOHOL"
-        ],
-        "manufacturer_name": [
-          "CareFusion 213, LLC"
-        ],
-        "product_ndc": [
-          "54365-400"
-        ],
-        "product_type": [
-          "HUMAN OTC DRUG"
-        ],
-        "route": [
-          "TOPICAL"
-        ],
-        "substance_name": [
-          "CHLORHEXIDINE GLUCONATE",
-          "ISOPROPYL ALCOHOL"
-        ],
-        "rxcui": [
-          "858726",
-          "998282"
-        ],
-        "spl_id": [
-          "5e85e3a9-5760-c590-e063-6294a90a39e4"
-        ],
-        "spl_set_id": [
-          "85291b2b-40b9-07fa-e053-2a91aa0a84e4"
-        ],
-        "package_ndc": [
-          "54365-400-31"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "MOR84MUD8E",
-          "ND2M416302"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "99114",
-      "recalling_firm": "CareFusion 213, LLC",
-      "address_1": "1550 Northwestern Dr",
-      "address_2": "N/A",
-      "postal_code": "79912-8000",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide inthe USA, as well as other foreign distribution.",
-      "recall_number": "D-0624-2026",
-      "product_description": "BD ChloraPrep Clear (2% w/v chlorhexidine gluconate (CHG) and 70% v/v isopropyl alcohol (IPA)), 1 mL Applicator, 60 Applicators per inner Carton, Sterile Solution, Care Fusion 213, LLC, El Paso, TX 79912, subsidiary of Beckton, Dickinson and Co., NDC 54365-400-31.",
-      "product_quantity": "193,440 applicators",
-      "reason_for_recall": "Non-Sterility: Due to presence of Aspergillus penicillioides.",
-      "recall_initiation_date": "20260528",
-      "center_classification_date": "20260625",
-      "report_date": "20260701",
-      "code_info": "Lot # 4032183, Exp 01/31/2027"
-    },
-    {
-      "status": "Ongoing",
-      "city": "El Paso",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "NDA020832"
-        ],
-        "brand_name": [
-          "CHLORAPREP ONE-STEP"
-        ],
-        "generic_name": [
-          "CHLORHEXIDINE GLUCONATE AND ISOPROPYL ALCOHOL"
-        ],
-        "manufacturer_name": [
-          "CareFusion 213, LLC"
-        ],
-        "product_ndc": [
-          "54365-400"
-        ],
-        "product_type": [
-          "HUMAN OTC DRUG"
-        ],
-        "route": [
-          "TOPICAL"
-        ],
-        "substance_name": [
-          "CHLORHEXIDINE GLUCONATE",
-          "ISOPROPYL ALCOHOL"
-        ],
-        "rxcui": [
-          "858726",
-          "998282"
-        ],
-        "spl_id": [
-          "5e85f4ef-a1a9-d9b3-e063-6294a90a4b24"
-        ],
-        "spl_set_id": [
-          "8528a4f5-5ff4-45f3-e053-2991aa0a804c"
-        ],
-        "package_ndc": [
-          "54365-400-30"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "MOR84MUD8E",
-          "ND2M416302"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "99114",
-      "recalling_firm": "CareFusion 213, LLC",
-      "address_1": "1550 Northwestern Dr",
-      "address_2": "N/A",
-      "postal_code": "79912-8000",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide inthe USA, as well as other foreign distribution.",
-      "recall_number": "D-0625-2026",
-      "product_description": "BD ChloraPrep FREPP Clear,(2% w/v chlorhexidine gluconate (CHG) and 70% v/v isopropyl alcohol (IPA)) 1.5 mL Applicator, 20 Applicators, Sterile Solution, Care Fusion 213, LLC, El Paso, TX 79912, subsidiary of Beckton, Dickinson and Co., NDC 54365-400-30.",
-      "product_quantity": "178,000 applicators",
-      "reason_for_recall": "Non-Sterility: Due to presence of Aspergillus penicillioides. And Lack of Assurance of Sterility: Due to wrinkles in the paper lidding which may breach the seal   area.",
-      "recall_initiation_date": "20260528",
-      "center_classification_date": "20260625",
-      "report_date": "20260701",
-      "code_info": "Lot # 4073005, Exp 03/31/2027"
-    },
-    {
-      "status": "Ongoing",
-      "city": "Warren",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99125",
-      "recalling_firm": "Haleon US Holdings LLC",
-      "address_1": "184 Liberty Corner Rd Ste 200",
-      "address_2": "N/A",
-      "postal_code": "07059-6870",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Press Release",
-      "distribution_pattern": "Nationwide within the United States",
-      "recall_number": "D-0595-2026",
-      "product_description": "Gas-X Extra Strength, SIMETHICONE 125 mg/ANTIGAS, packaged in a) 120 SoftGels (UPC 3 00674 35041 9, b) 72 SoftGels (UPC 3 00439 00572 1), Distributed by: Haleon, Warren, NJ 07059.",
-      "product_quantity": "35,883 boxes/carton",
-      "reason_for_recall": "Chemical Contamination: contamination with a diluted propylene glycol-based coolant from a machine leakage during the packaging process.",
-      "recall_initiation_date": "20260604",
-      "center_classification_date": "20260617",
-      "report_date": "20260617",
-      "code_info": "Lots: a) TL8K, YH9X, YH9Y, Exp. Date. 30Nov2028; b) X78N, Exp. Date 30Nov2028."
-    },
-    {
-      "status": "Ongoing",
-      "city": "Covina",
-      "state": "CA",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99145",
-      "recalling_firm": "BEEKEEPER'S NATURALS USA INC.",
-      "address_1": "440 N Barranca Ave # 9223",
-      "address_2": "N/A",
-      "postal_code": "91723-1722",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide within the United States.",
-      "recall_number": "D-0620-2026",
-      "product_description": "BEEKEEPER'S NATURALS Saline Nasal Spray, Sinus Congestion Rinse, Made with Propolis + Xylitol, 1 FL OZ (30 mL) per bottle, Manufactured For:  Beekeeper's Naturals USA Inc., Covina, CA 91789.",
-      "product_quantity": "1680 bottles",
-      "reason_for_recall": "Microbial Contamination of Non-Sterile Products",
-      "recall_initiation_date": "20260601",
-      "center_classification_date": "20260624",
-      "report_date": "20260617",
-      "code_info": "Lot #: 5950, Exp. Date 02/2028"
-    },
-    {
-      "status": "Ongoing",
-      "city": "Princeton",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "ANDA203263"
-        ],
-        "brand_name": [
-          "DOXORUBICIN HYDROCHLORIDE"
-        ],
-        "generic_name": [
-          "DOXORUBICIN HYDROCHLORIDE"
-        ],
-        "manufacturer_name": [
-          "NorthStar RxLLC"
-        ],
-        "product_ndc": [
-          "72603-103",
-          "72603-200"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAVENOUS"
-        ],
-        "substance_name": [
-          "DOXORUBICIN HYDROCHLORIDE"
-        ],
-        "rxcui": [
-          "1790115",
-          "1790127"
-        ],
-        "spl_id": [
-          "010a4e76-dedf-4f7b-b4de-1d78f91c2095"
-        ],
-        "spl_set_id": [
-          "ddf55319-bf62-4ec7-8be2-ef97188837c4"
-        ],
-        "package_ndc": [
-          "72603-103-01",
-          "72603-200-01"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0372603200010"
-        ],
-        "unii": [
-          "82F2G7BL4E"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "98921",
-      "recalling_firm": "SUN PHARMACEUTICAL INDUSTRIES INC",
-      "address_1": "2 Independence Way",
-      "address_2": "N/A",
-      "postal_code": "08540-6620",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "E-Mail",
-      "distribution_pattern": "U.S. Nationwide",
-      "recall_number": "D-0580-2026",
-      "product_description": "DOXOrubin Hydrochloride Liposome injection, 50 mg/25 mL (2mg/mL), 25 mL single-dose vials, Sterile, Rx only, Manufactured for: Northstar Rx LLC., Memphis, TN 38141, Manufactured by: Sun Pharmaceutical Ind. Ltd., Halol-Baroda Highway, Halol, Gujarat, India, NDC 72603-200-01.",
-      "product_quantity": "675 vials",
-      "reason_for_recall": "Presence of Particulate matter: Particulate matter identified as glass.",
-      "recall_initiation_date": "20260512",
-      "center_classification_date": "20260605",
-      "report_date": "20260617",
-      "code_info": "Lot HAG2581B, expires: 05/31/2027"
-    },
-    {
-      "status": "Ongoing",
-      "city": "Jackson",
-      "state": "WI",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "98788",
-      "recalling_firm": "Wisconsin Pharmacal Company",
-      "address_1": "N168w22223 Main St",
-      "address_2": "",
-      "postal_code": "53037",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "USA Nationwide and Bahamas",
-      "recall_number": "D-0553-2026",
-      "product_description": "MG217 Multi-Symptom Treatment Cream & Skin Protectant (colloidal oatmeal 2%), NET WT 6 oz (170 g), Manufactured by: Pharmacal 1 Pharmacal Way, P.O. Box 198, Jackson, WI 53037.",
-      "product_quantity": "690 tubes",
-      "reason_for_recall": "Microbial Contamination of Non-Sterile Products: confirmed presence of Staphylococcus Aureus.",
-      "recall_initiation_date": "20260424",
-      "center_classification_date": "20260529",
-      "report_date": "20260527",
-      "code_info": "Lot #: 1024088, Exp 11/30/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Allentown",
-      "state": "PA",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "NDA019632"
-        ],
-        "brand_name": [
-          "LACTATED RINGERS"
-        ],
-        "generic_name": [
-          "SODIUM CHLORIDE, SODIUM LACTATE, POTASSIUM CHLORIDE, AND CALCIUM CHLORIDE"
-        ],
-        "manufacturer_name": [
-          "B. Braun Medical Inc."
-        ],
-        "product_ndc": [
-          "0264-7750"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAVENOUS"
-        ],
-        "substance_name": [
-          "SODIUM CHLORIDE",
-          "SODIUM LACTATE",
-          "POTASSIUM CHLORIDE",
-          "CALCIUM CHLORIDE"
-        ],
-        "rxcui": [
-          "847630"
-        ],
-        "spl_id": [
-          "ace2a888-779f-426d-9ea4-592dd862e3cc"
-        ],
-        "spl_set_id": [
-          "f6d82772-638c-4584-b9d3-8833669f5963"
-        ],
-        "package_ndc": [
-          "0264-7750-07"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "451W47IQ8X",
-          "TU7HW0W0QT",
-          "660YQ98I10",
-          "M4I0D6VV5M"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "98795",
-      "recalling_firm": "B BRAUN MEDICAL INC",
-      "address_1": "861 Marcon Blvd",
-      "address_2": "",
-      "postal_code": "18109-9577",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Press Release",
-      "distribution_pattern": "U.S.A. Nationwide",
-      "recall_number": "D-0540-2026",
-      "product_description": "Lactated Ringer's Injection USP, 1000 mL container, Rx only, B. Braun Medical, Inc., Bethlehem, PA 18018-3524 USA, NDC 0264-7750-07.",
-      "product_quantity": "95,412 containers",
-      "reason_for_recall": "Presence of Particulate Matter.",
-      "recall_initiation_date": "20260428",
-      "center_classification_date": "20260518",
-      "report_date": "20260513",
-      "code_info": "Lot #:J4P756, J4S843, Exp 5/31/2027",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Bridgewater",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {
-        "application_number": [
-          "ANDA216597"
-        ],
-        "brand_name": [
-          "MAGNESIUM SULFATE"
-        ],
-        "generic_name": [
-          "MAGNESIUM SULFATE IN WATER FOR"
-        ],
-        "manufacturer_name": [
-          "Amneal Pharmaceuticals LLC"
-        ],
-        "product_ndc": [
-          "70121-1719",
-          "70121-1720"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAVENOUS"
-        ],
-        "substance_name": [
-          "MAGNESIUM SULFATE HEPTAHYDRATE"
-        ],
-        "rxcui": [
-          "1658259",
-          "1658262"
-        ],
-        "spl_id": [
-          "8ec55093-e97e-4389-b992-36a61608bf5a"
-        ],
-        "spl_set_id": [
-          "29241655-49c9-4bc4-89f2-79a0b24b562e"
-        ],
-        "package_ndc": [
-          "70121-1719-9",
-          "70121-1719-2",
-          "70121-1720-9",
-          "70121-1720-3"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "SK47B8698T"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "98587",
-      "recalling_firm": "Amneal Pharmaceuticals, LLC",
-      "address_1": "400 Crossing Blvd Fl 3",
-      "address_2": "",
-      "postal_code": "08807-2863",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "U.S.A. Nationwide",
-      "recall_number": "D-0478-2026",
-      "product_description": "Magnesium Sulfate in Water for Injection, 4g/100 mL (40mg/mL) IV bag, further packaged in cartons of 12 x 100 mL IV bags, Rx only, Manufactured by: Amneal Pharmaceuticals Pvt. Ltd., Ahmedabad, 382110, India, Distributed by: Amneal Pharmaceuticals LLC, Bridgewater, NJ 08807, NDC 70121-1720-3.",
-      "product_quantity": "784 (12x100mL) cartons",
-      "reason_for_recall": "Product mix up: a foil pouch labeled \"Magnesium Sulfate in Water for Injection, 4 g/100 mL\" actually contained an IV bag of Tranexamic Acid instead.",
-      "recall_initiation_date": "20260318",
-      "center_classification_date": "20260413",
-      "report_date": "20260408",
-      "code_info": "Lot: AH250162, Exp 8/31/2027",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Waukegan",
-      "state": "IL",
-      "country": "United States",
-      "classification": "Class I",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "98503",
-      "recalling_firm": "Cardinal Health 200, LLC",
-      "address_1": "3651 Birchwood Dr",
-      "address_2": "N/A",
-      "postal_code": "60085-8337",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "N/A",
-      "distribution_pattern": "Nationwide within the United States, Puerto Rico and Japan.",
-      "recall_number": "D-0528-2026",
-      "product_description": "Webcol Alcohol Prep pad (70% isopropyl alcohol) 2 ply, 200 count boxes, Cardinal Health 200 LLC 3651 Birchwood Drive, Waukegan, IL 60085.",
-      "product_quantity": "174,380,282 boxes",
-      "reason_for_recall": "Non-Sterility: microbial contamination identified as Paenibacillus phoenicis",
-      "recall_initiation_date": "20260302",
-      "center_classification_date": "20260511",
-      "report_date": "20260325",
-      "code_info": "Lot #: 25H065362; 25J013962; 25J034762; 25J064562; 25K004962; 25K041262; 25K065062;  25L015362; 25H065462; 25J014062; 25J035762; 25J064762; 25K005062; 25K041362;  25K065162; 25L015462; 25H066062; 25J014862; 25J035862; 25J064862; 25K006162;  25K041462; 25K065262; 25L015662; 25H066162; 25J014962; 25J035962; 25J064962;  25K006262; 25K041562; 25K065362; 25L016362; 25H066262; 25J033962; 25J050362; 25J065762; 25K006362; 25K041662; 25K064562; 25L015962; 25H066362; 25J034862;  25J050462; 25J066262; 25K005162; 25K040462; 25K064662; 25L016062; 25H066462;  25J034062; 25J050562; 25J066362; 25K006462; 25K040562; 25K065462; 25L030162;  25J013462; 25J034162; 25J050962; 25K004062; 25K019662; 25K040662; 25K065562; 25L058062; 25J013562; 25J034262; 25J051062; 25K004162; 25K020862; 25K040762;  25K065662; 25M022362; 25J014362; 25J034362; 25J051262; 25K005262; 25K020962;  25K040962; 25K066262; 25M028462; 25J014462; 25J034462; 25J051362; 25J065962;  25K019762; 25K041062; 25K066162; 25H065962; 25J034962; 25J051462; 25J065062;  25K019862; 25K041162; 25K064862; 25H065762; 25J035062; 25J051762; 25J065162;  25K021062; 25K041762; 25K065862; 25H065862; 25J035162; 25J051862; 25J066062; 25K021162; 25K041862; 25K079962; 25H066862; 25J035262; 25J051962; 25J066162;  25K021262; 25K041962; 25K080962; 25H066962; 25J035362; 25J075762;25K004262;  25K019962; 25K042162; 25K081062; 25J013162; 25J013662; 25J051162; 25K004362;  25K020062; 25K042262; 25K080062; 25J013262; 25J014562; 25J052062; 25K004462;  25K021362; 25K040862; 25K080162; 25J013362; 25J014662; 25J052162; 25K004562; 25K021462; 25K042062; 25K080262; 25J014162; 25J014762; 25J052262; 25K004662;  25K021562; 25K063862; 25K080362; 25J014262; 25J034562; 25J052362; 25K005362;  25K020162; 25K020562; 25K080462; 25H065562; 25J034662; 25J064362; 25K005462;  25K020262; 25K020362; 25K081162; 25H065662; 25J035462; 25J064462; 25K005562; 25K020662; 25K020462; 25K081262; 25H066562; 25J035562; 25J064662; 25K005662;  25K021662; 25K021962; 25K081362; 25H066662; 25J035662; 25J065262; 25K005762; 25K021762; 25K022062; 25K081462; 25H066762;25J050662; 25J065362; 25K004762;  25K021862; 25K063962; 25K081562; 25J012962; 25J050762; 25J065462; 25K004862;  25K040062; 25K064062; 25K080562; 25J013062; 25J050862; 25J065562; 25K005862;  25K040162; 25K064162; 25L014062; 25J013762;  25J051562;  25J065662; 25K005962;  25K040262; 25K064262; 25L014162; 25J013862; 25J051662; 25J065862; 25K006062;  25K040362; 25K064462; 25L015262 within Expiry",
       "more_code_info": ""
     }
   ]

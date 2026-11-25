@@ -179,6 +179,10 @@
     "looked_up_at": "2026-11-21 18:55:00",
     "rxcui": "283742"
   },
+  "estradiol": {
+    "looked_up_at": "2026-11-25 21:25:10",
+    "rxcui": "4083"
+  },
   "etoposide": {
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "4179"
@@ -294,6 +298,10 @@
   "lidocaine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6387"
+  },
+  "lisdexamfetamine": {
+    "looked_up_at": "2026-11-25 21:25:10",
+    "rxcui": "700810"
   },
   "lisinopril": {
     "looked_up_at": "2026-11-20 19:49:38",

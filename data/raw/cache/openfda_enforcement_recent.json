@@ -3,14 +3,301 @@
     "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
     "terms": "https://open.fda.gov/terms/",
     "license": "https://open.fda.gov/license/",
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-18",
     "results": {
       "skip": 0,
       "limit": 40,
-      "total": 487
+      "total": 514
     }
   },
   "results": [
+    {
+      "status": "Ongoing",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100140",
+      "recalling_firm": "ORL Labs LLC",
+      "address_1": "16445 N 91st St",
+      "address_2": "",
+      "postal_code": "85260-2798",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "USA nationwide",
+      "recall_number": "D-0176-2027",
+      "product_description": "ORL Organic Oral Care Cinnamint toothpaste, 4 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA UPC# 850006245512",
+      "product_quantity": "7202 units",
+      "reason_for_recall": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "recall_initiation_date": "20261012",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lots 241209P3, 250129P3, 250508P3, 25112P3 & 260511P3, any Expiration Date between 9/26 and 8/28.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100140",
+      "recalling_firm": "ORL Labs LLC",
+      "address_1": "16445 N 91st St",
+      "address_2": "",
+      "postal_code": "85260-2798",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "USA nationwide",
+      "recall_number": "D-0177-2027",
+      "product_description": "ORL Organic Oral Care Fresh Mint natural toothpaste, 4 oz., ORL, Manufactured in USA, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC 850006245499",
+      "product_quantity": "19247 units",
+      "reason_for_recall": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "recall_initiation_date": "20261012",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lots 250121P7, 250505P7, 250508P7, 250516P7, 250707P7, 251105P7, 260126P7, 260309P7, 260422P7, 260618P7 & 260804P7, any Expiration Date between 9/26 and 8/28.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100140",
+      "recalling_firm": "ORL Labs LLC",
+      "address_1": "16445 N 91st St",
+      "address_2": "",
+      "postal_code": "85260-2798",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "USA nationwide",
+      "recall_number": "D-0180-2027",
+      "product_description": "ORL Organic Oral Care Fresh mint mouthwash, 16.9 oz., ORL, Manufactured in USA, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC# #850006245451",
+      "product_quantity": "12081 units",
+      "reason_for_recall": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "recall_initiation_date": "20261012",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lots 240710P6, 240711P6, 240807P6, 241118P6, 241121P6, 250120P6, 250505P11, 250516P6, 251105P6 & 260618P6, any Expiration Date between 9/26 and 8/28.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100140",
+      "recalling_firm": "ORL Labs LLC",
+      "address_1": "16445 N 91st St",
+      "address_2": "",
+      "postal_code": "85260-2798",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "USA nationwide",
+      "recall_number": "D-0178-2027",
+      "product_description": "ORL Organic Oral Care Bubblegum Kids Mouthwash, 16.9 oz.,  ORL, ORL Labs, LLC, Scottsdale, Arizona, USA, UPC# #850006245475",
+      "product_quantity": "3116 units",
+      "reason_for_recall": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "recall_initiation_date": "20261012",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lots 241029P9, 250505P9, 250520P9 & 260406P9, any Expiration Date between 9/26 and 8/28.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Dover Plains",
+      "state": "NY",
+      "country": "United States",
+      "classification": "Class I",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "99622",
+      "recalling_firm": "IBeautiStore.com",
+      "address_1": "3042 Route 22 # 38",
+      "address_2": "",
+      "postal_code": "12522-5920",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "E-Mail",
+      "distribution_pattern": "USA Nationwide",
+      "recall_number": "D-0189-2027",
+      "product_description": "UMARY Acido Hialuronico, also known as: \"New Hyaluronic Acid 850mg Sealed 30 Caps\", Suplemento Alimenticio, Contenido Neto: 30 capletas de 850 mg.",
+      "product_quantity": "15 bottles",
+      "reason_for_recall": "Marketed without approved NDA/ANDA- FDA laboratory analysis found product to be tainted with undeclared ingredients: Dexamethasone, Diclofenac and Omeprazole.",
+      "recall_initiation_date": "20260422",
+      "center_classification_date": "20261119",
+      "report_date": "20261118",
+      "code_info": "All lots within expiry",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Princeton",
+      "state": "NJ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "ANDA214484"
+        ],
+        "brand_name": [
+          "LISDEXAMFETAMINE DIMESYLATE"
+        ],
+        "generic_name": [
+          "LISDEXAMFETAMINE DIMESYLATE"
+        ],
+        "manufacturer_name": [
+          "Sun Pharmaceutical Industries, Inc."
+        ],
+        "product_ndc": [
+          "57664-046",
+          "57664-047",
+          "57664-048",
+          "57664-049",
+          "57664-050",
+          "57664-051",
+          "57664-052",
+          "57664-083",
+          "57664-084",
+          "57664-085",
+          "57664-086",
+          "57664-087",
+          "57664-088"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "LISDEXAMFETAMINE DIMESYLATE"
+        ],
+        "rxcui": [
+          "854830",
+          "854834",
+          "854838",
+          "854842",
+          "854846",
+          "854850",
+          "1593856",
+          "1871456",
+          "1871460",
+          "1871462",
+          "1871464",
+          "1871466",
+          "1871468"
+        ],
+        "spl_id": [
+          "560b4c9e-9cce-4717-e063-6294a90a58c9"
+        ],
+        "spl_set_id": [
+          "da3148af-f9b6-4725-adae-3595b4c7dc4b"
+        ],
+        "package_ndc": [
+          "57664-047-88",
+          "57664-046-88",
+          "57664-048-88",
+          "57664-049-88",
+          "57664-050-88",
+          "57664-051-88",
+          "57664-052-88",
+          "57664-083-88",
+          "57664-084-88",
+          "57664-085-88",
+          "57664-086-88",
+          "57664-087-88",
+          "57664-088-88"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "unii": [
+          "SJT761GEGS"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100165",
+      "recalling_firm": "SUN PHARMACEUTICAL INDUSTRIES INC",
+      "address_1": "2 Independence Way",
+      "address_2": "",
+      "postal_code": "08540-6620",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "OHIO and Mississippi",
+      "recall_number": "D-0174-2027",
+      "product_description": "Lisdexamfetamine Dimesylate Capsules 40 mg, 100-count bottle, Rx Only, Manufactured by: Ohm Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ 08512. NDC 57664-049-88.",
+      "product_quantity": "17,760 bottles",
+      "reason_for_recall": "Failed Dissolution Specifications",
+      "recall_initiation_date": "20261021",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lot#: AD97036; Exp. 06/30/2027  Lot#: AE05842; Exp. 09/30/2027",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100140",
+      "recalling_firm": "ORL Labs LLC",
+      "address_1": "16445 N 91st St",
+      "address_2": "",
+      "postal_code": "85260-2798",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "USA nationwide",
+      "recall_number": "D-0179-2027",
+      "product_description": "Organic Oral Care Cinnamint Kids Mouthwash, 16.9 oz., ORL, ORL Labs, LLC, Scottsdale, Arizona, USA, 16.9 oz. UPC# #850006245468",
+      "product_quantity": "6140 units",
+      "reason_for_recall": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "recall_initiation_date": "20261012",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lots 241101P10 & 241212P10, any Expiration Date between 9/26 and 8/28.",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Drugs",
+      "event_id": "100140",
+      "recalling_firm": "ORL Labs LLC",
+      "address_1": "16445 N 91st St",
+      "address_2": "",
+      "postal_code": "85260-2798",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "USA nationwide",
+      "recall_number": "D-0175-2027",
+      "product_description": "ORL Organic Oral Care Bubblegum Kids natural toothpaste, 4 oz., ORL, Manufactured in USA, ORL LAbs, LLC, Scottsdale, Arizona, USA,  UPC# 850006245505",
+      "product_quantity": "3976 units",
+      "reason_for_recall": "Cross-contamination: The firm was notified by the FDA of sampling results which found the presence of progesterone, estradiol, or dehydroepiandrosterone (DHEA)",
+      "recall_initiation_date": "20261012",
+      "center_classification_date": "20261106",
+      "report_date": "20261118",
+      "code_info": "Lots 241029P4, 250414P4, 250520P4 & 260406P4 & 260511P4, any Expiration Date between 9/26 and 8/28.",
+      "more_code_info": ""
+    },
     {
       "status": "Ongoing",
       "city": "Austin",
@@ -320,8 +607,8 @@
         ],
         "unii": [
           "TU7HW0W0QT",
-          "LX22YL083G",
           "02F3473H9O",
+          "LX22YL083G",
           "451W47IQ8X",
           "M4I0D6VV5M"
         ]
@@ -508,8 +795,8 @@
         ],
         "unii": [
           "TU7HW0W0QT",
-          "LX22YL083G",
           "02F3473H9O",
+          "LX22YL083G",
           "451W47IQ8X",
           "M4I0D6VV5M"
         ]
@@ -661,6 +948,89 @@
       "center_classification_date": "20261102",
       "report_date": "20261111",
       "code_info": "Lot #: a)0002011787,0001932354, Exp. Date Apr-30-2027; b) 0002049590, Exp. Date Apr-30-2027",
+      "more_code_info": ""
+    },
+    {
+      "status": "Ongoing",
+      "city": "Schaumburg",
+      "state": "IL",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {
+        "application_number": [
+          "NDA219935"
+        ],
+        "brand_name": [
+          "FAMOTIDINE"
+        ],
+        "generic_name": [
+          "FAMOTIDINE"
+        ],
+        "manufacturer_name": [
+          "Sagent Pharmaceuticals"
+        ],
+        "product_ndc": [
+          "25021-755",
+          "25021-756"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "FAMOTIDINE"
+        ],
+        "rxcui": [
+          "2727402",
+          "2727403"
+        ],
+        "spl_id": [
+          "8fa9902c-ea0d-489f-99dc-d47cb615d471"
+        ],
+        "spl_set_id": [
+          "9710995d-b518-40ce-bc2b-8b5dcf002c31"
+        ],
+        "package_ndc": [
+          "25021-755-05",
+          "25021-756-10",
+          "25021-756-50"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "nui": [
+          "N0000000151",
+          "N0000175784"
+        ],
+        "pharm_class_moa": [
+          "Histamine H2 Receptor Antagonists [MoA]"
+        ],
+        "pharm_class_epc": [
+          "Histamine-2 Receptor Antagonist [EPC]"
+        ],
+        "unii": [
+          "5QZO15J2Z8"
+        ]
+      },
+      "product_type": "Drugs",
+      "event_id": "100208",
+      "recalling_firm": "Sagent Pharmaceuticals",
+      "address_1": "1515 E Woodfield Rd Ste 1100",
+      "address_2": "",
+      "postal_code": "60173-6067",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "US Nationwide",
+      "recall_number": "D-0185-2027",
+      "product_description": "Famotidine Injection, 200 mg per 50 mL (4 mg per mL), 1 x 50 mL Multi-Dose Vial, For Intravenous Use, Rx only, Sterile, Mfd. for SAGENT Pharmaceuticals, Schaumburg, IL 60173.  NDC: 25021-756-50",
+      "product_quantity": "1,720 vials",
+      "reason_for_recall": "Presence of Particulate Matter",
+      "recall_initiation_date": "20261022",
+      "center_classification_date": "20261117",
+      "report_date": "20261111",
+      "code_info": "Lot#  E243A001; Exp. 02/28/2027",
       "more_code_info": ""
     },
     {
@@ -956,8 +1326,8 @@
         ],
         "unii": [
           "TU7HW0W0QT",
-          "LX22YL083G",
           "02F3473H9O",
+          "LX22YL083G",
           "451W47IQ8X",
           "M4I0D6VV5M"
         ]
@@ -1057,421 +1427,6 @@
       "center_classification_date": "20261030",
       "report_date": "20261111",
       "code_info": "Lot, expiry:  Lot  2054825 , exp 10/27/2026;  Lot  2072131 , exp 11/22/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Austin",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100168",
-      "recalling_firm": "Victory Medical Center Pharmacy",
-      "address_1": "4303 Victory Dr",
-      "address_2": "",
-      "postal_code": "78704-7507",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "CO, FL, TX",
-      "recall_number": "D-0150-2027",
-      "product_description": "TIRZEPATIDE/L-CARNITINE (MDV) 25/50MG/ML **3ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas",
-      "product_quantity": "343 vials",
-      "reason_for_recall": "Lack of Processing Controls",
-      "recall_initiation_date": "20261019",
-      "center_classification_date": "20261030",
-      "report_date": "20261111",
-      "code_info": "Lot, expiry:  Lot  2053172 , exp 10/24/2026;  Lot  2028876 , exp 10/27/2026;  Lot  2060129 , exp 11/3/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Lawrence",
-      "state": "MA",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "NDA020171"
-        ],
-        "brand_name": [
-          "DELFLEX"
-        ],
-        "generic_name": [
-          "DEXTROSE MONOHYDRATE, SODIUM CHLORIDE, SODIUM LACTATE, CALCIUM CHLORIDE, MAGNESIUM CHLORIDE"
-        ],
-        "manufacturer_name": [
-          "Fresenius Medical Care de Mexico, S.A. de C.V."
-        ],
-        "product_ndc": [
-          "46163-206",
-          "46163-209",
-          "46163-212"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "INTRAPERITONEAL"
-        ],
-        "substance_name": [
-          "DEXTROSE MONOHYDRATE",
-          "SODIUM CHLORIDE",
-          "SODIUM LACTATE",
-          "CALCIUM CHLORIDE",
-          "MAGNESIUM CHLORIDE"
-        ],
-        "spl_id": [
-          "5f14959c-adcd-923c-e063-6294a90ab6de"
-        ],
-        "spl_set_id": [
-          "a98facd6-9daa-4d37-8209-63a0599dbfaa"
-        ],
-        "package_ndc": [
-          "46163-209-92",
-          "46163-209-94",
-          "46163-209-95",
-          "46163-212-95",
-          "46163-212-92",
-          "46163-212-94",
-          "46163-206-92",
-          "46163-206-94",
-          "46163-206-95"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "unii": [
-          "TU7HW0W0QT",
-          "LX22YL083G",
-          "02F3473H9O",
-          "451W47IQ8X",
-          "M4I0D6VV5M"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100130",
-      "recalling_firm": "Fresenius Medical Care Renal Therapies Group, LLC",
-      "address_1": "350 Merrimack St",
-      "address_2": "",
-      "postal_code": "01843-1748",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide in the USA.",
-      "recall_number": "D-0169-2027",
-      "product_description": "DELFLEX Peritoneal Dialysis Solution with 1.5% Dextrose, Low Magnesium/ Low Calcium and Attached stay safe Exchange Set, 2,500 mL Single dose bag, Sterile and Non-Pyrogenic, Rx only, CAT. NO. 054-25321.  Fresenius Medical Care, Renal Therapies Group, LLC, Lawrence, MA 01843. NDC 46163-206-94",
-      "product_quantity": "1,065 cases (5 bags per case)",
-      "reason_for_recall": "Lack of Assurance of Sterility:complaints have been received related to potential leaks from small perforations in the print area on the primary bag in the affected lots.",
-      "recall_initiation_date": "20261014",
-      "center_classification_date": "20261103",
-      "report_date": "20261111",
-      "code_info": "Lot#: 25HGPD037, Exp 12/31/2026; 26CGPD074, Exp 9/30/2027.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Miami",
-      "state": "FL",
-      "country": "United States",
-      "classification": "Not Yet Classified",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "99896",
-      "recalling_firm": "Premium Health Care LLC",
-      "address_1": "2400 Sw 69th Ave Ste 120",
-      "address_2": "",
-      "postal_code": "33155-2947",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "Nationwide within the United States",
-      "recall_number": "",
-      "product_description": "Glutathione 200mg/mL (pf) Injection Solution, Rx Only, This is a compounded product by: Premium Health Care Pharmacy 2400 SW 69th Ave Miami",
-      "product_quantity": "209 units",
-      "reason_for_recall": "Microbial Contamination of Sterile Products: Out of specifications results were obtained for bacterial endotoxin.",
-      "recall_initiation_date": "20260508",
-      "report_date": "20261111",
-      "code_info": "Lot#: 1732207, Beyond Use Date: 6/11/2026; Lot # 1737548, Beyond Use Date: 6/18/2026.",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Pulaski",
-      "state": "TN",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA040431"
-        ],
-        "brand_name": [
-          "FLUDROCORTISONE ACETATE"
-        ],
-        "generic_name": [
-          "FLUDROCORTISONE ACETATE"
-        ],
-        "manufacturer_name": [
-          "AvPAK"
-        ],
-        "product_ndc": [
-          "50268-330"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "FLUDROCORTISONE ACETATE"
-        ],
-        "rxcui": [
-          "313979"
-        ],
-        "spl_id": [
-          "47e530bb-3b7a-dae5-e063-6394a90a1149"
-        ],
-        "spl_set_id": [
-          "2cd3965d-cab9-a97c-db61-7d03ced154f3"
-        ],
-        "package_ndc": [
-          "50268-330-11",
-          "50268-330-15"
-        ],
-        "original_packager_product_ndc": [
-          "0115-7033"
-        ],
-        "unii": [
-          "V47IF0PVH4"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100126",
-      "recalling_firm": "AvKARE",
-      "address_1": "615 N 1st St",
-      "address_2": "",
-      "postal_code": "38478-2403",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "U.S. Nationwide",
-      "recall_number": "D-0157-2027",
-      "product_description": "Fludrocortisone Acetate Tablets, USP 0.1mg, Rx Only, 50 Tablets (5 x 10) Unit Dose AVPAK, Manufactured for: AvKARE, Pulaski, TN 38748, NDC 50268-330-15",
-      "product_quantity": "8866 cartons",
-      "reason_for_recall": "Failed Impurities/Degradation Specifications",
-      "recall_initiation_date": "20261009",
-      "center_classification_date": "20261030",
-      "report_date": "20261111",
-      "code_info": "Lot # 48353; Exp. 10/31/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Austin",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100168",
-      "recalling_firm": "Victory Medical Center Pharmacy",
-      "address_1": "4303 Victory Dr",
-      "address_2": "",
-      "postal_code": "78704-7507",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "CO, FL, TX",
-      "recall_number": "D-0148-2027",
-      "product_description": "TIRZEPATIDE/B6 (MDV) 25MG/10MG/ML **8ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas",
-      "product_quantity": "10 vials",
-      "reason_for_recall": "Lack of Processing Controls",
-      "recall_initiation_date": "20261019",
-      "center_classification_date": "20261030",
-      "report_date": "20261111",
-      "code_info": "Lot, expiry:  Lot  2012787 , exp 10/24/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "East Windsor",
-      "state": "NJ",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {
-        "application_number": [
-          "ANDA200981"
-        ],
-        "brand_name": [
-          "METOPROLOL TARTRATE"
-        ],
-        "generic_name": [
-          "METOPROLOL TARTRATE"
-        ],
-        "manufacturer_name": [
-          "Advagen Pharma Ltd"
-        ],
-        "product_ndc": [
-          "72888-208",
-          "72888-209",
-          "72888-210",
-          "72888-211",
-          "72888-212"
-        ],
-        "product_type": [
-          "HUMAN PRESCRIPTION DRUG"
-        ],
-        "route": [
-          "ORAL"
-        ],
-        "substance_name": [
-          "METOPROLOL TARTRATE"
-        ],
-        "rxcui": [
-          "866511",
-          "866514",
-          "866924",
-          "1606347",
-          "1606349"
-        ],
-        "spl_id": [
-          "5ddfcd4c-5388-13b9-e063-6394a90aea69"
-        ],
-        "spl_set_id": [
-          "3ecff825-34ea-4535-b935-627bf2c13d93"
-        ],
-        "package_ndc": [
-          "72888-208-01",
-          "72888-208-05",
-          "72888-208-00",
-          "72888-208-02",
-          "72888-209-01",
-          "72888-209-05",
-          "72888-210-01",
-          "72888-210-05",
-          "72888-210-00",
-          "72888-210-02",
-          "72888-211-01",
-          "72888-211-05",
-          "72888-212-01",
-          "72888-212-05",
-          "72888-212-00"
-        ],
-        "is_original_packager": [
-          true
-        ],
-        "upc": [
-          "0372888212005",
-          "0372888209050",
-          "0372888208008",
-          "0372888209012",
-          "0372888211053",
-          "0372888212012",
-          "0372888212050",
-          "0372888211015",
-          "0372888210056",
-          "0372888208015",
-          "0372888210001",
-          "0372888210018",
-          "0372888208053"
-        ],
-        "unii": [
-          "W5S57Y3A5L"
-        ]
-      },
-      "product_type": "Drugs",
-      "event_id": "100234",
-      "recalling_firm": "Advagen Pharma Limited",
-      "address_1": "50 Millstone Rd Bldg 200",
-      "address_2": "",
-      "postal_code": "08520-1415",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "U.S. Nationwide",
-      "recall_number": "D-0182-2027",
-      "product_description": "Metoprolol Tartrate Tablets, USP, 50 mg, 1,000 Tablets per bottle, Rx Only, Distributed by: Advagen Pharma Ltd., East Windsor, NJ 08520, USA.  NDC: 72888-210-00.",
-      "product_quantity": "3684 bottles",
-      "reason_for_recall": "Presence of Foreign Tablets/Capsules",
-      "recall_initiation_date": "20261027",
-      "center_classification_date": "20261110",
-      "report_date": "20261111",
-      "code_info": "Batch#: 2611C065A1: Expiry: 05/2028",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Austin",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100168",
-      "recalling_firm": "Victory Medical Center Pharmacy",
-      "address_1": "4303 Victory Dr",
-      "address_2": "",
-      "postal_code": "78704-7507",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "CO, FL, TX",
-      "recall_number": "D-0135-2027",
-      "product_description": "METHYLCOBALAMIN 1MG/ML (MDV) **30ML**, VMC, Victory Medical Center Pharmacy, Austin, Texas",
-      "product_quantity": "22 vials",
-      "reason_for_recall": "Lack of Processing Controls",
-      "recall_initiation_date": "20261019",
-      "center_classification_date": "20261030",
-      "report_date": "20261111",
-      "code_info": "Lot, expiry:  Lot  2064355 , exp 11/10/2026;  Lot  1981816 , exp 11/29/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Austin",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100168",
-      "recalling_firm": "Victory Medical Center Pharmacy",
-      "address_1": "4303 Victory Dr",
-      "address_2": "",
-      "postal_code": "78704-7507",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "CO, FL, TX",
-      "recall_number": "D-0141-2027",
-      "product_description": "SEMAGLUTIDE/L-CARNITINE 5/50MG/ML (3ML MDV), VMC, Victory Medical Center Pharmacy, Austin, Texas",
-      "product_quantity": "97 vials",
-      "reason_for_recall": "Lack of Processing Controls",
-      "recall_initiation_date": "20261019",
-      "center_classification_date": "20261030",
-      "report_date": "20261111",
-      "code_info": "Lot, expiry:  Lot  2039510 , exp 11/2/2026;  Lot  2059744 , exp 11/3/2026",
-      "more_code_info": ""
-    },
-    {
-      "status": "Ongoing",
-      "city": "Dallas",
-      "state": "TX",
-      "country": "United States",
-      "classification": "Class II",
-      "openfda": {},
-      "product_type": "Drugs",
-      "event_id": "100153",
-      "recalling_firm": "BioMed Laboratories, LLC.",
-      "address_1": "8181 Eastpoint Dr Ste 100-500",
-      "address_2": "",
-      "postal_code": "75227-2074",
-      "voluntary_mandated": "Voluntary: Firm initiated",
-      "initial_firm_notification": "Letter",
-      "distribution_pattern": "TX only",
-      "recall_number": "D-0161-2027",
-      "product_description": "Tychasis Coats Aloe Liniment (Methyl salicylate 10%), packaged a) 0.5 oz, b) 8 oz (NDC 70211-704-08) c) 33oz (NDC 70211-704-33) bottles, Manufactured for: Tychasis Corporation, Dallas, TX 75227.  There is no NDC for the 0.5 oz given that it is a sample size used as a professional sample.",
-      "product_quantity": "11,130 bottles",
-      "reason_for_recall": "Failed Stability Specifications: OOS stability results included viscosity and appearance results that did not align with the established specifications.",
-      "recall_initiation_date": "20261015",
-      "center_classification_date": "20261102",
-      "report_date": "20261111",
-      "code_info": "Lot #: a)0.5 oz 0001882607, Exp. Date Jul-31-2027; b) 0001882605, 0001916439 Exp. Date Jul-31-2027; c) Lot #: 0001882606, Exp. Date Jul-31-2027",
       "more_code_info": ""
     }
   ]
