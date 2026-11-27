@@ -163,6 +163,10 @@
     "looked_up_at": "2026-11-18 20:14:06",
     "rxcui": "72625"
   },
+  "empagliflozin": {
+    "looked_up_at": "2026-11-27 20:55:11",
+    "rxcui": "1545653"
+  },
   "emtricitabine": {
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "276237"
@@ -170,6 +174,10 @@
   "enalapril": {
     "looked_up_at": "2026-11-17 20:39:49",
     "rxcui": "3827"
+  },
+  "enoxaparin": {
+    "looked_up_at": "2026-11-27 20:55:11",
+    "rxcui": "67108"
   },
   "entecavir": {
     "looked_up_at": "2026-11-13 19:24:58",
@@ -259,6 +267,10 @@
     "looked_up_at": "2026-11-13 19:24:58",
     "rxcui": "5640"
   },
+  "insulin": {
+    "looked_up_at": "2026-11-27 20:55:11",
+    "rxcui": "253182"
+  },
   "ioversol": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "27792"
@@ -306,6 +318,10 @@
   "lidocaine": {
     "looked_up_at": "2026-11-06 17:17:20",
     "rxcui": "6387"
+  },
+  "linezolid": {
+    "looked_up_at": "2026-11-27 20:55:11",
+    "rxcui": "190376"
   },
   "lisdexamfetamine": {
     "looked_up_at": "2026-11-25 21:25:10",
@@ -390,6 +406,10 @@
   "omeprazole": {
     "looked_up_at": "2026-11-20 19:49:38",
     "rxcui": "7646"
+  },
+  "ondansetron": {
+    "looked_up_at": "2026-11-27 20:55:11",
+    "rxcui": "26225"
   },
   "oxycodone": {
     "looked_up_at": "2026-11-10 19:30:05",
@@ -478,6 +498,10 @@
   "sildenafil": {
     "looked_up_at": "2026-11-10 19:30:05",
     "rxcui": "136411"
+  },
+  "sitagliptin": {
+    "looked_up_at": "2026-11-27 20:55:11",
+    "rxcui": "593411"
   },
   "sofosbuvir": {
     "looked_up_at": "2026-11-10 19:30:05",
